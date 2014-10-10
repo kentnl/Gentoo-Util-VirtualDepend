@@ -30,7 +30,7 @@ sub _load_mod2gentoo {
   my $fh = path(dist_file($DIST, $MOD2GENTOO_FILE ))->openr_raw;
   while( my $line = <$fh> ) {
     chomp $line;
-    my ( $module, $map ) = split /,/, $line;
+    my ( $module, $map ) = split /,/, $line; ## no critic (RegularExpressions)
     $MOD2GENTOO{ $module } = $map;
   }
   return $MOD2GENTOO_LOADED = 1;
@@ -40,7 +40,7 @@ sub _load_dist2gentoo {
   my $fh = path(dist_file($DIST, $DIST2GENTOO_FILE ))->openr_raw;
   while ( my $line = <$fh> ) {
     chomp $line;
-    my ( $module, $map ) = split /,/, $line;
+    my ( $module, $map ) = split /,/, $line; ## no critic (RegularExpressions)
     $DIST2GENTOO{ $module } = $map;
   }
   return $DIST2GENTOO_LOADED = 1;
