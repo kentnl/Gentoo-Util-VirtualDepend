@@ -14,7 +14,7 @@ install_share dist => "share";
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Hard-coded replacements for perl-core/ dependencies and depencies with odd names in Gentoo",
+  "ABSTRACT" => "Hard-coded replacements for perl-core/ dependencies and dependencies with odd names in Gentoo",
   "AUTHOR" => "Kent Fredric <kentnl\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,

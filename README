@@ -1,6 +1,6 @@
 NAME
     Gentoo::Util::VirtualDepend - Hard-coded replacements for perl-core/
-    dependencies and depencies with odd names in Gentoo
+    dependencies and dependencies with odd names in Gentoo
 
 VERSION
     version 0.001000

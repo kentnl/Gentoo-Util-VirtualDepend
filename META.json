@@ -1,5 +1,5 @@
 {
-   "abstract" : "Hard-coded replacements for perl-core/ dependencies and depencies with odd names in Gentoo",
+   "abstract" : "Hard-coded replacements for perl-core/ dependencies and dependencies with odd names in Gentoo",
    "author" : [
       "Kent Fredric <kentnl@cpan.org>"
    ],
