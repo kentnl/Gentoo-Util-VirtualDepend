@@ -20,7 +20,7 @@ name: Gentoo-Util-VirtualDepend
 provides:
   Gentoo::Util::VirtualDepend:
     file: lib/Gentoo/Util/VirtualDepend.pm
-    version: '0.001000'
+    version: '0.001001'
 requires:
   File::ShareDir: '0'
   Moo: '0'
@@ -33,7 +33,7 @@ resources:
   bugtracker: https://github.com/kentnl/Gentoo-Util-VirtualDepend/issues
   homepage: https://github.com/kentnl/Gentoo-Util-VirtualDepend
   repository: https://github.com/kentnl/Gentoo-Util-VirtualDepend.git
-version: '0.001000'
+version: '0.001001'
 x_BuiltWith:
   modules:
     CPAN::Meta: '2.142690'
@@ -444,7 +444,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: '0'
-          tag: 0.001000-source
+          tag: 0.001001-source
           tag_format: '%v-source'
           tag_message: v%v
           time_zone: local
@@ -498,7 +498,7 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: releases
           signed: '0'
-          tag: '0.001000'
+          tag: '0.001001'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local

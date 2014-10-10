@@ -3,7 +3,7 @@ NAME
     dependencies and dependencies with odd names in Gentoo
 
 VERSION
-    version 0.001000
+    version 0.001001
 
 SYNOPSIS
       use Gentoo::Util::VirtualDepend;
