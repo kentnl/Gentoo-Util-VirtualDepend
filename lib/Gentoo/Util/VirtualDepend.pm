@@ -7,7 +7,7 @@ package Gentoo::Util::VirtualDepend;
 
 our $VERSION = '0.001000';
 
-# ABSTRACT: Hardcoded replacements for perl-core/ deps and deps with odd names in Gentoo
+# ABSTRACT: Hard-coded replacements for perl-core/ dependencies and depencies with odd names in Gentoo
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
@@ -79,7 +79,7 @@ __END__
 
 =head1 NAME
 
-Gentoo::Util::VirtualDepend - Hardcoded replacements for perl-core/ deps and deps with odd names in Gentoo
+Gentoo::Util::VirtualDepend - Hard-coded replacements for perl-core/ dependencies and depencies with odd names in Gentoo
 
 =head1 VERSION
 
