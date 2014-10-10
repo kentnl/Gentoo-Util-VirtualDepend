@@ -73,3 +73,112 @@ sub get_dist_override {
 no Moo;
 
 1;
+
+=head1 DESCRIPTION
+
+This module serves as a low level glue layer for the handful of manual mappings
+that are needed in Gentoo due to things not strictly tracking upstream.
+
+C<CPANPLUS::Dist::Gentoo> has similar logic to this, but not as simple ( or for that matter, usable without C<CPANPLUS> )
+
+This module is not intended to be used entirely on its own, but as a short-circuit before calling
+complicated C<MetaCPAN> code.
+
+=head1 SYNOPSIS
+
+  use Gentoo::Util::VirtualDepend;
+
+  my $v = Gentoo::Util::VirtualDepend->new();
+
+  # somewhere in complex dependency resolution
+
+  my $cpan_module = spooky_function();
+  my $gentoo_dependency;
+
+  if ( $v->has_module_override( $cpan_module ) ) {
+    $gentoo_dependency = $v->get_module_override( $cpan_module );
+  } else {
+    # do it the hard way.
+  }
+
+If you're trying to be defensive and you're going to map the modules to distributions
+the hard way ( trust me, the code is really ugly ), then you may instead want
+
+  if ( $v->has_dist_override( $cpan_dist ) ) {
+    $gentoo_dependency = $v->get_dist_override( $cpan_dist );
+  } else {
+    # fallback to using dev-perl/Foo-Bar
+  }
+
+Which basically serves as a distribution name translator.
+
+=head2 WHY YOU WANT TO DO THAT
+
+Well ...
+
+     { requires => { Foo => 1.0 }}
+
+     Foo is in Bar
+
+     Foo 1.0 could have been shipped in in Bar-1.0, Bar-0.5, or Bar-2.0 for all you know.
+
+That's the unfortunate reality of C<CPAN> dependencies.
+
+So if you naively map
+
+    Foo-1.0 → >=dev-lang/Bar-1.0
+
+You might get breakage if C<Foo 1.0> didn't ship till C<Bar-2.0>, and the user has C<Bar-1.0> → Shower of sparks.
+
+=method has_module_override
+
+  $v->has_module_override( $module )
+
+Returns true if there is a known mapping for C<$module> in C<Gentoo> that is unusual and may require translation.
+
+Will return true for anything that is either a C<virtual> or has an unusual
+name translation separating it from C<CPAN>.
+
+=method get_module_override
+
+  $v->get_module_override( $module )
+
+Returns a C<Gentoo> dependency atom corresponding to C<$module> if there is a known mapping for C<$module>.
+
+For instance,
+
+  $v->get_module_override('ExtUtils::MakeMaker')
+
+Emits:
+
+  virtual/perl-ExtUtilsMakeMaker
+
+If C<ExtUtils::MakeMaker> is one day de-cored (Hah!, dreams are free) then
+C<has_module_override> will return false, and that instructs you to go back
+to assuming it is in C<dev-perl/>
+
+=method has_dist_override
+
+  $v->has_dist_override( $distname )
+
+Similar to C<has_module_override> but closer to the dependency spec.
+
+Will return true for anything that is either a C<virtual> or has an unusual
+name translation separating it from C<CPAN>.
+
+
+=method get_dist_override
+
+  $v->get_dist_override( $distname )
+
+Similar to C<get_module_override> but closer to the dependency spec.
+
+For instance:
+
+  $v->get_dist_override('PathTools')
+
+Emits:
+
+  virtual/perl-File-Spec
+
+Because C<Gentoo> is quirky like that.
