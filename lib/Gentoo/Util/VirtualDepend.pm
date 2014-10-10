@@ -111,7 +111,7 @@ the hard way ( trust me, the code is really ugly ), then you may instead want
     # fallback to using dev-perl/Foo-Bar 
   }
 
-Which basically serves as a distname translator.
+Which basically serves as a distribution name translator.
 
 =head2 WHY YOU WANT TO DO THAT 
 
@@ -123,7 +123,7 @@ Well ...
 
      Foo 1.0 could have been shipped in in Bar-1.0, Bar-0.5, or Bar-2.0 for all you know.
 
-Thats the unfortunate reality of CPAN dependencies.
+That's the unfortunate reality of C<CPAN> dependencies.
 
 So if you naively map
 
@@ -150,7 +150,7 @@ complicated C<MetaCPAN> code.
 Returns true if there is a known mapping for C<$module> in C<Gentoo> that is unusual and may require translation.
 
 Will return true for anything that is either a C<virtual> or has an unusual
-name translation seperating it from C<CPAN>.
+name translation separating it from C<CPAN>.
 
 =head2 get_module_override
 

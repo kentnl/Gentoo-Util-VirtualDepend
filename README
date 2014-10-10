@@ -31,7 +31,7 @@ SYNOPSIS
         # fallback to using dev-perl/Foo-Bar 
       }
 
-    Which basically serves as a distname translator.
+    Which basically serves as a distribution name translator.
 
   WHY YOU WANT TO DO THAT
     Well ...
@@ -42,7 +42,7 @@ SYNOPSIS
 
          Foo 1.0 could have been shipped in in Bar-1.0, Bar-0.5, or Bar-2.0 for all you know.
 
-    Thats the unfortunate reality of CPAN dependencies.
+    That's the unfortunate reality of "CPAN" dependencies.
 
     So if you naively map
 
@@ -70,7 +70,7 @@ METHODS
     unusual and may require translation.
 
     Will return true for anything that is either a "virtual" or has an
-    unusual name translation seperating it from "CPAN".
+    unusual name translation separating it from "CPAN".
 
   get_module_override
       $v->get_module_override( $module )
