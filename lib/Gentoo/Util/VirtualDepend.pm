@@ -27,43 +27,46 @@ my $DIST = q[Gentoo-Util-VirtualDepend];
 
 sub _load_mod2gentoo {
   return if $MOD2GENTOO_LOADED;
-  my $fh = path(dist_file($DIST, $MOD2GENTOO_FILE ))->openr_raw;
-  while( my $line = <$fh> ) {
+  my $fh = path( dist_file( $DIST, $MOD2GENTOO_FILE ) )->openr_raw;
+  while ( my $line = <$fh> ) {
     chomp $line;
-    my ( $module, $map ) = split /,/, $line; ## no critic (RegularExpressions)
-    $MOD2GENTOO{ $module } = $map;
+    my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
+    $MOD2GENTOO{$module} = $map;
   }
   return $MOD2GENTOO_LOADED = 1;
 }
+
 sub _load_dist2gentoo {
   return if $DIST2GENTOO_LOADED;
-  my $fh = path(dist_file($DIST, $DIST2GENTOO_FILE ))->openr_raw;
+  my $fh = path( dist_file( $DIST, $DIST2GENTOO_FILE ) )->openr_raw;
   while ( my $line = <$fh> ) {
     chomp $line;
-    my ( $module, $map ) = split /,/, $line; ## no critic (RegularExpressions)
-    $DIST2GENTOO{ $module } = $map;
+    my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
+    $DIST2GENTOO{$module} = $map;
   }
   return $DIST2GENTOO_LOADED = 1;
 }
 
-
 sub has_module_override {
-  my ( undef, $module  ) = @_;
+  my ( undef, $module ) = @_;
   _load_mod2gentoo unless $MOD2GENTOO_LOADED;
   return exists $MOD2GENTOO{$module};
 }
+
 sub get_module_override {
-  my ( undef, $module  ) = @_;
+  my ( undef, $module ) = @_;
   _load_mod2gentoo unless $MOD2GENTOO_LOADED;
   return $MOD2GENTOO{$module};
 }
+
 sub has_dist_override {
-  my ( undef, $dist  ) = @_;
+  my ( undef, $dist ) = @_;
   _load_dist2gentoo unless $DIST2GENTOO_LOADED;
   return exists $DIST2GENTOO{$dist};
 }
+
 sub get_dist_override {
-  my ( undef, $dist  ) = @_;
+  my ( undef, $dist ) = @_;
   _load_mod2gentoo unless $DIST2GENTOO_LOADED;
   return $DIST2GENTOO{$dist};
 }
@@ -92,12 +95,12 @@ version 0.001000
   my $v = Gentoo::Util::VirtualDepend->new();
 
   # somewhere in complex dependency resolution
-  
+
   my $cpan_module = spooky_function();
   my $gentoo_dependency;
 
-  if ( $v->has_module_override( $cpan_module ) ) { 
-    $gentoo_dependency = $v->get_module_override( $cpan_module );  
+  if ( $v->has_module_override( $cpan_module ) ) {
+    $gentoo_dependency = $v->get_module_override( $cpan_module );
   } else {
     # do it the hard way.
   }
@@ -105,17 +108,17 @@ version 0.001000
 If you're trying to be defensive and you're going to map the modules to distributions
 the hard way ( trust me, the code is really ugly ), then you may instead want
 
-  if ( $v->has_dist_override( $cpan_dist ) ) { 
-    $gentoo_dependency = $v->get_dist_override( $cpan_dist );  
+  if ( $v->has_dist_override( $cpan_dist ) ) {
+    $gentoo_dependency = $v->get_dist_override( $cpan_dist );
   } else {
-    # fallback to using dev-perl/Foo-Bar 
+    # fallback to using dev-perl/Foo-Bar
   }
 
 Which basically serves as a distribution name translator.
 
-=head2 WHY YOU WANT TO DO THAT 
+=head2 WHY YOU WANT TO DO THAT
 
-Well ... 
+Well ...
 
      { requires => { Foo => 1.0 }}
 
@@ -158,7 +161,7 @@ name translation separating it from C<CPAN>.
 
 Returns a C<Gentoo> dependency atom corresponding to C<$module> if there is a known mapping for C<$module>.
 
-For instance, 
+For instance,
 
   $v->get_module_override('ExtUtils::MakeMaker')
 
@@ -166,7 +169,7 @@ Emits:
 
   virtual/perl-ExtUtilsMakeMaker
 
-If C<ExtUtils::MakeMaker> is one day de-cored (Hah!, dreams are free) then 
+If C<ExtUtils::MakeMaker> is one day de-cored (Hah!, dreams are free) then
 C<has_module_override> will return false, and that instructs you to go back
 to assuming it is in C<dev-perl/>
 

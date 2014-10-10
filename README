@@ -11,12 +11,12 @@ SYNOPSIS
       my $v = Gentoo::Util::VirtualDepend->new();
 
       # somewhere in complex dependency resolution
-  
+
       my $cpan_module = spooky_function();
       my $gentoo_dependency;
 
-      if ( $v->has_module_override( $cpan_module ) ) { 
-        $gentoo_dependency = $v->get_module_override( $cpan_module );  
+      if ( $v->has_module_override( $cpan_module ) ) {
+        $gentoo_dependency = $v->get_module_override( $cpan_module );
       } else {
         # do it the hard way.
       }
@@ -25,10 +25,10 @@ SYNOPSIS
     distributions the hard way ( trust me, the code is really ugly ), then
     you may instead want
 
-      if ( $v->has_dist_override( $cpan_dist ) ) { 
-        $gentoo_dependency = $v->get_dist_override( $cpan_dist );  
+      if ( $v->has_dist_override( $cpan_dist ) ) {
+        $gentoo_dependency = $v->get_dist_override( $cpan_dist );
       } else {
-        # fallback to using dev-perl/Foo-Bar 
+        # fallback to using dev-perl/Foo-Bar
       }
 
     Which basically serves as a distribution name translator.
