@@ -29,6 +29,10 @@ requires:
   strict: '0'
   utf8: '0'
   warnings: '0'
+resources:
+  bugtracker: https://github.com/kentnl/Gentoo-Util-VirtualDepend/issues
+  homepage: https://github.com/kentnl/Gentoo-Util-VirtualDepend
+  repository: https://github.com/kentnl/Gentoo-Util-VirtualDepend.git
 version: '0.001000'
 x_BuiltWith:
   modules:
