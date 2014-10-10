@@ -177,7 +177,7 @@ to assuming it is in C<dev-perl/>
 Similar to C<has_module_override> but closer to the dependency spec.
 
 Will return true for anything that is either a C<virtual> or has an unusual
-name translation seperating it from C<CPAN>.
+name translation separating it from C<CPAN>.
 
 =head2 get_dist_override
 
