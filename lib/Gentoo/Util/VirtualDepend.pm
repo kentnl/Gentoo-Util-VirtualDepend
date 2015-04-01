@@ -335,25 +335,26 @@ Rules:
 =over 4
 
 =item * If the module is present in the override map, then it is deemed B<NOT>
-available from perl, because you should be using the override instead.
+available from C<Perl>, because you should be using the override instead.
 
 =item * If the module is missing on any version in the range specified, then it is
-B<NOT> available from perl, and you must depend on a virtual or some other
+B<NOT> available from C<Perl>, and you must depend on a virtual or some other
 dependency you can source.
 
 =item * If the module is marked I<deprecated> on any version in the range specified,
-then it is assumed B<NOT> available in perl ( due to likely deprecation warnings and
-imminent need to start adapting )
+then it is assumed B<NOT> available in C<Perl> ( due to likely deprecation warnings
+and imminent need to start adapting )
 
-=item * If a minimum version is specified, and I<any> version of perl in the range
-specified does not satisfy that minimum, then it is assumed B<NOT> available in perl
-( due to the inherent need to manually solve the issue via a virtual or a minimum
-perl dep )
+=item * If a minimum version is specified, and I<any> version of C<Perl> in the range
+specified does not satisfy that minimum, then it is assumed B<NOT> available in
+C<Perl> ( due to the inherent need to manually solve the issue via a virtual or a
+minimum C<Perl> dependency )
 
-=item * If a minimum version is specified, and I<any> version of perl in the range
-specified is an explicit C<undef>, then it is assumed B<NOT> available in perl,
-because clearly, one version of perl having C<undef> and another having an explicit
-version, and needing only one of the two requires a manual dependency resolution.
+=item * If a minimum version is specified, and I<any> version of C<Perl> in the range
+specified is an explicit C<undef>, then it is assumed B<NOT> available in C<Perl>,
+because clearly, one version of C<Perl> having C<undef> and another having an
+explicit version, and needing only one of the two requires a manual dependency
+resolution.
 
 =back
 
@@ -372,12 +373,12 @@ Examples:
 This will of course return C<undef> unless C<min_perl> is at least C<5.21.7>.
 
 Thus, if your support range is 5.18.0 to 5.20, and somebody stipulates that minimum,
-you will have to declare a dependency on perl 5.21.7.
+you will have to declare a dependency on C<Perl> 5.21.7.
 
 Even if your support range is 5.18.0 to 5.22.0, you will still have to declare a
 dependency on 5.21.7 instead of assuming its presence.
 
-=item * Determine if C<strict> version C<1.09> is available on X to Y perls.
+=item * Determine if C<strict> version C<1.09> is available on X to Y C<Perls>.
 
 For most code where the support range is fixed, this will be unnecessary,
 and changing the defaults via C<< ->new( min_perl => ... , max_perl => ... ) >>
