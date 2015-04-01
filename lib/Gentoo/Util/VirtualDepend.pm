@@ -22,6 +22,9 @@ my %DIST2GENTOO;
 my $DIST2GENTOO_LOADED;
 my $DIST2GENTOO_FILE = 'dist-to-gentoo.csv';
 
+my %GENTOO2DIST;
+my %GENTOO2MOD;
+
 my $DIST = q[Gentoo-Util-VirtualDepend];
 
 sub _load_mod2gentoo {
@@ -31,6 +34,8 @@ sub _load_mod2gentoo {
     chomp $line;
     my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
     $MOD2GENTOO{$module} = $map;
+    $GENTOO2MOD{$map} = [] unless exists $GENTOO2MOD{$map};
+    push @{ $GENTOO2MOD{$map} }, $module;
   }
   return $MOD2GENTOO_LOADED = 1;
 }
@@ -42,6 +47,8 @@ sub _load_dist2gentoo {
     chomp $line;
     my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
     $DIST2GENTOO{$module} = $map;
+    $GENTOO2DIST{$map} = [] unless exists $GENTOO2DIST{$map};
+    push @{ $GENTOO2DIST{$map} }, $module;
   }
   return $DIST2GENTOO_LOADED = 1;
 }
@@ -69,6 +76,25 @@ sub get_dist_override {
   _load_mod2gentoo unless $DIST2GENTOO_LOADED;
   return $DIST2GENTOO{$dist};
 }
+
+sub has_gentoo_package {
+  my ( undef, $package ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return exists $GENTOO2DIST{$package};
+}
+
+sub get_dists_in_gentoo_package {
+  my ( undef, $package ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return @{ $GENTOO2DIST{$package} || [] };
+}
+
+sub get_modules_in_gentoo_package {
+  my ( undef, $package ) = @_;
+  _load_mod2gentoo unless $MOD2GENTOO_LOADED;
+  return @{ $GENTOO2MOD{$package} || [] };
+}
+
 no Moo;
 
 1;
@@ -181,3 +207,25 @@ Emits:
   virtual/perl-File-Spec
 
 Because C<Gentoo> is quirky like that.
+
+=method has_gentoo_package
+
+  $v->has_gentoo_package( 'virtual/perl-Test-Simple' )
+
+Determines if the data file has entries mapping to C<virtual/perl-Test-Simple>.
+
+This is mostly for internal consistency tests/maintenance.
+
+=method get_dists_in_gentoo_package
+
+  my @list = $v->get_dists_in_gentoo_package( 'virtual/perl-Test-Simple' )
+
+Returns a list of C<CPAN> Distributions that map to this dependency.
+
+=method get_modules_in_gentoo_package
+
+  my @list = $v->get_modules_in_gentoo_package( 'virtua/perl-Test-Simple' )
+
+Returns a list of modules that map to this dependency.
+
+=cut

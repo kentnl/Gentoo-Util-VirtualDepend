@@ -116,6 +116,26 @@ Emits:
 
 Because `Gentoo` is quirky like that.
 
+## has\_gentoo\_package
+
+    $v->has_gentoo_package( 'virtual/perl-Test-Simple' )
+
+Determines if the data file has entries mapping to `virtual/perl-Test-Simple`.
+
+This is mostly for internal consistency tests/maintenance.
+
+## get\_dists\_in\_gentoo\_package
+
+    my @list = $v->get_dists_in_gentoo_package( 'virtual/perl-Test-Simple' )
+
+Returns a list of `CPAN` Distributions that map to this dependency.
+
+## get\_modules\_in\_gentoo\_package
+
+    my @list = $v->get_modules_in_gentoo_package( 'virtua/perl-Test-Simple' )
+
+Returns a list of modules that map to this dependency.
+
 # AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
