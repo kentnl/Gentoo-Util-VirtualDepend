@@ -26,9 +26,11 @@ my %WriteMakefileArgs = (
   "NAME" => "Gentoo::Util::VirtualDepend",
   "PREREQ_PM" => {
     "File::ShareDir" => 0,
+    "Module::CoreList" => "5.20150214",
     "Moo" => 0,
     "Path::Tiny" => 0,
     "strict" => 0,
+    "version" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
@@ -49,11 +51,13 @@ my %FallbackPrereqs = (
   "File::ShareDir" => 0,
   "File::ShareDir::Install" => "0.06",
   "File::Spec" => 0,
+  "Module::CoreList" => "5.20150214",
   "Moo" => 0,
   "Path::Tiny" => 0,
   "Test::File::ShareDir::Dist" => 0,
   "Test::More" => "0.89",
   "strict" => 0,
+  "version" => 0,
   "warnings" => 0
 );
 

@@ -85,10 +85,12 @@ do { my $x = {
                                       },
                       'requires' => {
                                       'File::ShareDir' => '0',
+                                      'Module::CoreList' => '5.20150214',
                                       'Moo' => '0',
                                       'Path::Tiny' => '0',
                                       'perl' => '5.006',
                                       'strict' => '0',
+                                      'version' => '0',
                                       'warnings' => '0'
                                     }
                     },
