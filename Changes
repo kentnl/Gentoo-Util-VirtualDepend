@@ -11,6 +11,9 @@ Release history for Gentoo-Util-VirtualDepend
  [Features]
  - Add a package->contents mapping ( mostly for consistency checking )
 
+ [Mappings]
+ - Synced mappings to current CPAN/tree status
+
 0.001000 2014-10-10T17:53:57Z 9a68f55
  - First version.
 

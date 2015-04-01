@@ -18,6 +18,7 @@ my (@normal_virtuals) = qw(
   CGI
   CPAN
   CPAN-Meta
+  CPAN-Meta-Requirements
   CPAN-Meta-YAML
   Carp
   Compress-Raw-Bzip2
@@ -44,9 +45,11 @@ my (@normal_virtuals) = qw(
   Getopt-Long
   HTTP-Tiny
   I18N-LangTags
+  IPC-Cmd
   IO
   IO-Compress
   IO-Zlib
+  IO-Socket-IP
   JSON-PP
   Locale-Maketext
   Locale-Maketext-Simple
@@ -62,7 +65,6 @@ my (@normal_virtuals) = qw(
   Module-Load-Conditional
   Module-Loaded
   Module-Metadata
-  Module-Pluggable
   Net-Ping
   Package-Constants
   Params-Check
@@ -77,6 +79,7 @@ my (@normal_virtuals) = qw(
   Storable
   Sys-Syslog
   Term-ANSIColor
+  Term-ReadLine
   Test
   Test-Harness
   Test-Simple
@@ -89,7 +92,6 @@ my (@normal_virtuals) = qw(
   Time-HiRes
   Time-Local
   Time-Piece
-  Version-Requirements
   XSLoader
   autodie
   bignum
@@ -106,7 +108,6 @@ my (@normal_virtuals) = qw(
   NEXT
   Pod-Checker
   Pod-Perldoc
-  Pod-Plainer
   Pod-Usage
   SelfLoader
   Unicode-Collate
@@ -209,7 +210,6 @@ Regexp-Common,dev-perl/regexp-common
 Set-Scalar,dev-perl/set-scalar
 Snapback2,app-backup/snapback2
 String-CRC32,dev-perl/string-crc32
-Template-Plugin-Latex,dev-perl/Template-Latex
 Text-Autoformat,dev-perl/text-autoformat
 Text-Reform,dev-perl/text-reform
 Text-Template,dev-perl/text-template
