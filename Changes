@@ -1,6 +1,6 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.001001 2015-04-01T10:22:44Z 4ec49b8
+0.001001 2015-04-01T11:03:20Z 9901f80
  [Dependencies::Stats]
  - Dependencies changed since 0.001000, see misc/*.deps* for details
  - configure: +1 (recommends: +1 ↑1)
@@ -10,6 +10,9 @@ Release history for Gentoo-Util-VirtualDepend
 
  [Features]
  - Add a package->contents mapping ( mostly for consistency checking )
+
+ [Mappings]
+ - Synced mappings to current CPAN/tree status
 
 0.001000 2014-10-10T17:53:57Z 9a68f55
  - First version.
