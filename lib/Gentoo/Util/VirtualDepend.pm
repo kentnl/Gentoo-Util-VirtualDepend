@@ -28,73 +28,71 @@ my %GENTOO2MOD;
 my $DIST = q[Gentoo-Util-VirtualDepend];
 
 sub _load_mod2gentoo {
-    return if $MOD2GENTOO_LOADED;
-    my $fh = path( dist_file( $DIST, $MOD2GENTOO_FILE ) )->openr_raw;
-    while ( my $line = <$fh> ) {
-        chomp $line;
-        my ( $module, $map ) = split /,/,
-          $line;    ## no critic (RegularExpressions)
-        $MOD2GENTOO{$module} = $map;
-        $GENTOO2MOD{$map} = [] unless exists $GENTOO2MOD{$map};
-        push @{ $GENTOO2MOD{$map} }, $module;
-    }
-    return $MOD2GENTOO_LOADED = 1;
+  return if $MOD2GENTOO_LOADED;
+  my $fh = path( dist_file( $DIST, $MOD2GENTOO_FILE ) )->openr_raw;
+  while ( my $line = <$fh> ) {
+    chomp $line;
+    my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
+    $MOD2GENTOO{$module} = $map;
+    $GENTOO2MOD{$map} = [] unless exists $GENTOO2MOD{$map};
+    push @{ $GENTOO2MOD{$map} }, $module;
+  }
+  return $MOD2GENTOO_LOADED = 1;
 }
 
 sub _load_dist2gentoo {
-    return if $DIST2GENTOO_LOADED;
-    my $fh = path( dist_file( $DIST, $DIST2GENTOO_FILE ) )->openr_raw;
-    while ( my $line = <$fh> ) {
-        chomp $line;
-        my ( $module, $map ) = split /,/,
-          $line;    ## no critic (RegularExpressions)
-        $DIST2GENTOO{$module} = $map;
-        $GENTOO2DIST{$map} = [] unless exists $GENTOO2DIST{$map};
-        push @{ $GENTOO2DIST{$map} }, $module;
-    }
-    return $DIST2GENTOO_LOADED = 1;
+  return if $DIST2GENTOO_LOADED;
+  my $fh = path( dist_file( $DIST, $DIST2GENTOO_FILE ) )->openr_raw;
+  while ( my $line = <$fh> ) {
+    chomp $line;
+    my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
+    $DIST2GENTOO{$module} = $map;
+    $GENTOO2DIST{$map} = [] unless exists $GENTOO2DIST{$map};
+    push @{ $GENTOO2DIST{$map} }, $module;
+  }
+  return $DIST2GENTOO_LOADED = 1;
 }
 
 sub has_module_override {
-    my ( undef, $module ) = @_;
-    _load_mod2gentoo unless $MOD2GENTOO_LOADED;
-    return exists $MOD2GENTOO{$module};
+  my ( undef, $module ) = @_;
+  _load_mod2gentoo unless $MOD2GENTOO_LOADED;
+  return exists $MOD2GENTOO{$module};
 }
 
 sub get_module_override {
-    my ( undef, $module ) = @_;
-    _load_mod2gentoo unless $MOD2GENTOO_LOADED;
-    return $MOD2GENTOO{$module};
+  my ( undef, $module ) = @_;
+  _load_mod2gentoo unless $MOD2GENTOO_LOADED;
+  return $MOD2GENTOO{$module};
 }
 
 sub has_dist_override {
-    my ( undef, $dist ) = @_;
-    _load_dist2gentoo unless $DIST2GENTOO_LOADED;
-    return exists $DIST2GENTOO{$dist};
+  my ( undef, $dist ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return exists $DIST2GENTOO{$dist};
 }
 
 sub get_dist_override {
-    my ( undef, $dist ) = @_;
-    _load_mod2gentoo unless $DIST2GENTOO_LOADED;
-    return $DIST2GENTOO{$dist};
+  my ( undef, $dist ) = @_;
+  _load_mod2gentoo unless $DIST2GENTOO_LOADED;
+  return $DIST2GENTOO{$dist};
 }
 
 sub has_gentoo_package {
-    my ( undef, $package ) = @_;
-    _load_dist2gentoo unless $DIST2GENTOO_LOADED;
-    return exists $GENTOO2DIST{$package};
+  my ( undef, $package ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return exists $GENTOO2DIST{$package};
 }
 
 sub get_dists_in_gentoo_package {
-    my ( undef, $package ) = @_;
-    _load_dist2gentoo unless $DIST2GENTOO_LOADED;
-    return @{ $GENTOO2DIST{$package} || [] };
+  my ( undef, $package ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return @{ $GENTOO2DIST{$package} || [] };
 }
 
 sub get_modules_in_gentoo_package {
-    my ( undef, $package ) = @_;
-    _load_mod2gentoo unless $MOD2GENTOO_LOADED;
-    return @{ $GENTOO2MOD{$package} || [] };
+  my ( undef, $package ) = @_;
+  _load_mod2gentoo unless $MOD2GENTOO_LOADED;
+  return @{ $GENTOO2MOD{$package} || [] };
 }
 
 no Moo;
