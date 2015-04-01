@@ -227,7 +227,7 @@ Because C<Gentoo> is quirky like that.
 
   $v->has_gentoo_package( 'virtual/perl-Test-Simple' )
 
-Determines if the datafile has entries mapping to C<virtual/perl-Test-Simple>.
+Determines if the data file has entries mapping to C<virtual/perl-Test-Simple>.
 
 This is mostly for internal consistency tests/maintenance.
 
@@ -235,7 +235,7 @@ This is mostly for internal consistency tests/maintenance.
 
   my @list = $v->get_dists_in_gentoo_package( 'virtual/perl-Test-Simple' )
 
-Returns a list of CPAN Distributions that map to this dependency.
+Returns a list of C<CPAN> Distributions that map to this dependency.
 
 =head2 get_modules_in_gentoo_package
 
