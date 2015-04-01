@@ -1,4 +1,27 @@
 This file contains ALL changes in dependencies in both REQUIRED / OPTIONAL dependencies for all phases (configure/build/runtime/test/develop)
 
 0.001001
+ [Added / configure requires]
+ - perl 5.008
+
+ [Added / develop recommends]
+ - Test::More 1.301001_098
+
+ [Added / develop requires]
+ - Test::EOL
+ - Test::More 0.88
+
+ [Added / test requires]
+ - perl 5.008
+
+ [Changed / configure recommends]
+ - ExtUtils::MakeMaker 6.98 → 7.04
+
+ [Changed / develop suggests]
+ - Dist::Zilla::App::Command::bakeini 0.001002 → 0.002000
+ - Dist::Zilla::PluginBundle::Author::KENTNL 2.021000 → 2.024001
+
+ [Changed / test recommends]
+ - ExtUtils::MakeMaker 6.98 → 7.04
+ - Test::More 1.001006 → 1.301001_098
 
