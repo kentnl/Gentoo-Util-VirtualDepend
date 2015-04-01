@@ -1267,6 +1267,7 @@ CPAN::Meta::Feature,virtual/perl-CPAN-Meta
 CPAN::Meta::History,virtual/perl-CPAN-Meta
 CPAN::Meta::Merge,virtual/perl-CPAN-Meta
 CPAN::Meta::Prereqs,virtual/perl-CPAN-Meta
+CPAN::Meta::Requirements,virtual/perl-CPAN-Meta-Requirements
 CPAN::Meta::Spec,virtual/perl-CPAN-Meta
 CPAN::Meta::Validator,virtual/perl-CPAN-Meta
 CPAN::Meta::YAML,virtual/perl-CPAN-Meta-YAML
@@ -1274,6 +1275,8 @@ CPAN::Mirrored::By,virtual/perl-CPAN
 CPAN::Mirrors,virtual/perl-CPAN
 CPAN::Module,virtual/perl-CPAN
 CPAN::Nox,virtual/perl-CPAN
+CPAN::Plugin,virtual/perl-CPAN
+CPAN::Plugin::Specfile,virtual/perl-CPAN
 CPAN::Prompt,virtual/perl-CPAN
 CPAN::Queue,virtual/perl-CPAN
 CPAN::Queue::Item,virtual/perl-CPAN
@@ -1397,7 +1400,6 @@ Demo_Exporter,virtual/perl-Filter-Simple
 Demo_Importer,virtual/perl-Filter-Simple
 Demo_REM,virtual/perl-Filter-Simple
 Descriptions,virtual/perl-Attribute-Handlers
-Devel::InnerPackage,virtual/perl-Module-Pluggable
 Devel::PPPort,virtual/perl-Devel-PPPort
 Devel::SelfStubber,virtual/perl-Devel-SelfStubber
 Digest,virtual/perl-Digest
@@ -1488,7 +1490,12 @@ ExtUtils::MM_Win95,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::MY,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::MakeMaker,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::MakeMaker::Config,virtual/perl-ExtUtils-MakeMaker
+ExtUtils::MakeMaker::Locale,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::MakeMaker::_version,virtual/perl-ExtUtils-MakeMaker
+ExtUtils::MakeMaker::charstar,virtual/perl-ExtUtils-MakeMaker
+ExtUtils::MakeMaker::version,virtual/perl-ExtUtils-MakeMaker
+ExtUtils::MakeMaker::version::regex,virtual/perl-ExtUtils-MakeMaker
+ExtUtils::MakeMaker::version::vpp,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::Manifest,virtual/perl-ExtUtils-Manifest
 ExtUtils::Mkbootstrap,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::Mksymlists,virtual/perl-ExtUtils-MakeMaker
@@ -1508,6 +1515,7 @@ ExtUtils::testlib,virtual/perl-ExtUtils-MakeMaker
 FakeHomol,sci-biology/GBrowse
 Fatal,virtual/perl-autodie
 FeatureStore,sci-biology/bioperl
+Fh,virtual/perl-CGI
 File::Fetch,virtual/perl-File-Fetch
 File::GlobMapper,virtual/perl-IO-Compress
 File::Path,virtual/perl-File-Path
@@ -1620,7 +1628,6 @@ Gtk2::WrappedLabel,dev-perl/gtk2-fu
 Gtk2Fu,dev-perl/gtk2-fu
 HTML::TextToHTML,dev-perl/TextToHTML
 HTTP::Tiny,virtual/perl-HTTP-Tiny
-Hang,dev-perl/text-autoformat
 IDEA,dev-perl/crypt-idea
 IO,virtual/perl-IO
 IO::Compress::Adapter::Bzip2,virtual/perl-IO-Compress
@@ -1647,6 +1654,7 @@ IO::Seekable,virtual/perl-IO
 IO::Select,virtual/perl-IO
 IO::Socket,virtual/perl-IO
 IO::Socket::INET,virtual/perl-IO
+IO::Socket::IP,virtual/perl-IO-Socket-IP
 IO::Socket::UNIX,virtual/perl-IO
 IO::Uncompress::Adapter::Bunzip2,virtual/perl-IO-Compress
 IO::Uncompress::Adapter::Identity,virtual/perl-IO-Compress
@@ -1660,6 +1668,7 @@ IO::Uncompress::Inflate,virtual/perl-IO-Compress
 IO::Uncompress::RawInflate,virtual/perl-IO-Compress
 IO::Uncompress::Unzip,virtual/perl-IO-Compress
 IO::Zlib,virtual/perl-IO-Zlib
+IPC::Cmd,virtual/perl-IPC-Cmd
 IPC::Msg,virtual/perl-IPC-SysV
 IPC::Msg::stat,virtual/perl-IPC-SysV
 IPC::Semaphore,virtual/perl-IPC-SysV
@@ -1748,6 +1757,7 @@ Image::ExifTool::M2TS,media-libs/exiftool
 Image::ExifTool::MIE,media-libs/exiftool
 Image::ExifTool::MIFF,media-libs/exiftool
 Image::ExifTool::MNG,media-libs/exiftool
+Image::ExifTool::MOI,media-libs/exiftool
 Image::ExifTool::MPC,media-libs/exiftool
 Image::ExifTool::MPEG,media-libs/exiftool
 Image::ExifTool::MPF,media-libs/exiftool
@@ -1945,8 +1955,6 @@ Module::Load,virtual/perl-Module-Load
 Module::Load::Conditional,virtual/perl-Module-Load-Conditional
 Module::Loaded,virtual/perl-Module-Loaded
 Module::Metadata,virtual/perl-Module-Metadata
-Module::Pluggable,virtual/perl-Module-Pluggable
-Module::Pluggable::Object,virtual/perl-Module-Pluggable
 MogileFS,dev-perl/mogilefs-server
 MogileFS::Checksum,dev-perl/mogilefs-server
 MogileFS::Class,dev-perl/mogilefs-server
@@ -2035,6 +2043,7 @@ Net::FTP::L,virtual/perl-libnet
 Net::FTP::_SSL_SingleSessionCache,virtual/perl-libnet
 Net::FTP::dataconn,virtual/perl-libnet
 Net::NNTP,virtual/perl-libnet
+Net::NNTP::_SSL,virtual/perl-libnet
 Net::Netrc,virtual/perl-libnet
 Net::POP3,virtual/perl-libnet
 Net::POP3::_SSL,virtual/perl-libnet
@@ -2123,7 +2132,6 @@ Net::Server::SIG,dev-perl/net-server
 Net::Server::Single,dev-perl/net-server
 Net::Server::TiedHandle,dev-perl/net-server
 Net::Time,virtual/perl-libnet
-NullHang,dev-perl/text-autoformat
 OLE::Storage_Lite,dev-perl/OLE-StorageLite
 OLE::Storage_Lite::PPS,dev-perl/OLE-StorageLite
 OLE::Storage_Lite::PPS::Dir,dev-perl/OLE-StorageLite
@@ -2480,7 +2488,6 @@ Pod::Perldoc::ToText,virtual/perl-Pod-Perldoc
 Pod::Perldoc::ToTk,virtual/perl-Pod-Perldoc
 Pod::Perldoc::ToXml,virtual/perl-Pod-Perldoc
 Pod::PlainText,virtual/perl-Pod-Parser
-Pod::Plainer,virtual/perl-Pod-Plainer
 Pod::Select,virtual/perl-Pod-Parser
 Pod::Simple,virtual/perl-Pod-Simple
 Pod::Simple::BlackBox,virtual/perl-Pod-Simple
@@ -2609,9 +2616,11 @@ TAP::Parser::SourceHandler::Perl,virtual/perl-Test-Harness
 TAP::Parser::SourceHandler::RawTAP,virtual/perl-Test-Harness
 TAP::Parser::YAMLish::Reader,virtual/perl-Test-Harness
 TAP::Parser::YAMLish::Writer,virtual/perl-Test-Harness
-Template::Latex,dev-perl/Template-Latex
-Template::Plugin::Latex,dev-perl/Template-Latex
 Term::ANSIColor,virtual/perl-Term-ANSIColor
+Term::ReadLine,virtual/perl-Term-ReadLine
+Term::ReadLine::Stub,virtual/perl-Term-ReadLine
+Term::ReadLine::TermCap,virtual/perl-Term-ReadLine
+Term::ReadLine::Tk,virtual/perl-Term-ReadLine
 Test,virtual/perl-Test
 Test::Builder,virtual/perl-Test-Simple
 Test::Builder::IO::Scalar,virtual/perl-Test-Simple
@@ -2622,7 +2631,14 @@ Test::Builder::Tester::Tie,virtual/perl-Test-Simple
 Test::Harness,virtual/perl-Test-Harness
 Test::More,virtual/perl-Test-Simple
 Test::Simple,virtual/perl-Test-Simple
+Test::Tester,virtual/perl-Test-Simple
+Test::Tester::Capture,virtual/perl-Test-Simple
+Test::Tester::CaptureRunner,virtual/perl-Test-Simple
+Test::Tester::Delegate,virtual/perl-Test-Simple
+Test::use::ok,virtual/perl-Test-Simple
 Text::Autoformat,dev-perl/text-autoformat
+Text::Autoformat::Hang,dev-perl/text-autoformat
+Text::Autoformat::NullHang,dev-perl/text-autoformat
 Text::Balanced,virtual/perl-Text-Balanced
 Text::Balanced::ErrorMsg,virtual/perl-Text-Balanced
 Text::Balanced::Extractor,virtual/perl-Text-Balanced
@@ -2776,7 +2792,6 @@ Unicode::Collate::CJK::Stroke,virtual/perl-Unicode-Collate
 Unicode::Collate::CJK::Zhuyin,virtual/perl-Unicode-Collate
 Unicode::Collate::Locale,virtual/perl-Unicode-Collate
 Unicode::Normalize,virtual/perl-Unicode-Normalize
-Version::Requirements,virtual/perl-Version-Requirements
 WidgetDemo,dev-perl/perl-tk
 Wx,dev-perl/wxperl
 Wx::AUI,dev-perl/wxperl
@@ -2841,8 +2856,6 @@ Wx::DocView,dev-perl/wxperl
 Wx::Document,dev-perl/wxperl
 Wx::DropFilesEvent,dev-perl/wxperl
 Wx::DropSource,dev-perl/wxperl
-Wx::DropTarget,dev-perl/wxperl
-Wx::Droptarget,dev-perl/wxperl
 Wx::EditEnumProperty,dev-perl/wxperl
 Wx::EnumProperty,dev-perl/wxperl
 Wx::Event,dev-perl/wxperl
@@ -3132,6 +3145,9 @@ autodie::exception,virtual/perl-autodie
 autodie::exception::system,virtual/perl-autodie
 autodie::hints,virtual/perl-autodie
 autodie::skip,virtual/perl-autodie
+bigint,virtual/perl-bignum
+bignum,virtual/perl-bignum
+bigrat,virtual/perl-bignum
 build::Wx::XSP::Enum,dev-perl/wxperl
 build::Wx::XSP::Event,dev-perl/wxperl
 build::Wx::XSP::Overload,dev-perl/wxperl
@@ -3140,8 +3156,7 @@ charstar,virtual/perl-version
 constant,virtual/perl-constant
 encoding,virtual/perl-Encode
 if,virtual/perl-if
-inc::latest,virtual/perl-Module-Build
-inc::latest::private,virtual/perl-Module-Build
+ok,virtual/perl-Test-Simple
 parent,virtual/perl-parent
 threads,virtual/perl-threads
 threads::shared,virtual/perl-threads-shared

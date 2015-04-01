@@ -1,19 +1,41 @@
-use 5.008;    # utf8
+use 5.006;
 use strict;
 use warnings;
-use utf8;
 
 package Gentoo::Util::VirtualDepend;
 
-our $VERSION = '0.001000';
+our $VERSION = '0.002000';
 
 # ABSTRACT: Hard-coded replacements for perl-core/ dependencies and dependencies with odd names in Gentoo
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use Moo;
+use Moo qw( has );
 use Path::Tiny qw( path );
 use File::ShareDir qw( dist_file );
+use Module::CoreList 5.20150214;
+
+
+
+
+
+
+
+
+
+
+has max_perl => ( is => 'ro', lazy => 1, default => sub { '5.20.2' } );
+
+
+
+
+
+
+
+
+
+
+has min_perl => ( is => 'ro', lazy => 1, default => sub { '5.14.0' } );
 
 my %MOD2GENTOO;
 my $MOD2GENTOO_LOADED;
@@ -22,6 +44,9 @@ my $MOD2GENTOO_FILE = 'module-to-gentoo.csv';
 my %DIST2GENTOO;
 my $DIST2GENTOO_LOADED;
 my $DIST2GENTOO_FILE = 'dist-to-gentoo.csv';
+
+my %GENTOO2DIST;
+my %GENTOO2MOD;
 
 my $DIST = q[Gentoo-Util-VirtualDepend];
 
@@ -32,6 +57,8 @@ sub _load_mod2gentoo {
     chomp $line;
     my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
     $MOD2GENTOO{$module} = $map;
+    $GENTOO2MOD{$map} = [] unless exists $GENTOO2MOD{$map};
+    push @{ $GENTOO2MOD{$map} }, $module;
   }
   return $MOD2GENTOO_LOADED = 1;
 }
@@ -43,6 +70,8 @@ sub _load_dist2gentoo {
     chomp $line;
     my ( $module, $map ) = split /,/, $line;    ## no critic (RegularExpressions)
     $DIST2GENTOO{$module} = $map;
+    $GENTOO2DIST{$map} = [] unless exists $GENTOO2DIST{$map};
+    push @{ $GENTOO2DIST{$map} }, $module;
   }
   return $DIST2GENTOO_LOADED = 1;
 }
@@ -70,6 +99,79 @@ sub get_dist_override {
   _load_mod2gentoo unless $DIST2GENTOO_LOADED;
   return $DIST2GENTOO{$dist};
 }
+
+sub has_gentoo_package {
+  my ( undef, $package ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return exists $GENTOO2DIST{$package};
+}
+
+sub get_dists_in_gentoo_package {
+  my ( undef, $package ) = @_;
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return @{ $GENTOO2DIST{$package} || [] };
+}
+
+sub get_modules_in_gentoo_package {
+  my ( undef, $package ) = @_;
+  _load_mod2gentoo unless $MOD2GENTOO_LOADED;
+  return @{ $GENTOO2MOD{$package} || [] };
+}
+
+sub module_is_perl {
+  my ( $self, $opts, $module, $mod_version ) = @_;
+  if ( not ref $opts ) {
+    ( $opts, $module, $mod_version ) = ( {}, $opts, $module );
+  }
+
+  # If the module has a virtual, don't even consider
+  # CPAN/perl decisions
+
+  return if $self->has_module_override($module);
+  require version;
+
+  $opts->{min_perl} ||= $self->min_perl;
+  my $min_perl = version->parse( $opts->{min_perl} );
+  $opts->{max_perl} ||= $self->max_perl;
+  my $max_perl = version->parse( $opts->{max_perl} );
+
+  my $seen;
+  ## no critic (Variables::ProhibitPackageVars)
+  for my $version ( keys %Module::CoreList::version ) {
+    my $perlver = version->parse($version);
+    ## no critic (ControlStructures::ProhibitNegativeExpressionsInUnlessAndUntilConditions)
+    next unless $perlver >= $min_perl;
+    next unless $perlver <= $max_perl;
+
+    # If any version in the range returns "deprecated", then we should
+    # default to CPAN
+    return if $Module::CoreList::deprecated{$version}{$module};
+
+    # If any version in the range does not exist, then we should default to CPAN
+    #
+    return if not exists $Module::CoreList::version{$version}{$module};
+
+    if ( not defined $mod_version ) {
+      $seen = 1;
+      next;
+    }
+
+    # If any version in the range is undef, and a specific version is requested,
+    # Default to CPAN, because it means a virtual is not provisioned.
+    return if not defined $Module::CoreList::version{$version}{$module};
+
+    my $this_version = version->parse( $Module::CoreList::version{$version}{$module} );
+
+    # If any version in the range is lower than required, default to CPAN
+    # because it means a virtual is not provisioned, and a breakage will occur
+    # on one of the versions.
+    return if $this_version < version->parse($mod_version);
+
+    $seen = 1;
+  }
+  return $seen;
+}
+
 no Moo;
 
 1;
@@ -86,7 +188,7 @@ Gentoo::Util::VirtualDepend - Hard-coded replacements for perl-core/ dependencie
 
 =head1 VERSION
 
-version 0.001000
+version 0.002000
 
 =head1 SYNOPSIS
 
@@ -198,13 +300,121 @@ Emits:
 
 Because C<Gentoo> is quirky like that.
 
+=head2 has_gentoo_package
+
+  $v->has_gentoo_package( 'virtual/perl-Test-Simple' )
+
+Determines if the data file has entries mapping to C<virtual/perl-Test-Simple>.
+
+This is mostly for internal consistency tests/maintenance.
+
+=head2 get_dists_in_gentoo_package
+
+  my @list = $v->get_dists_in_gentoo_package( 'virtual/perl-Test-Simple' )
+
+Returns a list of C<CPAN> Distributions that map to this dependency.
+
+=head2 get_modules_in_gentoo_package
+
+  my @list = $v->get_modules_in_gentoo_package( 'virtua/perl-Test-Simple' )
+
+Returns a list of modules that map to this dependency.
+
+=head2 module_is_perl
+
+This function determines if it is "safe" to assume availability
+of a given module ( or a given module and version ) without needing to
+stipulate either a virtual or a C<CPAN> dependency.
+
+  ->module_is_perl( $module )
+  ->module_is_perl( $module, $min_version )
+  ->module_is_perl( \%config, $module, $min_version )
+
+Rules:
+
+=over 4
+
+=item * If the module is present in the override map, then it is deemed B<NOT>
+available from C<Perl>, because you should be using the override instead.
+
+=item * If the module is missing on any version in the range specified, then it is
+B<NOT> available from C<Perl>, and you must depend on a virtual or some other
+dependency you can source.
+
+=item * If the module is marked I<deprecated> on any version in the range specified,
+then it is assumed B<NOT> available in C<Perl> ( due to likely deprecation warnings
+and imminent need to start adapting )
+
+=item * If a minimum version is specified, and I<any> version of C<Perl> in the range
+specified does not satisfy that minimum, then it is assumed B<NOT> available in
+C<Perl> ( due to the inherent need to manually solve the issue via a virtual or a
+minimum C<Perl> dependency )
+
+=item * If a minimum version is specified, and I<any> version of C<Perl> in the range
+specified is an explicit C<undef>, then it is assumed B<NOT> available in C<Perl>,
+because clearly, one version of C<Perl> having C<undef> and another having an
+explicit version, and needing only one of the two requires a manual dependency
+resolution.
+
+=back
+
+Examples:
+
+=over 4
+
+=item * Determine if C<strict> is I<implicitly> available.
+
+  if ( $v->module_is_perl( 'strict' ) ) {
+
+=item * Determine if C<strict> version C<1.09> is available.
+
+  if ( $v->module_is_perl( 'strict' => '1.09' ) ) {
+
+This will of course return C<undef> unless C<min_perl> is at least C<5.21.7>.
+
+Thus, if your support range is 5.18.0 to 5.20, and somebody stipulates that minimum,
+you will have to declare a dependency on C<Perl> 5.21.7.
+
+Even if your support range is 5.18.0 to 5.22.0, you will still have to declare a
+dependency on 5.21.7 instead of assuming its presence.
+
+=item * Determine if C<strict> version C<1.09> is available on X to Y C<Perls>.
+
+For most code where the support range is fixed, this will be unnecessary,
+and changing the defaults via C<< ->new( min_perl => ... , max_perl => ... ) >>
+should be sufficient.
+
+However:
+
+  if( $v->module_is_perl( { min_perl => '5.21.7', max_perl => '5.21.9' }, 'strict', '1.09' ) ) {
+      # true
+  }
+
+=back
+
+=head1 ATTRIBUTES
+
+=head2 max_perl
+
+  ->new( max_perl => '5.20.2' )
+  ->max_perl # 5.20.2
+
+Stipulates the default maximum C<Perl> for L<< C<module_is_perl>|/module_is_perl >>.
+
+=head2 min_perl
+
+  ->new( min_perl => '5.20.2' )
+  ->min_perl # 5.20.2
+
+Stipulates the default minimum C<Perl> for L<< C<module_is_perl>|/module_is_perl >>.
+
 =head1 AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Kent Fredric <kentfredric@gmail.com>.
+This software is copyright (c) 2015 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
