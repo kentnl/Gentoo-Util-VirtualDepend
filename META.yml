@@ -51,7 +51,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::GithubMeta
       name: '@Author::KENTNL/GithubMeta'
-      version: '0.46'
+      version: '0.48'
     -
       class: Dist::Zilla::Plugin::MetaProvides::Package
       config:
@@ -95,7 +95,7 @@ x_Dist_Zilla:
           order_by: name
           paths: []
       name: '@Author::KENTNL/Git::Contributors'
-      version: '0.010'
+      version: '0.011'
     -
       class: Dist::Zilla::Plugin::Git::GatherDir
       config:
@@ -116,7 +116,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/Git::GatherDir'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::License
       name: '@Author::KENTNL/License'
@@ -156,7 +156,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Test::ReportPrereqs
       name: '@Author::KENTNL/Test::ReportPrereqs'
-      version: '0.020'
+      version: '0.021'
     -
       class: Dist::Zilla::Plugin::Test::Kwalitee
       config:
@@ -345,7 +345,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::TestRunner:
           default_jobs: '10'
       name: '@Author::KENTNL/RunExtraTests'
-      version: '0.025'
+      version: '0.026'
     -
       class: Dist::Zilla::Plugin::TestRelease
       name: '@Author::KENTNL/TestRelease'
@@ -368,7 +368,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/Git::Check'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::Git::Commit
       config:
@@ -385,7 +385,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/commit_dirty_files'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::Git::Tag
       config:
@@ -399,7 +399,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/tag_master'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::Git::NextRelease
       name: '@Author::KENTNL/Git::NextRelease'
@@ -425,7 +425,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/commit_release_changes'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::Git::CommitBuild
       config:
@@ -439,7 +439,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/Git::CommitBuild'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::Git::Tag
       config:
@@ -453,7 +453,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@Author::KENTNL/tag_release'
-      version: '2.030'
+      version: '2.031'
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@Author::KENTNL/UploadToCPAN'
