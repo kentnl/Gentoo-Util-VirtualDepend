@@ -136,6 +136,82 @@ Returns a list of `CPAN` Distributions that map to this dependency.
 
 Returns a list of modules that map to this dependency.
 
+## module\_is\_perl
+
+This function determines if it is "safe" to assume availability
+of a given module ( or a given module and version ) without needing to
+stipulate either a virtual or a `CPAN` dependency.
+
+    ->module_is_perl( $module )
+    ->module_is_perl( $module, $min_version )
+    ->module_is_perl( \%config, $module, $min_version )
+
+Rules:
+
+- If the module is present in the override map, then it is deemed **NOT**
+available from `Perl`, because you should be using the override instead.
+- If the module is missing on any version in the range specified, then it is
+**NOT** available from `Perl`, and you must depend on a virtual or some other
+dependency you can source.
+- If the module is marked _deprecated_ on any version in the range specified,
+then it is assumed **NOT** available in `Perl` ( due to likely deprecation warnings
+and imminent need to start adapting )
+- If a minimum version is specified, and _any_ version of `Perl` in the range
+specified does not satisfy that minimum, then it is assumed **NOT** available in
+`Perl` ( due to the inherent need to manually solve the issue via a virtual or a
+minimum `Perl` dependency )
+- If a minimum version is specified, and _any_ version of `Perl` in the range
+specified is an explicit `undef`, then it is assumed **NOT** available in `Perl`,
+because clearly, one version of `Perl` having `undef` and another having an
+explicit version, and needing only one of the two requires a manual dependency
+resolution.
+
+Examples:
+
+- Determine if `strict` is _implicitly_ available.
+
+        if ( $v->module_is_perl( 'strict' ) ) {
+
+- Determine if `strict` version `1.09` is available.
+
+        if ( $v->module_is_perl( 'strict' => '1.09' ) ) {
+
+    This will of course return `undef` unless `min_perl` is at least `5.21.7`.
+
+    Thus, if your support range is 5.18.0 to 5.20, and somebody stipulates that minimum,
+    you will have to declare a dependency on `Perl` 5.21.7.
+
+    Even if your support range is 5.18.0 to 5.22.0, you will still have to declare a
+    dependency on 5.21.7 instead of assuming its presence.
+
+- Determine if `strict` version `1.09` is available on X to Y `Perls`.
+
+    For most code where the support range is fixed, this will be unnecessary,
+    and changing the defaults via `->new( min_perl => ... , max_perl => ... )`
+    should be sufficient.
+
+    However:
+
+        if( $v->module_is_perl( { min_perl => '5.21.7', max_perl => '5.21.9' }, 'strict', '1.09' ) ) {
+            # true
+        }
+
+# ATTRIBUTES
+
+## max\_perl
+
+    ->new( max_perl => '5.20.2' )
+    ->max_perl # 5.20.2
+
+Stipulates the default maximum `Perl` for [`module_is_perl`](#module_is_perl).
+
+## min\_perl
+
+    ->new( min_perl => '5.20.2' )
+    ->min_perl # 5.20.2
+
+Stipulates the default minimum `Perl` for [`module_is_perl`](#module_is_perl).
+
 # AUTHOR
 
 Kent Fredric <kentnl@cpan.org>
