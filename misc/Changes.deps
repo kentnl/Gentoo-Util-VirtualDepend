@@ -4,6 +4,10 @@ This file contains changes in REQUIRED dependencies for standard CPAN phases (co
  [Added / configure requires]
  - perl 5.006
 
+ [Added / runtime requires]
+ - Module::CoreList 5.20150214
+ - version
+
  [Added / test requires]
  - perl 5.006
 
