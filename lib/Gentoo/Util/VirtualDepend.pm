@@ -388,6 +388,8 @@ However:
       # true
   }
 
+=back
+
 =head1 ATTRIBUTES
 
 =head2 max_perl
