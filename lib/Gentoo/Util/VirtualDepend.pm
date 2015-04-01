@@ -10,7 +10,7 @@ our $VERSION = '0.002000';
 
 our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 
-use Moo;
+use Moo qw( has );
 use Path::Tiny qw( path );
 use File::ShareDir qw( dist_file );
 use Module::CoreList 5.20150214;
@@ -135,10 +135,11 @@ sub module_is_perl {
   $opts->{max_perl} ||= $self->max_perl;
   my $max_perl = version->parse( $opts->{max_perl} );
 
-  my @all_versions;
   my $seen;
+  ## no critic (Variables::ProhibitPackageVars)
   for my $version ( keys %Module::CoreList::version ) {
     my $perlver = version->parse($version);
+    ## no critic (ControlStructures::ProhibitNegativeExpressionsInUnlessAndUntilConditions)
     next unless $perlver >= $min_perl;
     next unless $perlver <= $max_perl;
 
@@ -323,7 +324,7 @@ Returns a list of modules that map to this dependency.
 
 This function determines if it is "safe" to assume availability
 of a given module ( or a given module and version ) without needing to
-stipluate either a virtual or a CPAN dependency.
+stipulate either a virtual or a C<CPAN> dependency.
 
   ->module_is_perl( $module )
   ->module_is_perl( $module, $min_version )
