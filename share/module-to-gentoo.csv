@@ -1293,9 +1293,6 @@ Class::ReturnValue,dev-perl/class-returnvalue
 Compress::Raw::Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress::Raw::Zlib,virtual/perl-Compress-Raw-Zlib
 Compress::Zlib,virtual/perl-IO-Compress
-Config::General,dev-perl/config-general
-Config::General::Extended,dev-perl/config-general
-Config::General::Interpolated,dev-perl/config-general
 Convert::ASCII::Armor,dev-perl/convert-ascii-armour
 Convert::ASCII::Armour,dev-perl/convert-ascii-armour
 Convert::PEM,dev-perl/convert-pem
