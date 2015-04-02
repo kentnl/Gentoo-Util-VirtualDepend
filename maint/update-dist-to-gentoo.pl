@@ -155,7 +155,6 @@ CGI-SpeedyCGI,dev-perl/SpeedyCGI
 Cache-Mmap,dev-perl/cache-mmap
 Class-Loader,dev-perl/class-loader
 Class-ReturnValue,dev-perl/class-returnvalue
-Config-General,dev-perl/config-general
 Convert-ASCII-Armour,dev-perl/convert-ascii-armour
 Convert-PEM,dev-perl/convert-pem
 Crypt-CBC,dev-perl/crypt-cbc
