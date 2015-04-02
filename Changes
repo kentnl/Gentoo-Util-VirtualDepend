@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 0.002001 2015-04-01T17:18:03Z b7046de
+ [Mappings]
+ - Dropped need for specialcasing Config-General
 
 0.002000 2015-04-01T16:52:44Z 8de5a28
  [Dependencies::Stats]
