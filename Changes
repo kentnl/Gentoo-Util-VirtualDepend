@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.002002 2015-04-02T01:56:43Z f22a7ed
+0.002002 2015-04-06T21:02:20Z 5e81d82
+ [Mappings]
+ - Dropping need for specialcasings for Log-Dispatch
 
 0.002001 2015-04-02T01:50:43Z 79ff0fe
  [Mappings]
