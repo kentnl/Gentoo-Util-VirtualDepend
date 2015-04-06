@@ -92,7 +92,6 @@ Locale-Maketext,virtual/perl-Locale-Maketext
 Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
 Locale-Maketext-Lexicon,dev-perl/locale-maketext-lexicon
 Locale-Maketext-Simple,virtual/perl-Locale-Maketext-Simple
-Log-Dispatch,dev-perl/log-dispatch
 MIME-Base64,virtual/perl-MIME-Base64
 Math-BigInt,virtual/perl-Math-BigInt
 Math-BigInt-FastCalc,virtual/perl-Math-BigInt-FastCalc
