@@ -1221,10 +1221,6 @@ CGI::Cookie,virtual/perl-CGI
 CGI::File::Temp,virtual/perl-CGI
 CGI::Pretty,virtual/perl-CGI
 CGI::Push,virtual/perl-CGI
-CGI::Simple,dev-perl/Cgi-Simple
-CGI::Simple::Cookie,dev-perl/Cgi-Simple
-CGI::Simple::Standard,dev-perl/Cgi-Simple
-CGI::Simple::Util,dev-perl/Cgi-Simple
 CGI::SpeedyCGI,dev-perl/SpeedyCGI
 CGI::Toggle,sci-biology/GBrowse
 CGI::Util,virtual/perl-CGI
@@ -1436,6 +1432,7 @@ Encode::TW,virtual/perl-Encode
 Encode::UTF_EBCDIC,virtual/perl-Encode
 Encode::Unicode,virtual/perl-Encode
 Encode::Unicode::UTF7,virtual/perl-Encode
+Encode::XS,virtual/perl-Encode
 Encode::utf8,virtual/perl-Encode
 Exporter,virtual/perl-Exporter
 Exporter::Heavy,virtual/perl-Exporter
