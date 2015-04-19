@@ -10,7 +10,6 @@ BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
 CGI,virtual/perl-CGI
-CGI-Simple,dev-perl/Cgi-Simple
 CGI-SpeedyCGI,dev-perl/SpeedyCGI
 CPAN,virtual/perl-CPAN
 CPAN-Meta,virtual/perl-CPAN-Meta

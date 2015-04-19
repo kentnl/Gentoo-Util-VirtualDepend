@@ -150,7 +150,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-CGI-Simple,dev-perl/Cgi-Simple
 CGI-SpeedyCGI,dev-perl/SpeedyCGI
 Cache-Mmap,dev-perl/cache-mmap
 Class-Loader,dev-perl/class-loader
