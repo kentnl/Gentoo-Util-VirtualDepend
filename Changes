@@ -3,6 +3,7 @@ Release history for Gentoo-Util-VirtualDepend
 {{$NEXT}}
  [Mappings]
  - Dropping need for specialcasings for CGI-Simple
+ - Adding new Encode::XS modules.
 
 0.002002 2015-04-06T21:02:20Z 5e81d82
  [Mappings]

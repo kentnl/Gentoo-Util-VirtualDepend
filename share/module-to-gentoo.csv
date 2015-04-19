@@ -1432,6 +1432,7 @@ Encode::TW,virtual/perl-Encode
 Encode::UTF_EBCDIC,virtual/perl-Encode
 Encode::Unicode,virtual/perl-Encode
 Encode::Unicode::UTF7,virtual/perl-Encode
+Encode::XS,virtual/perl-Encode
 Encode::utf8,virtual/perl-Encode
 Exporter,virtual/perl-Exporter
 Exporter::Heavy,virtual/perl-Exporter
