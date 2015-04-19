@@ -1221,10 +1221,6 @@ CGI::Cookie,virtual/perl-CGI
 CGI::File::Temp,virtual/perl-CGI
 CGI::Pretty,virtual/perl-CGI
 CGI::Push,virtual/perl-CGI
-CGI::Simple,dev-perl/Cgi-Simple
-CGI::Simple::Cookie,dev-perl/Cgi-Simple
-CGI::Simple::Standard,dev-perl/Cgi-Simple
-CGI::Simple::Util,dev-perl/Cgi-Simple
 CGI::SpeedyCGI,dev-perl/SpeedyCGI
 CGI::Toggle,sci-biology/GBrowse
 CGI::Util,virtual/perl-CGI
