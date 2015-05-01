@@ -1458,7 +1458,6 @@ ExtUtils::Constant::Base,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::ProxySubs,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::Utils,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::XS,virtual/perl-ExtUtils-Constant
-ExtUtils::Depends,dev-perl/extutils-depends
 ExtUtils::Install,virtual/perl-ExtUtils-Install
 ExtUtils::Install::Warn,virtual/perl-ExtUtils-Install
 ExtUtils::Installed,virtual/perl-ExtUtils-Install

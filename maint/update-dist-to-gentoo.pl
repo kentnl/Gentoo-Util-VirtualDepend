@@ -169,7 +169,6 @@ Data-Buffer,dev-perl/data-buffer
 Date-Manip,dev-perl/DateManip
 Digest-BubbleBabble,dev-perl/digest-bubblebabble
 Digest-MD2,dev-perl/digest-md2
-ExtUtils-Depends,dev-perl/extutils-depends
 ExtUtils-PkgConfig,dev-perl/extutils-pkgconfig
 Frontier-RPC,dev-perl/frontier-rpc
 GBrowse,sci-biology/GBrowse

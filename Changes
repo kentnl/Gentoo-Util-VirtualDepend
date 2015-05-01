@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Mappings]
+ - Drop need for specialcasing for ExtUtils-Depends
 
 0.002003 2015-04-19T03:42:39Z 3ec3162
  [Mappings]
