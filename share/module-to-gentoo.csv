@@ -1219,6 +1219,7 @@ CGI,virtual/perl-CGI
 CGI::Carp,virtual/perl-CGI
 CGI::Cookie,virtual/perl-CGI
 CGI::File::Temp,virtual/perl-CGI
+CGI::HTML::Functions,virtual/perl-CGI
 CGI::Pretty,virtual/perl-CGI
 CGI::Push,virtual/perl-CGI
 CGI::SpeedyCGI,dev-perl/SpeedyCGI
@@ -1458,7 +1459,6 @@ ExtUtils::Constant::Base,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::ProxySubs,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::Utils,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::XS,virtual/perl-ExtUtils-Constant
-ExtUtils::Depends,dev-perl/extutils-depends
 ExtUtils::Install,virtual/perl-ExtUtils-Install
 ExtUtils::Install::Warn,virtual/perl-ExtUtils-Install
 ExtUtils::Installed,virtual/perl-ExtUtils-Install

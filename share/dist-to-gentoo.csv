@@ -49,7 +49,6 @@ Exporter,virtual/perl-Exporter
 ExtUtils-CBuilder,virtual/perl-ExtUtils-CBuilder
 ExtUtils-Command,virtual/perl-ExtUtils-Command
 ExtUtils-Constant,virtual/perl-ExtUtils-Constant
-ExtUtils-Depends,dev-perl/extutils-depends
 ExtUtils-Install,virtual/perl-ExtUtils-Install
 ExtUtils-MakeMaker,virtual/perl-ExtUtils-MakeMaker
 ExtUtils-Manifest,virtual/perl-ExtUtils-Manifest
