@@ -1219,6 +1219,7 @@ CGI,virtual/perl-CGI
 CGI::Carp,virtual/perl-CGI
 CGI::Cookie,virtual/perl-CGI
 CGI::File::Temp,virtual/perl-CGI
+CGI::HTML::Functions,virtual/perl-CGI
 CGI::Pretty,virtual/perl-CGI
 CGI::Push,virtual/perl-CGI
 CGI::SpeedyCGI,dev-perl/SpeedyCGI
