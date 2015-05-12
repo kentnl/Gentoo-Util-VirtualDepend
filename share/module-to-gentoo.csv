@@ -1286,7 +1286,6 @@ Carp,virtual/perl-Carp
 Carp::Heavy,virtual/perl-Carp
 Class::Loader,dev-perl/class-loader
 Class::LoaderTest,dev-perl/class-loader
-Class::ReturnValue,dev-perl/class-returnvalue
 Compress::Raw::Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress::Raw::Zlib,virtual/perl-Compress-Raw-Zlib
 Compress::Zlib,virtual/perl-IO-Compress
