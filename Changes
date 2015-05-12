@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Mappings]
+ - Drop specialcasing for Class-ReturnValue
 
 0.002004 2015-05-01T17:33:29Z 7ecae13
  [Mappings]
