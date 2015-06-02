@@ -26,13 +26,16 @@ misc/built_with.json
 misc/perlcritic.deps
 perlcritic.rc
 share/dist-to-gentoo.csv
+share/dist-versions.csv
 share/module-to-gentoo.csv
+share/module-versions.csv
 t/00-compile/lib_Gentoo_Util_VirtualDepend_pm.t
 t/00-report-prereqs.dd
 t/00-report-prereqs.t
 t/basic.t
 t/range-deprecated.t
 t/simulate-map.t
+util/vdep_check.pl
 weaver.ini
 xt/author/critic.t
 xt/author/eol.t
