@@ -23,7 +23,7 @@ for my $line ( split /\n/, $lines ) {
   my ( $module, $old, $new ) = $line =~ /\A(\S+)\s+(\S+)\s+(\S+)\s*\z/;
 
   # these versions for the sake of upgrade testing don't exist
-  next if $old eq '(absent)' and $new eq '(undef)' ;
+  next if $old eq '(absent)' and $new eq '(undef)';
 
   my $type;
   if ( $new eq '(absent)' ) {
@@ -39,7 +39,7 @@ for my $line ( split /\n/, $lines ) {
   if ( $v->has_module_override($module) ) {
     $override = $v->get_module_override($module);
   }
-  $type = simplify([ $type, $old, $new ]) if $override eq 'untracked';
+  $type = simplify( [ $type, $old, $new ] ) if $override eq 'untracked';
   $table->{$override} //= {};
   $table->{$override}->{$module} = [ $type, $old, $new ];
 }
