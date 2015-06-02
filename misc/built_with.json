@@ -56,7 +56,7 @@
       "File::ShareDir" : "1.102",
       "File::ShareDir::Install" : "0.10",
       "File::Spec" : "3.53",
-      "Module::CoreList" : "5.20150420",
+      "Module::CoreList" : "5.20150520",
       "Moo" : "2.000001",
       "Path::Tiny" : "0.068",
       "Pod::Coverage::TrustPod" : "0.100003",

@@ -33,6 +33,7 @@ t/00-report-prereqs.t
 t/basic.t
 t/range-deprecated.t
 t/simulate-map.t
+util/vdep_check.pl
 weaver.ini
 xt/author/critic.t
 xt/author/eol.t
