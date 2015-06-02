@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+
+0.003000 2015-06-02T18:43:52Z 57a37f6
  [Features]
  - Added get_known(gentoo_packages|dists|modules) functions.
  - Added resolver map showing source data used to aggregate data.
