@@ -18,6 +18,8 @@ use HTTP::Tiny::Mech;
 use WWW::Mechanize::Cached;
 my $source = path($FindBin::Bin)->sibling('share')->child('dist-to-gentoo.csv');
 my $target = path($FindBin::Bin)->sibling('share')->child('module-to-gentoo.csv');
+my $dvfile = path($FindBin::Bin)->sibling('share')->child('dist-versions.csv');
+my $mvfile = path($FindBin::Bin)->sibling('share')->child('module-versions.csv');
 
 sub _mk_cache {
   my ( $name, %opts ) = @_;
@@ -43,6 +45,7 @@ sub _mk_cache {
   );
 }
 my $reader = $source->openr_raw();
+
 my $client = MetaCPAN::Client->new(
   ua => HTTP::Tiny::Mech->new(
     mechua => WWW::Mechanize::Cached->new(
@@ -53,6 +56,9 @@ my $client = MetaCPAN::Client->new(
   )
 );
 my %outmap;
+my %dvmap;
+my %mvmap;
+
 my $ocache = _mk_cache('update-objects');
 
 while ( my $line = <$reader> ) {
@@ -75,7 +81,19 @@ while ( my $line = <$reader> ) {
   );
   next unless $rs;
   my $name = $rs->name;
-  print "$name\n";
+  my $dist = $rs->distribution;
+  my $uri  = $rs->download_url;
+  $uri =~ s{\A.*\/authors\/}{};
+
+  use CPAN::DistnameInfo;
+  my $d = CPAN::DistnameInfo->new($uri);
+
+  my $version = $rs->version;
+  my $dv      = $d->version;
+  printf "%s %s\e[31m%s\e[0m %s\n", $dist, $version,
+    ( ( $dv ne $version && $dv ne "v$version" && "v$dv" ne $version ) ? " $dv" : "" ),
+    $uri;
+  $dvmap{$dist} = [ $d->version, $uri ];
   my (@mods) = $ocache->compute(
     [ 'release-mods', $name ],
     undef,
@@ -99,6 +117,7 @@ while ( my $line = <$reader> ) {
       return @out;
     }
   );
+  $mvmap{$uri} = {};
   for my $mod (@mods) {
     next unless $mod->module;
     for my $module ( @{ $mod->module } ) {
@@ -109,13 +128,26 @@ while ( my $line = <$reader> ) {
         warn "$name already provided by " . $outmap{$name} . "( from $gentoo )";
         next;
       }
+
       $outmap{$name} = $gentoo;
+      $mvmap{$uri}->{ $module->{name} } = $module->{version};
     }
   }
   next;
 }
+
 my $writer = $target->openw_raw();
 for my $module ( sort keys %outmap ) {
   $writer->printf( "%s,%s\n", $module, $outmap{$module} );
+}
+$writer = $dvfile->openw_raw();
+for my $dist ( sort keys %dvmap ) {
+  $writer->printf( "%s,%s,%s\n", $dist, @{ $dvmap{$dist} } );
+}
+$writer = $mvfile->openw_raw();
+for my $uri ( sort keys %mvmap ) {
+  for my $module ( sort keys %{ $mvmap{$uri} } ) {
+    $writer->printf( "%s,%s,%s\n", $uri, $module, ( defined $mvmap{$uri}->{$module} ? $mvmap{$uri}->{$module} : '(undef)' ) );
+  }
 }
 
