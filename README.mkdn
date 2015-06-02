@@ -136,6 +136,24 @@ Returns a list of `CPAN` Distributions that map to this dependency.
 
 Returns a list of modules that map to this dependency.
 
+## get\_known\_gentoo\_packages
+
+    my @list = $v->get_known_gentoo_packages
+
+Returns a list of Gentoo packages for which there are known overrides.
+
+## get\_known\_dists
+
+    my @list = $v->get_known_dists
+
+Returns a list of `CPAN` Distributions for which there are known overrides
+
+## get\_known\_modules
+
+    my @list = $v->get_known_modules
+
+Return a list of `CPAN` Modules for which there are known overrides
+
 ## module\_is\_perl
 
 This function determines if it is "safe" to assume availability

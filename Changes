@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Features]
+ - Added get_known(gentoo_packages|dists|modules) functions.
 
 0.002005 2015-05-12T10:10:10Z b8ed3de
  [Dependencies::Stats]

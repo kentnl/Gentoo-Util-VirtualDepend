@@ -118,6 +118,21 @@ sub get_modules_in_gentoo_package {
   return @{ $GENTOO2MOD{$package} || [] };
 }
 
+sub get_known_gentoo_packages {
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return keys %GENTOO2DIST;
+}
+
+sub get_known_dists {
+  _load_dist2gentoo unless $DIST2GENTOO_LOADED;
+  return keys %DIST2GENTOO;
+}
+
+sub get_known_modules {
+  _load_mod2gentoo unless $MOD2GENTOO_LOADED;
+  return keys %MOD2GENTOO;
+}
+
 sub module_is_perl {
   my ( $self, $opts, $module, $mod_version ) = @_;
   if ( not ref $opts ) {
@@ -304,6 +319,24 @@ Returns a list of C<CPAN> Distributions that map to this dependency.
   my @list = $v->get_modules_in_gentoo_package( 'virtua/perl-Test-Simple' )
 
 Returns a list of modules that map to this dependency.
+
+=method get_known_gentoo_packages
+
+  my @list = $v->get_known_gentoo_packages
+
+Returns a list of Gentoo packages for which there are known overrides.
+
+=method get_known_dists
+
+  my @list = $v->get_known_dists
+
+Returns a list of C<CPAN> Distributions for which there are known overrides
+
+=method get_known_modules
+
+  my @list = $v->get_known_modules
+
+Return a list of C<CPAN> Modules for which there are known overrides
 
 =method module_is_perl
 
