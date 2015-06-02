@@ -339,14 +339,13 @@ Returns a list of modules that map to this dependency.
 
   my @list = $v->get_known_gentoo_packages
 
-Returns a list of gentoo packages for which there are known overrides.
+Returns a list of Gentoo packages for which there are known overrides.
 
 =head2 get_known_dists
 
   my @list = $v->get_known_dists
 
-Returns a list of C<CPAN> Distributions for which
-there are known overrides
+Returns a list of C<CPAN> Distributions for which there are known overrides
 
 =head2 get_known_modules
 
