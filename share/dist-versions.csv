@@ -11,7 +11,7 @@ BioPerl-Network,1.006902,id/C/CJ/CJFIELDS/BioPerl-Network-1.006902.tar.gz
 BioPerl-Run,1.006900,id/C/CJ/CJFIELDS/BioPerl-Run-1.006900.tar.gz
 CGI-SpeedyCGI,2.22,id/H/HO/HORROCKS/CGI-SpeedyCGI-2.22.tar.gz
 CPAN,2.10,id/A/AN/ANDK/CPAN-2.10.tar.gz
-CPAN-Meta,2.150001,id/D/DA/DAGOLDEN/CPAN-Meta-2.150001.tar.gz
+CPAN-Meta,2.150005,id/D/DA/DAGOLDEN/CPAN-Meta-2.150005.tar.gz
 CPAN-Meta-Requirements,2.133,id/D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.133.tar.gz
 CPAN-Meta-YAML,0.016,id/D/DA/DAGOLDEN/CPAN-Meta-YAML-0.016.tar.gz
 Cache-Mmap,0.11,id/P/PM/PMH/Cache-Mmap-0.11.tar.gz
@@ -43,8 +43,8 @@ Digest-MD5,2.54,id/G/GA/GAAS/Digest-MD5-2.54.tar.gz
 Digest-SHA,5.95,id/M/MS/MSHELOR/Digest-SHA-5.95.tar.gz
 Dumpvalue,1.17,id/F/FL/FLORA/Dumpvalue-1.17.tar.gz
 Encode,2.73,id/D/DA/DANKOGAI/Encode-2.73.tar.gz
-Exporter,5.70,id/T/TO/TODDR/Exporter-5.70.tar.gz
-ExtUtils-CBuilder,0.280220,id/A/AM/AMBS/ExtUtils-CBuilder-0.280220.tar.gz
+Exporter,5.72,id/T/TO/TODDR/Exporter-5.72.tar.gz
+ExtUtils-CBuilder,0.280223,id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz
 ExtUtils-Command,1.20,id/B/BI/BINGOS/ExtUtils-Command-1.20.tar.gz
 ExtUtils-Constant,0.23,id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz
 ExtUtils-Install,2.04,id/B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
@@ -58,7 +58,7 @@ File-Temp,0.2304,id/D/DA/DAGOLDEN/File-Temp-0.2304.tar.gz
 Filter-Simple,0.91,id/S/SM/SMUELLER/Filter-Simple-0.91.tar.gz
 Frontier-RPC,0.07b4,id/K/KM/KMACLEOD/Frontier-RPC-0.07b4.tar.gz
 GBrowse,2.55,id/L/LD/LDS/GBrowse-2.55.tar.gz
-Getopt-Long,2.45,id/J/JV/JV/Getopt-Long-2.45.tar.gz
+Getopt-Long,2.47,id/J/JV/JV/Getopt-Long-2.47.tar.gz
 Glib,1.307,id/X/XA/XAOC/Glib-1.307.tar.gz
 Gnome2,1.045,id/X/XA/XAOC/Gnome2-1.045.tar.gz
 Gnome2-Canvas,1.002,id/T/TS/TSCH/Gnome2-Canvas-1.002.tar.gz
@@ -94,7 +94,7 @@ Math-BigRat,0.2606,id/P/PJ/PJACKLAM/Math-BigRat-0.2606.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Math-Pari,2.010808,id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
-Module-CoreList,5.20150520,id/B/BI/BINGOS/Module-CoreList-5.20150520.tar.gz
+Module-CoreList,5.20150620,id/B/BI/BINGOS/Module-CoreList-5.20150620.tar.gz
 Module-Info,0.35,id/M/MB/MBARBON/Module-Info-0.35.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
 Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz
@@ -112,7 +112,7 @@ Ogg-Vorbis-Header,0.03,id/D/DB/DBP/Ogg-Vorbis-Header-0.03.tar.gz
 Package-Constants,0.06,id/B/BI/BINGOS/Package-Constants-0.06.tar.gz
 Padre,1.00,id/P/PL/PLAVEN/Padre-1.00.tar.gz
 Params-Check,0.38,id/B/BI/BINGOS/Params-Check-0.38.tar.gz
-Parse-CPAN-Meta,1.4414,id/D/DA/DAGOLDEN/Parse-CPAN-Meta-1.4414.tar.gz
+Parse-CPAN-Meta,1.4417,id/D/DA/DAGOLDEN/Parse-CPAN-Meta-1.4417.tar.gz
 PathTools,3.47,id/S/SM/SMUELLER/PathTools-3.47.tar.gz
 Perl-OSType,1.008,id/D/DA/DAGOLDEN/Perl-OSType-1.008.tar.gz
 Perl-Tidy,20140711,id/S/SH/SHANCOCK/Perl-Tidy-20140711.tar.gz
@@ -137,7 +137,7 @@ Term-ReadLine,1.14,id/F/FL/FLORA/Term-ReadLine-1.14.tar.gz
 Test,1.26,id/J/JE/JESSE/Test-1.26.tar.gz
 Test-Harness,3.35,id/L/LE/LEONT/Test-Harness-3.35.tar.gz
 Test-Simple,1.001014,id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz
-Text-Autoformat,1.71,id/N/NE/NEILB/Text-Autoformat-1.71.tar.gz
+Text-Autoformat,1.72,id/N/NE/NEILB/Text-Autoformat-1.72.tar.gz
 Text-Balanced,2.03,id/S/SH/SHAY/Text-Balanced-2.03.tar.gz
 Text-ParseWords,3.30,id/C/CH/CHORNY/Text-ParseWords-3.30.tar.gz
 Text-Reform,1.20,id/C/CH/CHORNY/Text-Reform-1.20.tar.gz
@@ -160,15 +160,15 @@ XML-XSH2,2.1.19,id/C/CH/CHOROBA/XML-XSH2-2.1.19.tar.gz
 XSLoader,0.16,id/S/SA/SAPER/XSLoader-0.16.tar.gz
 YAML,1.15,id/I/IN/INGY/YAML-1.15.tar.gz
 ack,2.14,id/P/PE/PETDANCE/ack-2.14.tar.gz
-autodie,2.26,id/N/NT/NTHYKIER/autodie-2.26.tar.gz
+autodie,2.27,id/P/PJ/PJF/autodie-2.27.tar.gz
 bignum,0.37,id/P/PJ/PJACKLAM/bignum-0.37.tar.gz
-constant,1.27,id/S/SA/SAPER/constant-1.27.tar.gz
+constant,1.33,id/R/RJ/RJBS/constant-1.33.tar.gz
 gettext,1.05,id/P/PV/PVANDRY/gettext-1.05.tar.gz
 if,0.0601,id/I/IL/ILYAZ/modules/if-0.0601.tar.gz
 libnet,3.06,id/S/SH/SHAY/libnet-3.06.tar.gz
 parent,0.234,id/C/CO/CORION/parent-0.234.tar.gz
 podlators,2.5.3,id/R/RR/RRA/podlators-2.5.3.tar.gz
-threads,2.01,id/J/JD/JDHEDDEN/threads-2.01.tar.gz
-threads-shared,1.46,id/J/JD/JDHEDDEN/threads-shared-1.46.tar.gz
+threads,2.02,id/J/JD/JDHEDDEN/threads-2.02.tar.gz
+threads-shared,1.48,id/J/JD/JDHEDDEN/threads-shared-1.48.tar.gz
 txt2html,2.5201,id/R/RU/RUBYKAT/txt2html-2.5201.tar.gz
 version,0.9912,id/J/JP/JPEACOCK/version-0.9912.tar.gz

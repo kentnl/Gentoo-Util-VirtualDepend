@@ -3089,7 +3089,7 @@ Zlib::OldInflate,virtual/perl-IO-Compress
 autodie,virtual/perl-autodie
 autodie::Scope::Guard,virtual/perl-autodie
 autodie::Scope::GuardStack,virtual/perl-autodie
-autodie::ScopeUtil,virtual/perl-autodie
+autodie::Util,virtual/perl-autodie
 autodie::exception,virtual/perl-autodie
 autodie::exception::system,virtual/perl-autodie
 autodie::hints,virtual/perl-autodie
