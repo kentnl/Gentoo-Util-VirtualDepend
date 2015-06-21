@@ -9,7 +9,6 @@ BioPerl,1.6.924,id/C/CJ/CJFIELDS/BioPerl-1.6.924.tar.gz
 BioPerl-DB,1.006900,id/C/CJ/CJFIELDS/BioPerl-DB-1.006900.tar.gz
 BioPerl-Network,1.006902,id/C/CJ/CJFIELDS/BioPerl-Network-1.006902.tar.gz
 BioPerl-Run,1.006900,id/C/CJ/CJFIELDS/BioPerl-Run-1.006900.tar.gz
-CGI,4.20,id/L/LE/LEEJO/CGI-4.20.tar.gz
 CGI-SpeedyCGI,2.22,id/H/HO/HORROCKS/CGI-SpeedyCGI-2.22.tar.gz
 CPAN,2.10,id/A/AN/ANDK/CPAN-2.10.tar.gz
 CPAN-Meta,2.150001,id/D/DA/DAGOLDEN/CPAN-Meta-2.150001.tar.gz
@@ -95,7 +94,6 @@ Math-BigRat,0.2606,id/P/PJ/PJACKLAM/Math-BigRat-0.2606.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Math-Pari,2.010808,id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
-Module-Build,0.4212,id/L/LE/LEONT/Module-Build-0.4212.tar.gz
 Module-CoreList,5.20150520,id/B/BI/BINGOS/Module-CoreList-5.20150520.tar.gz
 Module-Info,0.35,id/M/MB/MBARBON/Module-Info-0.35.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
