@@ -1,6 +1,8 @@
 This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and OPTIONAL )
 
-0.003000
+0.003001
+
+0.003000 2015-06-02T18:43:52Z
 
 0.002005 2015-05-12T10:10:10Z
  [Changed / develop suggests]
@@ -37,4 +39,3 @@ This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and 
  [Removed / develop requires]
  - Dist::Zilla::Plugin::EOLTests
  - Dist::Zilla::Plugin::ReadmeFromPod
-
