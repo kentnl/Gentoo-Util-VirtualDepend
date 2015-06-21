@@ -9,7 +9,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-CGI,virtual/perl-CGI
 CGI-SpeedyCGI,dev-perl/SpeedyCGI
 CPAN,virtual/perl-CPAN
 CPAN-Meta,virtual/perl-CPAN-Meta
@@ -96,7 +95,6 @@ Math-BigRat,virtual/perl-Math-BigRat
 Math-Complex,virtual/perl-Math-Complex
 Math-Pari,dev-perl/math-pari
 Memoize,virtual/perl-Memoize
-Module-Build,virtual/perl-Module-Build
 Module-CoreList,virtual/perl-Module-CoreList
 Module-Info,dev-perl/module-info
 Module-Load,virtual/perl-Module-Load

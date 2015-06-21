@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003001 2015-06-21T20:19:06Z 835c669
+0.003001 2015-06-21T20:49:04Z b3749d6
+ [Mappings]
+ - Drop CGI and Module-Build special cases
 
 0.003000 2015-06-02T18:43:52Z 57a37f6
  [Features]

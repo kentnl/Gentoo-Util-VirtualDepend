@@ -15,7 +15,6 @@ my (@normal_virtuals) = qw(
   AutoLoader
   autodie
   B-Debug
-  CGI
   CPAN
   CPAN-Meta
   CPAN-Meta-Requirements
@@ -59,7 +58,6 @@ my (@normal_virtuals) = qw(
   Math-BigRat
   Math-Complex
   Memoize
-  Module-Build
   Module-CoreList
   Module-Load
   Module-Load-Conditional
