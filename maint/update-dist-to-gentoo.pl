@@ -186,7 +186,6 @@ Image-Info,dev-perl/ImageInfo
 Image-Size,dev-perl/ImageSize
 Inline-Files,dev-perl/inline-files
 Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
-Locale-Maketext-Lexicon,dev-perl/locale-maketext-lexicon
 Math-Pari,dev-perl/math-pari
 Module-Info,dev-perl/module-info
 MogileFS-Server,dev-perl/mogilefs-server
