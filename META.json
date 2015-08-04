@@ -129,7 +129,7 @@
    "provides" : {
       "Gentoo::Util::VirtualDepend" : {
          "file" : "lib/Gentoo/Util/VirtualDepend.pm",
-         "version" : "0.003003"
+         "version" : "0.003004"
       }
    },
    "release_status" : "stable",
@@ -144,7 +144,7 @@
          "web" : "https://github.com/kentnl/Gentoo-Util-VirtualDepend"
       }
    },
-   "version" : "0.003003",
+   "version" : "0.003004",
    "x_BuiltWith" : {
       "external_file" : "misc/built_with.json"
    },
@@ -632,7 +632,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : null,
                   "signed" : 0,
-                  "tag" : "0.003003-source",
+                  "tag" : "0.003004-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
@@ -708,7 +708,7 @@
                "Dist::Zilla::Plugin::Git::Tag" : {
                   "branch" : "releases",
                   "signed" : 0,
-                  "tag" : "0.003003",
+                  "tag" : "0.003004",
                   "tag_format" : "%v",
                   "tag_message" : "v%v",
                   "time_zone" : "local"
