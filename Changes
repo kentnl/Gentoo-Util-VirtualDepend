@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Mappings]
+ - Remove special casings for Gtk2Fu: Has gone to CPAN nirvana.
 
 0.003002 2015-07-18T18:50:45Z ff0171b
  [Dependencies::Stats]

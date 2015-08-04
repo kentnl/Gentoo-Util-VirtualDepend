@@ -180,7 +180,6 @@ Gtk2-GladeXML,dev-perl/gtk2-gladexml
 Gtk2-Spell,dev-perl/gtk2-spell
 Gtk2-TrayIcon,dev-perl/gtk2-trayicon
 Gtk2-TrayManager,dev-perl/gtk2-traymanager
-Gtk2Fu,dev-perl/gtk2-fu
 Image-ExifTool,media-libs/exiftool
 Image-Info,dev-perl/ImageInfo
 Image-Size,dev-perl/ImageSize

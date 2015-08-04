@@ -1606,8 +1606,6 @@ Gtk2::TrayIcon,dev-perl/gtk2-trayicon
 Gtk2::TrayManager,dev-perl/gtk2-traymanager
 Gtk2::TreeModelSort,dev-perl/gtk2-perl
 Gtk2::TreeSortable::IterCompareFunc,dev-perl/gtk2-perl
-Gtk2::WrappedLabel,dev-perl/gtk2-fu
-Gtk2Fu,dev-perl/gtk2-fu
 HTML::TextToHTML,dev-perl/TextToHTML
 HTTP::Tiny,virtual/perl-HTTP-Tiny
 IDEA,dev-perl/crypt-idea
