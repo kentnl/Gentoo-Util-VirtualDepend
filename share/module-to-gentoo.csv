@@ -1372,7 +1372,6 @@ Date::Manip::TZ,dev-perl/DateManip
 Date::Manip::TZ_Base,dev-perl/DateManip
 Date::Manip::TZdata,dev-perl/DateManip
 Date::Manip::Zones,dev-perl/DateManip
-Demo,virtual/perl-Attribute-Handlers
 Demo1,virtual/perl-Filter-Simple
 Demo2a,virtual/perl-Filter-Simple
 Demo2b,virtual/perl-Filter-Simple
@@ -1384,7 +1383,6 @@ Demo_Data,virtual/perl-Filter-Simple
 Demo_Exporter,virtual/perl-Filter-Simple
 Demo_Importer,virtual/perl-Filter-Simple
 Demo_REM,virtual/perl-Filter-Simple
-Descriptions,virtual/perl-Attribute-Handlers
 Devel::PPPort,virtual/perl-Devel-PPPort
 Devel::SelfStubber,virtual/perl-Devel-SelfStubber
 Digest,virtual/perl-Digest
@@ -1608,8 +1606,6 @@ Gtk2::TrayIcon,dev-perl/gtk2-trayicon
 Gtk2::TrayManager,dev-perl/gtk2-traymanager
 Gtk2::TreeModelSort,dev-perl/gtk2-perl
 Gtk2::TreeSortable::IterCompareFunc,dev-perl/gtk2-perl
-Gtk2::WrappedLabel,dev-perl/gtk2-fu
-Gtk2Fu,dev-perl/gtk2-fu
 HTML::TextToHTML,dev-perl/TextToHTML
 HTTP::Tiny,virtual/perl-HTTP-Tiny
 IDEA,dev-perl/crypt-idea
@@ -1823,9 +1819,6 @@ Image::Info::XPM,dev-perl/ImageInfo
 Image::Size,dev-perl/ImageSize
 Image::TIFF,dev-perl/ImageInfo
 Image::TIFF::Rational,dev-perl/ImageInfo
-Inline::Files,dev-perl/inline-files
-Inline::Files::Data,dev-perl/inline-files
-Inline::Files::Virtual,dev-perl/inline-files
 JSON::PP,virtual/perl-JSON-PP
 JSON::PP::Boolean,virtual/perl-JSON-PP
 JSON::PP::IncrParser,virtual/perl-JSON-PP
@@ -1949,7 +1942,6 @@ Music::Config,dev-perl/gtk2-ex-formfactory
 Music::DBI,dev-perl/gtk2-ex-formfactory
 Music::Genre,dev-perl/gtk2-ex-formfactory
 Music::Song,dev-perl/gtk2-ex-formfactory
-MyClass,virtual/perl-Attribute-Handlers
 MyFeatureFileLoader,sci-biology/GBrowse
 NEXT,virtual/perl-NEXT
 NEXT::ACTUAL,virtual/perl-NEXT
