@@ -183,7 +183,6 @@ Gtk2-TrayManager,dev-perl/gtk2-traymanager
 Image-ExifTool,media-libs/exiftool
 Image-Info,dev-perl/ImageInfo
 Image-Size,dev-perl/ImageSize
-Inline-Files,dev-perl/inline-files
 Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
 Math-Pari,dev-perl/math-pari
 Module-Info,dev-perl/module-info

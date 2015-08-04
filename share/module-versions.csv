@@ -69,9 +69,6 @@ id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz,ExtUtils::CBuilder::Platform::cyg
 id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz,ExtUtils::CBuilder::Platform::darwin,0.280223
 id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz,ExtUtils::CBuilder::Platform::dec_osf,0.280223
 id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz,ExtUtils::CBuilder::Platform::os2,0.280223
-id/A/AM/AMBS/Inline-Files-0.69.tar.gz,Inline::Files,0.69
-id/A/AM/AMBS/Inline-Files-0.69.tar.gz,Inline::Files::Data,(undef)
-id/A/AM/AMBS/Inline-Files-0.69.tar.gz,Inline::Files::Virtual,0.53
 id/A/AM/AMS/Storable-2.51.tar.gz,Storable,2.51
 id/A/AN/ANDK/CPAN-2.10.tar.gz,App::Cpan,1.63
 id/A/AN/ANDK/CPAN-2.10.tar.gz,CPAN,2.10

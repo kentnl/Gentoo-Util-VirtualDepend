@@ -1819,9 +1819,6 @@ Image::Info::XPM,dev-perl/ImageInfo
 Image::Size,dev-perl/ImageSize
 Image::TIFF,dev-perl/ImageInfo
 Image::TIFF::Rational,dev-perl/ImageInfo
-Inline::Files,dev-perl/inline-files
-Inline::Files::Data,dev-perl/inline-files
-Inline::Files::Virtual,dev-perl/inline-files
 JSON::PP,virtual/perl-JSON-PP
 JSON::PP::Boolean,virtual/perl-JSON-PP
 JSON::PP::IncrParser,virtual/perl-JSON-PP
