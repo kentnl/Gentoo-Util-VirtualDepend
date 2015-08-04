@@ -1,5 +1,10 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003003 2015-08-04T09:57:15Z 759505d
+ [Mappings]
+ - Remove special casings for Gtk2Fu: Has gone to CPAN nirvana.
+ - Actually remove special casing for Inline-Files
+
 0.003002 2015-07-18T18:50:45Z ff0171b
  [Dependencies::Stats]
  - Dependencies changed since 0.003001, see misc/*.deps* for details
@@ -7,7 +12,6 @@ Release history for Gentoo-Util-VirtualDepend
 
  [Mappings]
  - Remove special casing for Locale-MakeText-Lexicon
- - Remove special casing for Inline-Files
 
 0.003001 2015-06-21T20:54:50Z ac103ec
  [Mappings]
