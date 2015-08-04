@@ -1,7 +1,7 @@
 AcePerl,1.92,id/L/LD/LDS/AcePerl-1.92.tar.gz
 App-SVN-Bisect,1.1,id/I/IN/INFINOID/App-SVN-Bisect-1.1.tar.gz
 Archive-Tar,2.04,id/B/BI/BINGOS/Archive-Tar-2.04.tar.gz
-Attribute-Handlers,0.96,id/S/SM/SMUELLER/Attribute-Handlers-0.96.tar.gz
+Attribute-Handlers,0.99,id/R/RJ/RJBS/Attribute-Handlers-0.99.tar.gz
 AutoLoader,5.74,id/S/SM/SMUELLER/AutoLoader-5.74.tar.gz
 Autodia,2.14,id/T/TE/TEEJAY/Autodia-2.14.tar.gz
 B-Debug,1.23,id/R/RU/RURBAN/B-Debug-1.23.tar.gz
@@ -42,7 +42,7 @@ Digest-MD2,2.04,id/G/GA/GAAS/Digest-MD2-2.04.tar.gz
 Digest-MD5,2.54,id/G/GA/GAAS/Digest-MD5-2.54.tar.gz
 Digest-SHA,5.95,id/M/MS/MSHELOR/Digest-SHA-5.95.tar.gz
 Dumpvalue,1.17,id/F/FL/FLORA/Dumpvalue-1.17.tar.gz
-Encode,2.75,id/D/DA/DANKOGAI/Encode-2.75.tar.gz
+Encode,2.76,id/D/DA/DANKOGAI/Encode-2.76.tar.gz
 Exporter,5.72,id/T/TO/TODDR/Exporter-5.72.tar.gz
 ExtUtils-CBuilder,0.280223,id/A/AM/AMBS/ExtUtils-CBuilder-0.280223.tar.gz
 ExtUtils-Command,1.20,id/B/BI/BINGOS/ExtUtils-Command-1.20.tar.gz
@@ -93,7 +93,7 @@ Math-BigRat,0.2606,id/P/PJ/PJACKLAM/Math-BigRat-0.2606.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Math-Pari,2.010808,id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
-Module-CoreList,5.20150620,id/B/BI/BINGOS/Module-CoreList-5.20150620.tar.gz
+Module-CoreList,5.20150720,id/B/BI/BINGOS/Module-CoreList-5.20150720.tar.gz
 Module-Info,0.35,id/M/MB/MBARBON/Module-Info-0.35.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
 Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz

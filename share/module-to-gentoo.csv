@@ -1372,7 +1372,6 @@ Date::Manip::TZ,dev-perl/DateManip
 Date::Manip::TZ_Base,dev-perl/DateManip
 Date::Manip::TZdata,dev-perl/DateManip
 Date::Manip::Zones,dev-perl/DateManip
-Demo,virtual/perl-Attribute-Handlers
 Demo1,virtual/perl-Filter-Simple
 Demo2a,virtual/perl-Filter-Simple
 Demo2b,virtual/perl-Filter-Simple
@@ -1384,7 +1383,6 @@ Demo_Data,virtual/perl-Filter-Simple
 Demo_Exporter,virtual/perl-Filter-Simple
 Demo_Importer,virtual/perl-Filter-Simple
 Demo_REM,virtual/perl-Filter-Simple
-Descriptions,virtual/perl-Attribute-Handlers
 Devel::PPPort,virtual/perl-Devel-PPPort
 Devel::SelfStubber,virtual/perl-Devel-SelfStubber
 Digest,virtual/perl-Digest
@@ -1949,7 +1947,6 @@ Music::Config,dev-perl/gtk2-ex-formfactory
 Music::DBI,dev-perl/gtk2-ex-formfactory
 Music::Genre,dev-perl/gtk2-ex-formfactory
 Music::Song,dev-perl/gtk2-ex-formfactory
-MyClass,virtual/perl-Attribute-Handlers
 MyFeatureFileLoader,sci-biology/GBrowse
 NEXT,virtual/perl-NEXT
 NEXT::ACTUAL,virtual/perl-NEXT
