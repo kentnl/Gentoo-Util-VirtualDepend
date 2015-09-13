@@ -1440,7 +1440,7 @@ ExtUtils::CBuilder::Platform::cygwin,virtual/perl-ExtUtils-CBuilder
 ExtUtils::CBuilder::Platform::darwin,virtual/perl-ExtUtils-CBuilder
 ExtUtils::CBuilder::Platform::dec_osf,virtual/perl-ExtUtils-CBuilder
 ExtUtils::CBuilder::Platform::os2,virtual/perl-ExtUtils-CBuilder
-ExtUtils::Command,virtual/perl-ExtUtils-Command
+ExtUtils::Command,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::Command::MM,virtual/perl-ExtUtils-MakeMaker
 ExtUtils::Constant,virtual/perl-ExtUtils-Constant
 ExtUtils::Constant::Aaargh56Hash,virtual/perl-ExtUtils-Constant
@@ -1664,6 +1664,7 @@ Image::ExifTool::APE,media-libs/exiftool
 Image::ExifTool::APP12,media-libs/exiftool
 Image::ExifTool::ASF,media-libs/exiftool
 Image::ExifTool::Apple,media-libs/exiftool
+Image::ExifTool::Audible,media-libs/exiftool
 Image::ExifTool::BMP,media-libs/exiftool
 Image::ExifTool::BZZ,media-libs/exiftool
 Image::ExifTool::BigTIFF,media-libs/exiftool
@@ -1797,6 +1798,7 @@ Image::ExifTool::TagLookup,media-libs/exiftool
 Image::ExifTool::Theora,media-libs/exiftool
 Image::ExifTool::Torrent,media-libs/exiftool
 Image::ExifTool::Unknown,media-libs/exiftool
+Image::ExifTool::VCard,media-libs/exiftool
 Image::ExifTool::Vorbis,media-libs/exiftool
 Image::ExifTool::XMP,media-libs/exiftool
 Image::ExifTool::ZIP,media-libs/exiftool
@@ -2555,14 +2557,10 @@ Test::Tester::Capture,virtual/perl-Test-Simple
 Test::Tester::CaptureRunner,virtual/perl-Test-Simple
 Test::Tester::Delegate,virtual/perl-Test-Simple
 Test::use::ok,virtual/perl-Test-Simple
-Text::Autoformat,dev-perl/text-autoformat
-Text::Autoformat::Hang,dev-perl/text-autoformat
-Text::Autoformat::NullHang,dev-perl/text-autoformat
 Text::Balanced,virtual/perl-Text-Balanced
 Text::Balanced::ErrorMsg,virtual/perl-Text-Balanced
 Text::Balanced::Extractor,virtual/perl-Text-Balanced
 Text::ParseWords,virtual/perl-Text-ParseWords
-Text::Reform,dev-perl/text-reform
 Text::Tabs,virtual/perl-Text-Tabs+Wrap
 Text::Template,dev-perl/text-template
 Text::Template::Preprocess,dev-perl/text-template

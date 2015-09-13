@@ -1,6 +1,17 @@
 This file contains changes to DEVELOPMENT dependencies only ( both REQUIRED and OPTIONAL )
 
-0.003003
+0.003004
+ [Added / develop requires]
+ - English
+ - Software::License::Perl_5
+
+ [Changed / develop requires]
+ - Test::More 0.88 → 0.96
+
+ [Changed / develop suggests]
+ - Dist::Zilla::PluginBundle::Author::KENTNL 2.025001 → 2.025002
+
+0.003003 2015-08-04T09:57:15Z
 
 0.003002 2015-07-18T18:50:45Z
  [Added / develop requires]

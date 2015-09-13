@@ -135,10 +135,8 @@ Term-ReadLine,virtual/perl-Term-ReadLine
 Test,virtual/perl-Test
 Test-Harness,virtual/perl-Test-Harness
 Test-Simple,virtual/perl-Test-Simple
-Text-Autoformat,dev-perl/text-autoformat
 Text-Balanced,virtual/perl-Text-Balanced
 Text-ParseWords,virtual/perl-Text-ParseWords
-Text-Reform,dev-perl/text-reform
 Text-Tabs+Wrap,virtual/perl-Text-Tabs+Wrap
 Text-Template,dev-perl/text-template
 Text-Wrapper,dev-perl/text-wrapper
