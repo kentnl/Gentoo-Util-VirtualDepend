@@ -685,7 +685,7 @@
                }
             },
             "name" : "@Author::KENTNL/BumpVersionAfterRelease",
-            "version" : "0.011"
+            "version" : "0.012"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
