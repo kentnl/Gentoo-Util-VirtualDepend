@@ -1,6 +1,9 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Dependencies::Stats]
+ - Dependencies changed since 0.003003, see misc/*.deps* for details
+ - develop: +2 ↑1 (suggests: ↑1)
 
 0.003003 2015-08-04T09:57:15Z 759505d
  [Mappings]
