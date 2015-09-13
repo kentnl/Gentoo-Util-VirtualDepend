@@ -200,8 +200,6 @@ Regexp-Common,dev-perl/regexp-common
 Set-Scalar,dev-perl/set-scalar
 Snapback2,app-backup/snapback2
 String-CRC32,dev-perl/string-crc32
-Text-Autoformat,dev-perl/text-autoformat
-Text-Reform,dev-perl/text-reform
 Text-Template,dev-perl/text-template
 Text-Wrapper,dev-perl/text-wrapper
 Tie-EncryptedHash,dev-perl/tie-encryptedhash

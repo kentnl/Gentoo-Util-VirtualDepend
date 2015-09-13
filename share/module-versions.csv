@@ -178,7 +178,6 @@ id/B/BT/BTROTT/Crypt-DES_EDE3-0.01.tar.gz,Crypt::DES_EDE3,0.01
 id/B/BT/BTROTT/Data-Buffer-0.04.tar.gz,Data::Buffer,0.04
 id/B/BT/BTROTT/Digest-BubbleBabble-0.02.tar.gz,Digest::BubbleBabble,0.02
 id/C/CH/CHORNY/Text-ParseWords-3.30.tar.gz,Text::ParseWords,3.30
-id/C/CH/CHORNY/Text-Reform-1.20.tar.gz,Text::Reform,1.20
 id/C/CH/CHOROBA/XML-XSH2-2.1.19.tar.gz,XML::XSH2,2.1.19
 id/C/CH/CHOROBA/XML-XSH2-2.1.19.tar.gz,XML::XSH2::Compile,2.1.19
 id/C/CH/CHOROBA/XML-XSH2-2.1.19.tar.gz,XML::XSH2::Completion,2.1.19
@@ -2239,9 +2238,6 @@ id/N/NB/NBEBOUT/NTLM-1.09.tar.gz,Authen::NTLM,1.09
 id/N/NB/NBEBOUT/NTLM-1.09.tar.gz,Authen::NTLM::DES,1.02
 id/N/NB/NBEBOUT/NTLM-1.09.tar.gz,Authen::NTLM::MD4,1.02
 id/N/NE/NEILB/Pod-Escapes-1.07.tar.gz,Pod::Escapes,1.07
-id/N/NE/NEILB/Text-Autoformat-1.72.tar.gz,Text::Autoformat,1.72
-id/N/NE/NEILB/Text-Autoformat-1.72.tar.gz,Text::Autoformat::Hang,1.72
-id/N/NE/NEILB/Text-Autoformat-1.72.tar.gz,Text::Autoformat::NullHang,1.72
 id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz,ExtUtils::Constant,0.23
 id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz,ExtUtils::Constant::Aaargh56Hash,(undef)
 id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz,ExtUtils::Constant::Base,0.05

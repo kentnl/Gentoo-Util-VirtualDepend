@@ -2555,14 +2555,10 @@ Test::Tester::Capture,virtual/perl-Test-Simple
 Test::Tester::CaptureRunner,virtual/perl-Test-Simple
 Test::Tester::Delegate,virtual/perl-Test-Simple
 Test::use::ok,virtual/perl-Test-Simple
-Text::Autoformat,dev-perl/text-autoformat
-Text::Autoformat::Hang,dev-perl/text-autoformat
-Text::Autoformat::NullHang,dev-perl/text-autoformat
 Text::Balanced,virtual/perl-Text-Balanced
 Text::Balanced::ErrorMsg,virtual/perl-Text-Balanced
 Text::Balanced::Extractor,virtual/perl-Text-Balanced
 Text::ParseWords,virtual/perl-Text-ParseWords
-Text::Reform,dev-perl/text-reform
 Text::Tabs,virtual/perl-Text-Tabs+Wrap
 Text::Template,dev-perl/text-template
 Text::Template::Preprocess,dev-perl/text-template
