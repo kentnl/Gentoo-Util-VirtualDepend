@@ -1981,6 +1981,7 @@ Net::SSH::Perl::Agent,dev-perl/net-ssh-perl
 Net::SSH::Perl::Auth,dev-perl/net-ssh-perl
 Net::SSH::Perl::Auth::ChallengeResponse,dev-perl/net-ssh-perl
 Net::SSH::Perl::Auth::KeyboardInt,dev-perl/net-ssh-perl
+Net::SSH::Perl::Auth::KeyboardInteractive,dev-perl/net-ssh-perl
 Net::SSH::Perl::Auth::Password,dev-perl/net-ssh-perl
 Net::SSH::Perl::Auth::PublicKey,dev-perl/net-ssh-perl
 Net::SSH::Perl::Auth::RSA,dev-perl/net-ssh-perl
@@ -2007,7 +2008,9 @@ Net::SSH::Perl::Handle,dev-perl/net-ssh-perl
 Net::SSH::Perl::Handle::SSH1,dev-perl/net-ssh-perl
 Net::SSH::Perl::Handle::SSH2,dev-perl/net-ssh-perl
 Net::SSH::Perl::Kex,dev-perl/net-ssh-perl
+Net::SSH::Perl::Kex::DH,dev-perl/net-ssh-perl
 Net::SSH::Perl::Kex::DH1,dev-perl/net-ssh-perl
+Net::SSH::Perl::Kex::DH14,dev-perl/net-ssh-perl
 Net::SSH::Perl::Key,dev-perl/net-ssh-perl
 Net::SSH::Perl::Key::DSA,dev-perl/net-ssh-perl
 Net::SSH::Perl::Key::RSA,dev-perl/net-ssh-perl
@@ -2028,6 +2031,7 @@ Net::SSH::Perl::Util::SSH1MP,dev-perl/net-ssh-perl
 Net::SSH::Perl::Util::SSH1Misc,dev-perl/net-ssh-perl
 Net::SSH::Perl::Util::SSH2MP,dev-perl/net-ssh-perl
 Net::SSH::Perl::Util::Term,dev-perl/net-ssh-perl
+Net::SSH::Perl::Util::Win32,dev-perl/net-ssh-perl
 Net::Server,dev-perl/net-server
 Net::Server::Daemonize,dev-perl/net-server
 Net::Server::Fork,dev-perl/net-server
@@ -3072,7 +3076,6 @@ build::Wx::XSP::Virtual,dev-perl/wxperl
 charstar,virtual/perl-version
 constant,virtual/perl-constant
 encoding,virtual/perl-Encode
-if,virtual/perl-if
 ok,virtual/perl-Test-Simple
 parent,virtual/perl-parent
 threads,virtual/perl-threads
