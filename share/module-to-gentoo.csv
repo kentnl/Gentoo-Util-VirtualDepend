@@ -3076,6 +3076,7 @@ build::Wx::XSP::Virtual,dev-perl/wxperl
 charstar,virtual/perl-version
 constant,virtual/perl-constant
 encoding,virtual/perl-Encode
+if,virtual/perl-if
 ok,virtual/perl-Test-Simple
 parent,virtual/perl-parent
 threads,virtual/perl-threads
