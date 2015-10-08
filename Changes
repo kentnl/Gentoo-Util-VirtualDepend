@@ -1,5 +1,9 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003005 2015-10-08T07:27:21Z 855094f
+ [Metadata]
+ - Sync static data from metacpan queries
+
 0.003004 2015-09-13T04:43:40Z d357b13
  [Dependencies::Stats]
  - Dependencies changed since 0.003003, see misc/*.deps* for details
