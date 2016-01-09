@@ -93,7 +93,6 @@ Math-Complex,virtual/perl-Math-Complex
 Math-Pari,dev-perl/math-pari
 Memoize,virtual/perl-Memoize
 Module-CoreList,virtual/perl-Module-CoreList
-Module-Info,dev-perl/module-info
 Module-Load,virtual/perl-Module-Load
 Module-Load-Conditional,virtual/perl-Module-Load-Conditional
 Module-Loaded,virtual/perl-Module-Loaded
@@ -166,5 +165,4 @@ parent,virtual/perl-parent
 podlators,virtual/perl-podlators
 threads,virtual/perl-threads
 threads-shared,virtual/perl-threads-shared
-txt2html,dev-perl/TextToHTML
 version,virtual/perl-version

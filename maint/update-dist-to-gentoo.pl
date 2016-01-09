@@ -185,7 +185,6 @@ Image-Info,dev-perl/ImageInfo
 Image-Size,dev-perl/ImageSize
 Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
 Math-Pari,dev-perl/math-pari
-Module-Info,dev-perl/module-info
 MogileFS-Server,dev-perl/mogilefs-server
 NTLM,dev-perl/Authen-NTLM
 Net-SFTP,dev-perl/net-sftp
@@ -210,4 +209,3 @@ XML-XSH2,app-editors/XML-XSH2
 YAML,dev-perl/yaml
 ack,sys-apps/ack
 gettext,dev-perl/Locale-gettext
-txt2html,dev-perl/TextToHTML
