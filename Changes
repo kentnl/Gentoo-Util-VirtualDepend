@@ -1,9 +1,12 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003006 2016-01-09T19:07:44Z dbe7e63
+0.003006 2016-01-09T19:29:01Z e64429c
  [Dependencies::Stats]
  - Dependencies changed since 0.003005, see misc/*.deps* for details
  - develop: (suggests: ↑1)
+
+ [Mappings]
+ - Remove special casings for Module-Info and txt2html
 
 0.003005 2015-10-08T07:27:21Z 855094f
  [Metadata]
