@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Mappings]
+ - Update to latest versions
 
 0.003006 2016-01-09T19:29:01Z e64429c
  [Dependencies::Stats]

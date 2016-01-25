@@ -2576,6 +2576,7 @@ Image::ExifTool::Matroska,media-libs/exiftool
 Image::ExifTool::Microsoft,media-libs/exiftool
 Image::ExifTool::Minolta,media-libs/exiftool
 Image::ExifTool::MinoltaRaw,media-libs/exiftool
+Image::ExifTool::Motorola,media-libs/exiftool
 Image::ExifTool::Nikon,media-libs/exiftool
 Image::ExifTool::NikonCapture,media-libs/exiftool
 Image::ExifTool::NikonCustom,media-libs/exiftool
@@ -3897,7 +3898,6 @@ build::Wx::XSP::Enum,dev-perl/wxperl
 build::Wx::XSP::Event,dev-perl/wxperl
 build::Wx::XSP::Overload,dev-perl/wxperl
 build::Wx::XSP::Virtual,dev-perl/wxperl
-charstar,virtual/perl-version
 constant,virtual/perl-constant
 encoding,virtual/perl-Encode
 if,virtual/perl-if
