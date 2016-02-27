@@ -42,7 +42,7 @@ Digest-MD2,2.04,id/G/GA/GAAS/Digest-MD2-2.04.tar.gz
 Digest-MD5,2.54,id/G/GA/GAAS/Digest-MD5-2.54.tar.gz
 Digest-SHA,5.95,id/M/MS/MSHELOR/Digest-SHA-5.95.tar.gz
 Dumpvalue,1.17,id/F/FL/FLORA/Dumpvalue-1.17.tar.gz
-Encode,2.78,id/D/DA/DANKOGAI/Encode-2.78.tar.gz
+Encode,2.79,id/D/DA/DANKOGAI/Encode-2.79.tar.gz
 Exporter,5.72,id/T/TO/TODDR/Exporter-5.72.tar.gz
 ExtUtils-CBuilder,0.280224,id/A/AM/AMBS/ExtUtils-CBuilder-0.280224.tar.gz
 ExtUtils-Constant,0.23,id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz
@@ -76,7 +76,7 @@ IO-Socket-IP,0.37,id/P/PE/PEVANS/IO-Socket-IP-0.37.tar.gz
 IO-Zlib,1.10,id/T/TO/TOMHUGHES/IO-Zlib-1.10.tar.gz
 IPC-Cmd,0.92,id/B/BI/BINGOS/IPC-Cmd-0.92.tar.gz
 IPC-SysV,2.04,id/M/MH/MHX/IPC-SysV-2.04.tar.gz
-Image-ExifTool,10.00,id/E/EX/EXIFTOOL/Image-ExifTool-10.00.tar.gz
+Image-ExifTool,10.10,id/E/EX/EXIFTOOL/Image-ExifTool-10.10.tar.gz
 Image-Info,1.38,id/S/SR/SREZIC/Image-Info-1.38.tar.gz
 Image-Size,3.300,id/R/RJ/RJRAY/Image-Size-3.300.tar.gz
 JSON-PP,2.27300,id/M/MA/MAKAMAKA/JSON-PP-2.27300.tar.gz
@@ -90,7 +90,7 @@ Math-BigRat,0.260802,id/P/PJ/PJACKLAM/Math-BigRat-0.260802.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Math-Pari,2.010808,id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
-Module-CoreList,5.20151220,id/B/BI/BINGOS/Module-CoreList-5.20151220.tar.gz
+Module-CoreList,5.20160120,id/B/BI/BINGOS/Module-CoreList-5.20160120.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
 Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz
 Module-Loaded,0.08,id/B/BI/BINGOS/Module-Loaded-0.08.tar.gz
@@ -108,7 +108,7 @@ Package-Constants,0.06,id/B/BI/BINGOS/Package-Constants-0.06.tar.gz
 Padre,1.00,id/P/PL/PLAVEN/Padre-1.00.tar.gz
 Params-Check,0.38,id/B/BI/BINGOS/Params-Check-0.38.tar.gz
 Parse-CPAN-Meta,1.4417,id/D/DA/DAGOLDEN/Parse-CPAN-Meta-1.4417.tar.gz
-PathTools,3.60,id/R/RJ/RJBS/PathTools-3.60.tar.gz
+PathTools,3.62,id/R/RJ/RJBS/PathTools-3.62.tar.gz
 Perl-OSType,1.009,id/D/DA/DAGOLDEN/Perl-OSType-1.009.tar.gz
 Perl-Tidy,20150815,id/S/SH/SHANCOCK/Perl-Tidy-20150815.tar.gz
 Pod-Checker,1.71,id/M/MA/MAREKR/Pod-Checker-1.71.tar.gz
@@ -160,7 +160,7 @@ gettext,1.07,id/P/PV/PVANDRY/gettext-1.07.tar.gz
 if,0.0606,id/R/RJ/RJBS/if-0.0606.tar.gz
 libnet,3.08,id/S/SH/SHAY/libnet-3.08.tar.gz
 parent,0.234,id/C/CO/CORION/parent-0.234.tar.gz
-podlators,4.04,id/R/RR/RRA/podlators-4.04.tar.gz
+podlators,4.05,id/R/RR/RRA/podlators-4.05.tar.gz
 threads,2.02,id/J/JD/JDHEDDEN/threads-2.02.tar.gz
 threads-shared,1.48,id/J/JD/JDHEDDEN/threads-shared-1.48.tar.gz
 version,0.9912,id/J/JP/JPEACOCK/version-0.9912.tar.gz

@@ -2576,6 +2576,7 @@ Image::ExifTool::Matroska,media-libs/exiftool
 Image::ExifTool::Microsoft,media-libs/exiftool
 Image::ExifTool::Minolta,media-libs/exiftool
 Image::ExifTool::MinoltaRaw,media-libs/exiftool
+Image::ExifTool::Motorola,media-libs/exiftool
 Image::ExifTool::Nikon,media-libs/exiftool
 Image::ExifTool::NikonCapture,media-libs/exiftool
 Image::ExifTool::NikonCustom,media-libs/exiftool
