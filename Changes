@@ -1,5 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003011 2016-02-27T23:03:54Z 50c2a39
+
 0.003010 2016-02-27T23:03:24Z fe322c7
  - Upgrade Minimum Assumed Supported Perl to 5.18.2 (history/f1379d9)
  - Upgrade Maximum Assumed Supported Perl to 5.22.1 (master/6a01824)
