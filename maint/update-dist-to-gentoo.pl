@@ -181,8 +181,6 @@ Gtk2-Spell,dev-perl/gtk2-spell
 Gtk2-TrayIcon,dev-perl/gtk2-trayicon
 Gtk2-TrayManager,dev-perl/gtk2-traymanager
 Image-ExifTool,media-libs/exiftool
-Image-Info,dev-perl/ImageInfo
-Image-Size,dev-perl/ImageSize
 Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
 Math-Pari,dev-perl/math-pari
 MogileFS-Server,dev-perl/mogilefs-server

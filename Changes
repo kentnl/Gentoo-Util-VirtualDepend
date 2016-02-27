@@ -3,6 +3,7 @@ Release history for Gentoo-Util-VirtualDepend
 {{$NEXT}}
  [Mappings]
  - Update to latest versions
+ - Remove special casing for Image-Info and Image-Size
 
 0.003006 2016-01-09T19:29:01Z e64429c
  [Dependencies::Stats]
