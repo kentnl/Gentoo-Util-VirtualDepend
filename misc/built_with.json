@@ -59,7 +59,7 @@
       "File::ShareDir" : "1.102",
       "File::ShareDir::Install" : "0.10",
       "File::Spec" : "3.56",
-      "Module::CoreList" : "5.20151213",
+      "Module::CoreList" : "5.20160120",
       "Moo" : "2.000002",
       "Path::Tiny" : "0.076",
       "Pod::Coverage::TrustPod" : "0.100003",
@@ -91,5 +91,5 @@
       "osname" : "linux"
    },
    "platform" : "linux",
-   "uname" : "Linux 4.3.0-gentoo x86_64 GenuineIntel GNU/Linux"
+   "uname" : "Linux 4.4.0-gentoo-r1 x86_64 GenuineIntel GNU/Linux"
 }
