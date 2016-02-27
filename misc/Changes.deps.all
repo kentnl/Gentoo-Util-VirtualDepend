@@ -1,6 +1,8 @@
 This file contains ALL changes in dependencies in both REQUIRED / OPTIONAL dependencies for all phases (configure/build/runtime/test/develop)
 
-0.003010
+0.003011
+
+0.003010 2016-02-27T23:03:24Z
  [Changed / runtime requires]
  - Module::CoreList 5.20150214 → 5.20151213
 
