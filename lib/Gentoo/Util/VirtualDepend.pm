@@ -4,7 +4,7 @@ use warnings;
 
 package Gentoo::Util::VirtualDepend;
 
-our $VERSION = '0.003007';
+our $VERSION = '0.003010';
 
 # ABSTRACT: Hard-coded replacements for perl-core/ dependencies and dependencies with odd names in Gentoo
 
@@ -13,7 +13,9 @@ our $AUTHORITY = 'cpan:KENTNL'; # AUTHORITY
 use Moo qw( has );
 use Path::Tiny qw( path );
 use File::ShareDir qw( dist_file );
-use Module::CoreList 5.20150214;
+
+# Note: this should be the version default max_perl is in
+use Module::CoreList 5.20151213;
 
 
 
@@ -24,7 +26,8 @@ use Module::CoreList 5.20150214;
 
 
 
-has max_perl => ( is => 'ro', lazy => 1, default => sub { '5.20.2' } );
+# Note: This should be the latest visible version in portage at time of release
+has max_perl => ( is => 'ro', lazy => 1, default => sub { '5.22.1' } );
 
 
 
@@ -35,7 +38,8 @@ has max_perl => ( is => 'ro', lazy => 1, default => sub { '5.20.2' } );
 
 
 
-has min_perl => ( is => 'ro', lazy => 1, default => sub { '5.14.0' } );
+# Note: This should be the lowest visible version 12 months prior to the time of release
+has min_perl => ( is => 'ro', lazy => 1, default => sub { '5.18.2' } );
 
 my %MOD2GENTOO;
 my $MOD2GENTOO_LOADED;
@@ -203,7 +207,7 @@ Gentoo::Util::VirtualDepend - Hard-coded replacements for perl-core/ dependencie
 
 =head1 VERSION
 
-version 0.003007
+version 0.003010
 
 =head1 SYNOPSIS
 

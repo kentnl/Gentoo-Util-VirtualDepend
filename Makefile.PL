@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Gentoo::Util::VirtualDepend",
   "PREREQ_PM" => {
     "File::ShareDir" => 0,
-    "Module::CoreList" => "5.20150214",
+    "Module::CoreList" => "5.20151213",
     "Moo" => 0,
     "Path::Tiny" => 0,
     "strict" => 0,
@@ -38,7 +38,7 @@ my %WriteMakefileArgs = (
     "Test::File::ShareDir::Dist" => 0,
     "Test::More" => "0.89"
   },
-  "VERSION" => "0.003007",
+  "VERSION" => "0.003010",
   "test" => {
     "TESTS" => "t/*.t t/00-compile/*.t"
   }
@@ -49,7 +49,7 @@ my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => 0,
   "File::ShareDir" => 0,
   "File::Spec" => 0,
-  "Module::CoreList" => "5.20150214",
+  "Module::CoreList" => "5.20151213",
   "Moo" => 0,
   "Path::Tiny" => 0,
   "Test::File::ShareDir::Dist" => 0,
