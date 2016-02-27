@@ -13,7 +13,9 @@ our $VERSION = '0.003008';
 use Moo qw( has );
 use Path::Tiny qw( path );
 use File::ShareDir qw( dist_file );
-use Module::CoreList 5.20150214;
+
+# Note: this should be the version default max_perl is in
+use Module::CoreList 5.20151213;
 
 =attr max_perl
 
@@ -24,7 +26,8 @@ Stipulates the default maximum C<Perl> for L<< C<module_is_perl>|/module_is_perl
 
 =cut
 
-has max_perl => ( is => 'ro', lazy => 1, default => sub { '5.20.2' } );
+# Note: This should be the latest visible version in portage at time of release
+has max_perl => ( is => 'ro', lazy => 1, default => sub { '5.22.1' } );
 
 =attr min_perl
 
@@ -35,7 +38,8 @@ Stipulates the default minimum C<Perl> for L<< C<module_is_perl>|/module_is_perl
 
 =cut
 
-has min_perl => ( is => 'ro', lazy => 1, default => sub { '5.14.0' } );
+# Note: This should be the lowest visible version 12 months prior to the time of release
+has min_perl => ( is => 'ro', lazy => 1, default => sub { '5.18.2' } );
 
 my %MOD2GENTOO;
 my $MOD2GENTOO_LOADED;
