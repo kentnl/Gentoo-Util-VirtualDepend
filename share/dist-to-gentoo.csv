@@ -79,8 +79,6 @@ IO-Zlib,virtual/perl-IO-Zlib
 IPC-Cmd,virtual/perl-IPC-Cmd
 IPC-SysV,virtual/perl-IPC-SysV
 Image-ExifTool,media-libs/exiftool
-Image-Info,dev-perl/ImageInfo
-Image-Size,dev-perl/ImageSize
 JSON-PP,virtual/perl-JSON-PP
 Locale-Maketext,virtual/perl-Locale-Maketext
 Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy

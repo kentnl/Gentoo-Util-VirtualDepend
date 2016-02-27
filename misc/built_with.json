@@ -1,6 +1,6 @@
 {
    "modules" : {
-      "CPAN::Meta" : "2.150005",
+      "CPAN::Meta" : "2.150001",
       "Dist::Zilla" : "5.043",
       "Dist::Zilla::App::Command::bakeini" : "0.002005",
       "Dist::Zilla::Plugin::Author::KENTNL::CONTRIBUTING" : "0.001005",
@@ -8,13 +8,13 @@
       "Dist::Zilla::Plugin::Author::KENTNL::TravisCI" : "0.001002",
       "Dist::Zilla::Plugin::Authority" : "1.009",
       "Dist::Zilla::Plugin::AutoPrereqs" : "5.043",
-      "Dist::Zilla::Plugin::BumpVersionAfterRelease" : "0.013",
+      "Dist::Zilla::Plugin::BumpVersionAfterRelease" : "0.012",
       "Dist::Zilla::Plugin::ConfirmRelease" : "5.043",
       "Dist::Zilla::Plugin::CopyFilesFromBuild" : "0.151680",
       "Dist::Zilla::Plugin::Git::Check" : "2.036",
       "Dist::Zilla::Plugin::Git::Commit" : "2.036",
       "Dist::Zilla::Plugin::Git::CommitBuild" : "2.036",
-      "Dist::Zilla::Plugin::Git::Contributors" : "0.020",
+      "Dist::Zilla::Plugin::Git::Contributors" : "0.015",
       "Dist::Zilla::Plugin::Git::GatherDir" : "2.036",
       "Dist::Zilla::Plugin::Git::NextRelease" : "0.004000",
       "Dist::Zilla::Plugin::Git::Tag" : "2.036",
@@ -37,7 +37,7 @@
       "Dist::Zilla::Plugin::Prereqs::AuthorDeps" : "0.005",
       "Dist::Zilla::Plugin::Prereqs::Recommend::MatchInstalled" : "0.003001",
       "Dist::Zilla::Plugin::Prereqs::Upgrade" : "0.001000",
-      "Dist::Zilla::Plugin::Readme::Brief" : "0.003000",
+      "Dist::Zilla::Plugin::Readme::Brief" : "0.002005",
       "Dist::Zilla::Plugin::ReadmeAnyFromPod" : "0.150250",
       "Dist::Zilla::Plugin::RemovePrereqs::Provided" : "0.001000",
       "Dist::Zilla::Plugin::RewriteVersion::Sanitized" : "0.001005",
@@ -54,16 +54,16 @@
       "Dist::Zilla::Plugin::Twitter" : "0.026",
       "Dist::Zilla::Plugin::UploadToCPAN" : "5.043",
       "Dist::Zilla::PluginBundle::Author::KENTNL" : "2.025010",
-      "English" : "1.10",
-      "ExtUtils::MakeMaker" : "7.10_01",
+      "English" : "1.09",
+      "ExtUtils::MakeMaker" : "7.04_01",
       "File::ShareDir" : "1.102",
       "File::ShareDir::Install" : "0.10",
-      "File::Spec" : "3.63",
-      "Module::CoreList" : "5.20160121",
+      "File::Spec" : "3.56",
+      "Module::CoreList" : "5.20160120",
       "Moo" : "2.000002",
       "Path::Tiny" : "0.076",
       "Pod::Coverage::TrustPod" : "0.100003",
-      "Software::License::Perl_5" : "0.103011",
+      "Software::License::Perl_5" : "0.103010",
       "Test::CPAN::Changes" : "0.400002",
       "Test::CPAN::Meta" : "0.25",
       "Test::EOL" : "1.6",
@@ -72,21 +72,21 @@
       "Test::More" : "1.001014",
       "Test::Pod" : "1.51",
       "Test::Pod::Coverage" : "1.10",
-      "strict" : "1.10",
+      "strict" : "1.09",
       "version" : "0.9909",
-      "warnings" : "1.35"
+      "warnings" : "1.34"
    },
    "perl" : {
-      "original" : "v5.23.8",
+      "original" : "v5.22.1",
       "qv" : 1,
       "version" : [
          5,
-         23,
-         8
+         22,
+         1
       ]
    },
    "perl-config" : {
-      "gccversion" : "5.3.0",
+      "gccversion" : "5.2.0",
       "myarchname" : "x86_64-linux",
       "osname" : "linux"
    },
