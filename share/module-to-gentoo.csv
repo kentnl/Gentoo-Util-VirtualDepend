@@ -3877,7 +3877,6 @@ build::Wx::XSP::Overload,dev-perl/wxperl
 build::Wx::XSP::Virtual,dev-perl/wxperl
 constant,virtual/perl-constant
 encoding,virtual/perl-Encode
-if,virtual/perl-if
 ok,virtual/perl-Test-Simple
 parent,virtual/perl-parent
 threads,virtual/perl-threads
