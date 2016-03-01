@@ -148,7 +148,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-CGI-SpeedyCGI,dev-perl/SpeedyCGI
 Cache-Mmap,dev-perl/cache-mmap
 Class-Loader,dev-perl/class-loader
 Convert-ASCII-Armour,dev-perl/convert-ascii-armour
@@ -181,7 +180,6 @@ Gtk2-Spell,dev-perl/gtk2-spell
 Gtk2-TrayIcon,dev-perl/gtk2-trayicon
 Gtk2-TrayManager,dev-perl/gtk2-traymanager
 Image-ExifTool,media-libs/exiftool
-Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
 Math-Pari,dev-perl/math-pari
 MogileFS-Server,dev-perl/mogilefs-server
 NTLM,dev-perl/Authen-NTLM
