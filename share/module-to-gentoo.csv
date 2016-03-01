@@ -1209,7 +1209,6 @@ Bio::Variation::SNP,sci-biology/bioperl
 Bio::Variation::SeqDiff,sci-biology/bioperl
 Bio::Variation::VariantI,sci-biology/bioperl
 Bio::WebAgent,sci-biology/bioperl
-CGI::SpeedyCGI,dev-perl/SpeedyCGI
 CGI::Toggle,sci-biology/GBrowse
 CPAN,virtual/perl-CPAN
 CPAN::Admin,virtual/perl-CPAN
@@ -2641,7 +2640,6 @@ Legacy::Graphics::BrowserConfig,sci-biology/GBrowse
 List::Util,virtual/perl-Scalar-List-Utils
 List::Util::XS,virtual/perl-Scalar-List-Utils
 Locale::Maketext,virtual/perl-Locale-Maketext
-Locale::Maketext::Fuzzy,dev-perl/locale-maketext-fuzzy
 Locale::Maketext::Guts,virtual/perl-Locale-Maketext
 Locale::Maketext::GutsLoader,virtual/perl-Locale-Maketext
 Locale::Maketext::Simple,virtual/perl-Locale-Maketext-Simple
@@ -2671,7 +2669,6 @@ Memoize::ExpireTest,virtual/perl-Memoize
 Memoize::NDBM_File,virtual/perl-Memoize
 Memoize::SDBM_File,virtual/perl-Memoize
 Memoize::Storable,virtual/perl-Memoize
-ModTest,dev-perl/SpeedyCGI
 Module::CoreList,virtual/perl-Module-CoreList
 Module::CoreList::TieHashDelta,virtual/perl-Module-CoreList
 Module::CoreList::Utils,virtual/perl-Module-CoreList

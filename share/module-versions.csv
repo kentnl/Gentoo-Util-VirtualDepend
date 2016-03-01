@@ -117,7 +117,6 @@ id/A/AN/ANDK/CPAN-2.10.tar.gz,CPAN::Shell,5.5005
 id/A/AN/ANDK/CPAN-2.10.tar.gz,CPAN::Tarzip,5.5012
 id/A/AN/ANDK/CPAN-2.10.tar.gz,CPAN::URL,5.5
 id/A/AN/ANDK/CPAN-2.10.tar.gz,CPAN::Version,5.5003
-id/A/AU/AUDREYT/Locale-Maketext-Fuzzy-0.11.tar.gz,Locale::Maketext::Fuzzy,0.11
 id/B/BI/BINGOS/Archive-Tar-2.04.tar.gz,Archive::Tar,2.04
 id/B/BI/BINGOS/Archive-Tar-2.04.tar.gz,Archive::Tar::Constant,2.04
 id/B/BI/BINGOS/Archive-Tar-2.04.tar.gz,Archive::Tar::File,2.04
@@ -1560,8 +1559,6 @@ id/G/GB/GBARR/IO-1.25.tar.gz,IO::Select,1.17
 id/G/GB/GBARR/IO-1.25.tar.gz,IO::Socket,1.31
 id/G/GB/GBARR/IO-1.25.tar.gz,IO::Socket::INET,1.31
 id/G/GB/GBARR/IO-1.25.tar.gz,IO::Socket::UNIX,1.23
-id/H/HO/HORROCKS/CGI-SpeedyCGI-2.22.tar.gz,CGI::SpeedyCGI,2.22
-id/H/HO/HORROCKS/CGI-SpeedyCGI-2.22.tar.gz,ModTest,(undef)
 id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip,Math::Pari,(undef)
 id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip,Math::Pari::Arr,(undef)
 id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip,Math::PariBuild,2.01080604

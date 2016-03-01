@@ -9,7 +9,6 @@ BioPerl,1.6.924,id/C/CJ/CJFIELDS/BioPerl-1.6.924.tar.gz
 BioPerl-DB,1.006900,id/C/CJ/CJFIELDS/BioPerl-DB-1.006900.tar.gz
 BioPerl-Network,1.006902,id/C/CJ/CJFIELDS/BioPerl-Network-1.006902.tar.gz
 BioPerl-Run,1.006900,id/C/CJ/CJFIELDS/BioPerl-Run-1.006900.tar.gz
-CGI-SpeedyCGI,2.22,id/H/HO/HORROCKS/CGI-SpeedyCGI-2.22.tar.gz
 CPAN,2.10,id/A/AN/ANDK/CPAN-2.10.tar.gz
 CPAN-Meta,2.150005,id/D/DA/DAGOLDEN/CPAN-Meta-2.150005.tar.gz
 CPAN-Meta-Requirements,2.140,id/D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.140.tar.gz
@@ -79,7 +78,6 @@ IPC-SysV,2.06,id/M/MH/MHX/IPC-SysV-2.06.tar.gz
 Image-ExifTool,10.10,id/E/EX/EXIFTOOL/Image-ExifTool-10.10.tar.gz
 JSON-PP,2.27300,id/M/MA/MAKAMAKA/JSON-PP-2.27300.tar.gz
 Locale-Maketext,1.26,id/T/TO/TODDR/Locale-Maketext-1.26.tar.gz
-Locale-Maketext-Fuzzy,0.11,id/A/AU/AUDREYT/Locale-Maketext-Fuzzy-0.11.tar.gz
 Locale-Maketext-Simple,0.21,id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz
 MIME-Base64,3.15,id/G/GA/GAAS/MIME-Base64-3.15.tar.gz
 Math-BigInt,1.999715,id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz
