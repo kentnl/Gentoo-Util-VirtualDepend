@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+
+0.003011 2016-03-01T13:43:31Z 0a3ca04
  - Remove special casing for CGI-SpeedyCGI and Locale-Maketext-Fuzzy
 
 0.003010 2016-02-27T23:03:24Z fe322c7
