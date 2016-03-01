@@ -9,7 +9,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-CGI-SpeedyCGI,dev-perl/SpeedyCGI
 CPAN,virtual/perl-CPAN
 CPAN-Meta,virtual/perl-CPAN-Meta
 CPAN-Meta-Requirements,virtual/perl-CPAN-Meta-Requirements
@@ -81,7 +80,6 @@ IPC-SysV,virtual/perl-IPC-SysV
 Image-ExifTool,media-libs/exiftool
 JSON-PP,virtual/perl-JSON-PP
 Locale-Maketext,virtual/perl-Locale-Maketext
-Locale-Maketext-Fuzzy,dev-perl/locale-maketext-fuzzy
 Locale-Maketext-Simple,virtual/perl-Locale-Maketext-Simple
 MIME-Base64,virtual/perl-MIME-Base64
 Math-BigInt,virtual/perl-Math-BigInt

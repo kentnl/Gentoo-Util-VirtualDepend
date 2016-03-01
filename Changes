@@ -1,6 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003011 2016-02-27T23:04:04Z 284967a
+0.003011 2016-03-01T13:37:46Z 2f6b3b0
+ - Remove special casing for CGI-SpeedyCGI and Locale-Maketext-Fuzzy
 
 0.003010 2016-02-27T23:03:24Z fe322c7
  - Upgrade Minimum Assumed Supported Perl to 5.18.2 (history/f1379d9)
