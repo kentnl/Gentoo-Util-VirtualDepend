@@ -575,7 +575,7 @@
                }
             },
             "name" : "@Author::KENTNL/ReadmeAnyFromPod",
-            "version" : "0.150250"
+            "version" : "0.160630"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::CPAN::Changes",

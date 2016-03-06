@@ -20,19 +20,11 @@ Compress-Raw-Bzip2,2.069,id/P/PM/PMQS/Compress-Raw-Bzip2-2.069.tar.gz
 Compress-Raw-Zlib,2.069,id/P/PM/PMQS/Compress-Raw-Zlib-2.069.tar.gz
 Convert-ASCII-Armour,1.4,id/V/VI/VIPUL/Convert-ASCII-Armour-1.4.tar.gz
 Convert-PEM,0.08,id/B/BT/BTROTT/Convert-PEM-0.08.tar.gz
-Crypt-CBC,2.33,id/L/LD/LDS/Crypt-CBC-2.33.tar.gz
-Crypt-DES_EDE3,0.01,id/B/BT/BTROTT/Crypt-DES_EDE3-0.01.tar.gz
-Crypt-DH,0.07,id/M/MI/MITHALDU/Crypt-DH-0.07.tar.gz
-Crypt-DSA,1.17,id/A/AD/ADAMK/Crypt-DSA-1.17.tar.gz
-Crypt-IDEA,1.10,id/D/DP/DPARIS/Crypt-IDEA-1.10.tar.gz
-Crypt-Primes,0.50,id/V/VI/VIPUL/Crypt-Primes-0.50.tar.gz
-Crypt-RSA,1.99,id/V/VI/VIPUL/Crypt-RSA-1.99.tar.gz
-Crypt-Random,1.25,id/V/VI/VIPUL/Crypt-Random-1.25.tar.gz
 DBIx-SearchBuilder,1.66,id/A/AL/ALEXMV/DBIx-SearchBuilder-1.66.tar.gz
 DB_File,1.835,id/P/PM/PMQS/DB_File-1.835.tar.gz
 Data-Buffer,0.04,id/B/BT/BTROTT/Data-Buffer-0.04.tar.gz
 Data-Dumper,2.154,id/S/SM/SMUELLER/Data-Dumper-2.154.tar.gz
-Date-Manip,6.52,id/S/SB/SBECK/Date-Manip-6.52.tar.gz
+Date-Manip,6.53,id/S/SB/SBECK/Date-Manip-6.53.tar.gz
 Devel-PPPort,3.32,id/W/WO/WOLFSAGE/Devel-PPPort-3.32.tar.gz
 Devel-SelfStubber,1.05,id/F/FL/FLORA/Devel-SelfStubber-1.05.tar.gz
 Digest,1.17,id/G/GA/GAAS/Digest-1.17.tar.gz
@@ -106,7 +98,7 @@ Params-Check,0.38,id/B/BI/BINGOS/Params-Check-0.38.tar.gz
 Parse-CPAN-Meta,1.4417,id/D/DA/DAGOLDEN/Parse-CPAN-Meta-1.4417.tar.gz
 PathTools,3.62,id/R/RJ/RJBS/PathTools-3.62.tar.gz
 Perl-OSType,1.009,id/D/DA/DAGOLDEN/Perl-OSType-1.009.tar.gz
-Perl-Tidy,20160301,id/S/SH/SHANCOCK/Perl-Tidy-20160301.tar.gz
+Perl-Tidy,20160302,id/S/SH/SHANCOCK/Perl-Tidy-20160302.tar.gz
 Pod-Checker,1.71,id/M/MA/MAREKR/Pod-Checker-1.71.tar.gz
 Pod-Escapes,1.07,id/N/NE/NEILB/Pod-Escapes-1.07.tar.gz
 Pod-Parser,1.63,id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz
@@ -159,4 +151,4 @@ parent,0.234,id/C/CO/CORION/parent-0.234.tar.gz
 podlators,4.06,id/R/RR/RRA/podlators-4.06.tar.gz
 threads,2.02,id/J/JD/JDHEDDEN/threads-2.02.tar.gz
 threads-shared,1.48,id/J/JD/JDHEDDEN/threads-shared-1.48.tar.gz
-version,0.9914,id/J/JP/JPEACOCK/version-0.9914.tar.gz
+version,0.9915,id/J/JP/JPEACOCK/version-0.9915.tar.gz
