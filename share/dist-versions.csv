@@ -20,14 +20,6 @@ Compress-Raw-Bzip2,2.069,id/P/PM/PMQS/Compress-Raw-Bzip2-2.069.tar.gz
 Compress-Raw-Zlib,2.069,id/P/PM/PMQS/Compress-Raw-Zlib-2.069.tar.gz
 Convert-ASCII-Armour,1.4,id/V/VI/VIPUL/Convert-ASCII-Armour-1.4.tar.gz
 Convert-PEM,0.08,id/B/BT/BTROTT/Convert-PEM-0.08.tar.gz
-Crypt-CBC,2.33,id/L/LD/LDS/Crypt-CBC-2.33.tar.gz
-Crypt-DES_EDE3,0.01,id/B/BT/BTROTT/Crypt-DES_EDE3-0.01.tar.gz
-Crypt-DH,0.07,id/M/MI/MITHALDU/Crypt-DH-0.07.tar.gz
-Crypt-DSA,1.17,id/A/AD/ADAMK/Crypt-DSA-1.17.tar.gz
-Crypt-IDEA,1.10,id/D/DP/DPARIS/Crypt-IDEA-1.10.tar.gz
-Crypt-Primes,0.50,id/V/VI/VIPUL/Crypt-Primes-0.50.tar.gz
-Crypt-RSA,1.99,id/V/VI/VIPUL/Crypt-RSA-1.99.tar.gz
-Crypt-Random,1.25,id/V/VI/VIPUL/Crypt-Random-1.25.tar.gz
 DBIx-SearchBuilder,1.66,id/A/AL/ALEXMV/DBIx-SearchBuilder-1.66.tar.gz
 DB_File,1.835,id/P/PM/PMQS/DB_File-1.835.tar.gz
 Data-Buffer,0.04,id/B/BT/BTROTT/Data-Buffer-0.04.tar.gz

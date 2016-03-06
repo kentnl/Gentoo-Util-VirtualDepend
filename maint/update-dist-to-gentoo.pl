@@ -152,14 +152,6 @@ Cache-Mmap,dev-perl/cache-mmap
 Class-Loader,dev-perl/class-loader
 Convert-ASCII-Armour,dev-perl/convert-ascii-armour
 Convert-PEM,dev-perl/convert-pem
-Crypt-CBC,dev-perl/crypt-cbc
-Crypt-DES_EDE3,dev-perl/crypt-des-ede3
-Crypt-DH,dev-perl/crypt-dh
-Crypt-DSA,dev-perl/crypt-dsa
-Crypt-IDEA,dev-perl/crypt-idea
-Crypt-Primes,dev-perl/crypt-primes
-Crypt-RSA,dev-perl/crypt-rsa
-Crypt-Random,dev-perl/crypt-random
 DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 Data-Buffer,dev-perl/data-buffer
 Date-Manip,dev-perl/DateManip

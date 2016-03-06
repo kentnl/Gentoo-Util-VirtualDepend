@@ -2,6 +2,7 @@ Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
  - Update mappings.
+ - Remove special casing for Crypt-* family
 
 0.003011 2016-03-01T13:43:31Z 0a3ca04
  - Remove special casing for CGI-SpeedyCGI and Locale-Maketext-Fuzzy
