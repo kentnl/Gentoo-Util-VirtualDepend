@@ -1788,8 +1788,6 @@ Date::Manip::Offset::off424,dev-perl/DateManip
 Date::Manip::Offset::off425,dev-perl/DateManip
 Date::Manip::Offset::off426,dev-perl/DateManip
 Date::Manip::Offset::off427,dev-perl/DateManip
-Date::Manip::Offset::off428,dev-perl/DateManip
-Date::Manip::Offset::off429,dev-perl/DateManip
 Date::Manip::Recur,dev-perl/DateManip
 Date::Manip::TZ,dev-perl/DateManip
 Date::Manip::TZ::a00,dev-perl/DateManip
@@ -1833,7 +1831,6 @@ Date::Manip::TZ::amcanc00,dev-perl/DateManip
 Date::Manip::TZ::amcara00,dev-perl/DateManip
 Date::Manip::TZ::amcata00,dev-perl/DateManip
 Date::Manip::TZ::amcaye00,dev-perl/DateManip
-Date::Manip::TZ::amcaym00,dev-perl/DateManip
 Date::Manip::TZ::amcent00,dev-perl/DateManip
 Date::Manip::TZ::amchic00,dev-perl/DateManip
 Date::Manip::TZ::amchih00,dev-perl/DateManip
@@ -1920,7 +1917,6 @@ Date::Manip::TZ::amsan_01,dev-perl/DateManip
 Date::Manip::TZ::amsant00,dev-perl/DateManip
 Date::Manip::TZ::amsant01,dev-perl/DateManip
 Date::Manip::TZ::amsant02,dev-perl/DateManip
-Date::Manip::TZ::amsant03,dev-perl/DateManip
 Date::Manip::TZ::amsao_00,dev-perl/DateManip
 Date::Manip::TZ::amscor00,dev-perl/DateManip
 Date::Manip::TZ::amsitk00,dev-perl/DateManip
