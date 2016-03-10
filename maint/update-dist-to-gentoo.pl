@@ -175,9 +175,6 @@ Image-ExifTool,media-libs/exiftool
 Math-Pari,dev-perl/math-pari
 MogileFS-Server,dev-perl/mogilefs-server
 NTLM,dev-perl/Authen-NTLM
-Net-SFTP,dev-perl/net-sftp
-Net-SSH-Perl,dev-perl/net-ssh-perl
-Net-Server,dev-perl/net-server
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
 Ogg-Vorbis-Header,dev-perl/ogg-vorbis-header
 Padre,app-editors/padre
