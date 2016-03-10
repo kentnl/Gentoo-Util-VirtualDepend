@@ -1,5 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003013 2016-03-10T07:57:56Z 0aa6eef
+
 0.003012 2016-03-10T07:51:02Z 8020cc9
  - Update mappings.
  - Remove special casing for Crypt-* family
