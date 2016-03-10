@@ -20,14 +20,6 @@ Compress-Raw-Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress-Raw-Zlib,virtual/perl-Compress-Raw-Zlib
 Convert-ASCII-Armour,dev-perl/convert-ascii-armour
 Convert-PEM,dev-perl/convert-pem
-Crypt-CBC,dev-perl/crypt-cbc
-Crypt-DES_EDE3,dev-perl/crypt-des-ede3
-Crypt-DH,dev-perl/crypt-dh
-Crypt-DSA,dev-perl/crypt-dsa
-Crypt-IDEA,dev-perl/crypt-idea
-Crypt-Primes,dev-perl/crypt-primes
-Crypt-RSA,dev-perl/crypt-rsa
-Crypt-Random,dev-perl/crypt-random
 DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 DB_File,virtual/perl-DB_File
 Data-Buffer,dev-perl/data-buffer
@@ -97,9 +89,6 @@ MogileFS-Server,dev-perl/mogilefs-server
 NEXT,virtual/perl-NEXT
 NTLM,dev-perl/Authen-NTLM
 Net-Ping,virtual/perl-Net-Ping
-Net-SFTP,dev-perl/net-sftp
-Net-SSH-Perl,dev-perl/net-ssh-perl
-Net-Server,dev-perl/net-server
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
 Ogg-Vorbis-Header,dev-perl/ogg-vorbis-header
 Package-Constants,virtual/perl-Package-Constants
