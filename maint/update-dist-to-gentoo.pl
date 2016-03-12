@@ -154,7 +154,6 @@ Convert-ASCII-Armour,dev-perl/convert-ascii-armour
 Convert-PEM,dev-perl/convert-pem
 DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 Data-Buffer,dev-perl/data-buffer
-Date-Manip,dev-perl/DateManip
 Digest-BubbleBabble,dev-perl/digest-bubblebabble
 Digest-MD2,dev-perl/digest-md2
 ExtUtils-PkgConfig,dev-perl/extutils-pkgconfig
@@ -189,7 +188,6 @@ Text-Wrapper,dev-perl/text-wrapper
 Tie-EncryptedHash,dev-perl/tie-encryptedhash
 Time-Period,dev-perl/Period
 Tk,dev-perl/perl-tk
-Wx,dev-perl/wxperl
 XML-XSH2,app-editors/XML-XSH2
 YAML,dev-perl/yaml
 ack,sys-apps/ack

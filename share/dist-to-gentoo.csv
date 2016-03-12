@@ -24,7 +24,6 @@ DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 DB_File,virtual/perl-DB_File
 Data-Buffer,dev-perl/data-buffer
 Data-Dumper,virtual/perl-Data-Dumper
-Date-Manip,dev-perl/DateManip
 Devel-PPPort,virtual/perl-Devel-PPPort
 Devel-SelfStubber,virtual/perl-Devel-SelfStubber
 Digest,virtual/perl-Digest
@@ -135,7 +134,6 @@ Time-Piece,virtual/perl-Time-Piece
 Tk,dev-perl/perl-tk
 Unicode-Collate,virtual/perl-Unicode-Collate
 Unicode-Normalize,virtual/perl-Unicode-Normalize
-Wx,dev-perl/wxperl
 XML-XSH2,app-editors/XML-XSH2
 XSLoader,virtual/perl-XSLoader
 YAML,dev-perl/yaml
