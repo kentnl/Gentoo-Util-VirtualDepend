@@ -175,7 +175,7 @@ id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::Completion,2.1.25
 id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::CompletionList,(undef)
 id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::DummyXPathContext,2.1.25
 id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::FilteredIterator,(undef)
-id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::Functions,(undef)
+id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::Functions,2.1.25
 id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::Grammar,(undef)
 id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::Help,(undef)
 id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz,XML::XSH2::Inline,2.1.25
@@ -1888,7 +1888,7 @@ id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz,Pod::Parser,1.63
 id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz,Pod::PlainText,2.07
 id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz,Pod::Select,1.63
 id/M/MA/MAREKR/Pod-Usage-1.68.tar.gz,Pod::Usage,1.68
-id/M/MD/MDOOTSON/Wx-0.9928.tar.gz,Wx,(undef)
+id/M/MD/MDOOTSON/Wx-0.9928.tar.gz,Wx,0.9928
 id/M/MD/MDOOTSON/Wx-0.9928.tar.gz,Wx::AUI,0.01
 id/M/MD/MDOOTSON/Wx-0.9928.tar.gz,Wx::App,(undef)
 id/M/MD/MDOOTSON/Wx-0.9928.tar.gz,Wx::ArchiveFSHandler,(undef)
@@ -2250,7 +2250,7 @@ id/P/PE/PEVANS/Scalar-List-Utils-1.43.tar.gz,Scalar::Util,1.43
 id/P/PE/PEVANS/Scalar-List-Utils-1.43.tar.gz,Sub::Util,1.43
 id/P/PE/PEVANS/Socket-2.021.tar.gz,Socket,2.021
 id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz,Math::BigFloat,1.999715
-id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz,Math::BigInt,(undef)
+id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz,Math::BigInt,1.999715
 id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz,Math::BigInt::Calc,1.999715
 id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz,Math::BigInt::CalcEmu,1.999715
 id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.40.tar.gz,Math::BigInt::FastCalc,0.40
