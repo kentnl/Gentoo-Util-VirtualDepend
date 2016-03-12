@@ -18,7 +18,7 @@ while ( my $line = <$fh> ) {
   chomp $line;
   my (@fields) = split /,/, $line;
   my ( $out, $err, $exit ) = capture {
-    system( 'eix', '-c', '-e', $fields[1] )
+    system( 'eix', '--in-overlay', 'gentoo', '-c', '-e', $fields[1] )
   };
   if ( $exit != 0 and $exit != 1 and $exit != 256 ) {
     die "Halt: $err $exit";
