@@ -1577,6 +1577,7 @@ id/J/JD/JDHEDDEN/threads-2.02.tar.gz,threads,2.02
 id/J/JD/JDHEDDEN/threads-shared-1.48.tar.gz,threads::shared,1.48
 id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz,Locale::Maketext::Simple,0.21
 id/J/JE/JESSE/Test-1.26.tar.gz,Test,1.26
+id/J/JH/JHI/Time-HiRes-1.9732.tar.gz,Time::HiRes,1.9732
 id/J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz,OLE::Storage_Lite,0.19
 id/J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz,OLE::Storage_Lite::PPS,0.19
 id/J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz,OLE::Storage_Lite::PPS::Dir,0.19
@@ -2315,7 +2316,6 @@ id/R/RJ/RJBS/PathTools-3.62.tar.gz,File::Spec::OS2,3.62
 id/R/RJ/RJBS/PathTools-3.62.tar.gz,File::Spec::Unix,3.62
 id/R/RJ/RJBS/PathTools-3.62.tar.gz,File::Spec::VMS,3.62
 id/R/RJ/RJBS/PathTools-3.62.tar.gz,File::Spec::Win32,3.62
-id/R/RJ/RJBS/Time-HiRes-1.9728.tar.gz,Time::HiRes,1.9728
 id/R/RJ/RJBS/constant-1.33.tar.gz,constant,1.33
 id/R/RR/RRA/Term-ANSIColor-4.04.tar.gz,Term::ANSIColor,4.04
 id/R/RR/RRA/podlators-4.06.tar.gz,Pod::Man,4.06
