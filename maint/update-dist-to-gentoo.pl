@@ -172,10 +172,8 @@ Gtk2-TrayIcon,dev-perl/gtk2-trayicon
 Gtk2-TrayManager,dev-perl/gtk2-traymanager
 Image-ExifTool,media-libs/exiftool
 Math-Pari,dev-perl/math-pari
-MogileFS-Server,dev-perl/mogilefs-server
 NTLM,dev-perl/Authen-NTLM
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
-Ogg-Vorbis-Header,dev-perl/ogg-vorbis-header
 Padre,app-editors/padre
 PathTools,virtual/perl-File-Spec
 Perl-Tidy,dev-perl/perltidy
@@ -187,7 +185,6 @@ Text-Template,dev-perl/text-template
 Text-Wrapper,dev-perl/text-wrapper
 Tie-EncryptedHash,dev-perl/tie-encryptedhash
 Time-Period,dev-perl/Period
-Tk,dev-perl/perl-tk
 XML-XSH2,app-editors/XML-XSH2
 YAML,dev-perl/yaml
 ack,sys-apps/ack

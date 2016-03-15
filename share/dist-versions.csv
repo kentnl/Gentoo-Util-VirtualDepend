@@ -82,12 +82,10 @@ Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
 Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz
 Module-Loaded,0.08,id/B/BI/BINGOS/Module-Loaded-0.08.tar.gz
 Module-Metadata,1.000027,id/E/ET/ETHER/Module-Metadata-1.000027.tar.gz
-MogileFS-Server,2.72,id/D/DO/DORMANDO/MogileFS-Server-2.72.tar.gz
 NEXT,0.65,id/F/FL/FLORA/NEXT-0.65.tar.gz
 NTLM,1.09,id/N/NB/NBEBOUT/NTLM-1.09.tar.gz
 Net-Ping,2.41,id/S/SM/SMPETERS/Net-Ping-2.41.tar.gz
 OLE-Storage_Lite,0.19,id/J/JM/JMCNAMARA/OLE-Storage_Lite-0.19.tar.gz
-Ogg-Vorbis-Header,0.03,id/D/DB/DBP/Ogg-Vorbis-Header-0.03.tar.gz
 Package-Constants,0.06,id/B/BI/BINGOS/Package-Constants-0.06.tar.gz
 Padre,1.00,id/P/PL/PLAVEN/Padre-1.00.tar.gz
 Params-Check,0.38,id/B/BI/BINGOS/Params-Check-0.38.tar.gz
@@ -125,11 +123,10 @@ Thread-Queue,3.07,id/J/JD/JDHEDDEN/Thread-Queue-3.07.tar.gz
 Thread-Semaphore,2.12,id/J/JD/JDHEDDEN/Thread-Semaphore-2.12.tar.gz
 Tie-EncryptedHash,1.24,id/V/VI/VIPUL/Tie-EncryptedHash-1.24.tar.gz
 Tie-RefHash,1.39,id/F/FL/FLORA/Tie-RefHash-1.39.tar.gz
-Time-HiRes,1.9728,id/R/RJ/RJBS/Time-HiRes-1.9728.tar.gz
+Time-HiRes,1.9732,id/J/JH/JHI/Time-HiRes-1.9732.tar.gz
 Time-Local,1.2300,id/D/DR/DROLSKY/Time-Local-1.2300.tar.gz
 Time-Period,1.25,id/P/PB/PBOYD/Time-Period-1.25.tar.gz
 Time-Piece,1.31,id/E/ES/ESAYM/Time-Piece-1.31.tar.gz
-Tk,804.033,id/S/SR/SREZIC/Tk-804.033.tar.gz
 Unicode-Collate,1.14,id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz
 Unicode-Normalize,1.25,id/K/KH/KHW/Unicode-Normalize-1.25.tar.gz
 XML-XSH2,2.1.25,id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz
