@@ -84,12 +84,10 @@ Module-Load,virtual/perl-Module-Load
 Module-Load-Conditional,virtual/perl-Module-Load-Conditional
 Module-Loaded,virtual/perl-Module-Loaded
 Module-Metadata,virtual/perl-Module-Metadata
-MogileFS-Server,dev-perl/mogilefs-server
 NEXT,virtual/perl-NEXT
 NTLM,dev-perl/Authen-NTLM
 Net-Ping,virtual/perl-Net-Ping
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
-Ogg-Vorbis-Header,dev-perl/ogg-vorbis-header
 Package-Constants,virtual/perl-Package-Constants
 Padre,app-editors/padre
 Params-Check,virtual/perl-Params-Check
@@ -131,7 +129,6 @@ Time-HiRes,virtual/perl-Time-HiRes
 Time-Local,virtual/perl-Time-Local
 Time-Period,dev-perl/Period
 Time-Piece,virtual/perl-Time-Piece
-Tk,dev-perl/perl-tk
 Unicode-Collate,virtual/perl-Unicode-Collate
 Unicode-Normalize,virtual/perl-Unicode-Normalize
 XML-XSH2,app-editors/XML-XSH2

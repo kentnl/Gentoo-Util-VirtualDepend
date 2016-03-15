@@ -2,6 +2,7 @@ Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
  - Remove Wx and DateManip special casing
+ - Remove Tk, MogileFS-Server and Ogg-Vorbis-Header special casing
 
 0.003012 2016-03-10T07:51:02Z 8020cc9
  - Update mappings.
