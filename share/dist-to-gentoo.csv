@@ -103,7 +103,6 @@ Regexp-Common,dev-perl/regexp-common
 Safe,virtual/perl-Safe
 Scalar-List-Utils,virtual/perl-Scalar-List-Utils
 SelfLoader,virtual/perl-SelfLoader
-Set-Scalar,dev-perl/set-scalar
 Snapback2,app-backup/snapback2
 Socket,virtual/perl-Socket
 Storable,virtual/perl-Storable

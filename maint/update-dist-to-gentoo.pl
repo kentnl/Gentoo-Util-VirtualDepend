@@ -176,7 +176,6 @@ OLE-Storage_Lite,dev-perl/OLE-StorageLite
 Padre,app-editors/padre
 PathTools,virtual/perl-File-Spec
 Regexp-Common,dev-perl/regexp-common
-Set-Scalar,dev-perl/set-scalar
 Snapback2,app-backup/snapback2
 String-CRC32,dev-perl/string-crc32
 Text-Template,dev-perl/text-template
