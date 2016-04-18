@@ -8,6 +8,7 @@ Release history for Gentoo-Util-VirtualDepend
  - Remove PerlTidy special casing.
  - Remove Set-Scalar special casing.
  - Remove String-CRC32 special casing.
+ - Remove Time::Period special casing.
 
 0.003012 2016-03-10T07:51:02Z 8020cc9
  - Update mappings.

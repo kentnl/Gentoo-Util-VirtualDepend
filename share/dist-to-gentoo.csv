@@ -123,7 +123,6 @@ Tie-EncryptedHash,dev-perl/tie-encryptedhash
 Tie-RefHash,virtual/perl-Tie-RefHash
 Time-HiRes,virtual/perl-Time-HiRes
 Time-Local,virtual/perl-Time-Local
-Time-Period,dev-perl/Period
 Time-Piece,virtual/perl-Time-Piece
 Unicode-Collate,virtual/perl-Unicode-Collate
 Unicode-Normalize,virtual/perl-Unicode-Normalize

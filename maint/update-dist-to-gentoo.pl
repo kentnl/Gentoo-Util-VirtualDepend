@@ -180,7 +180,6 @@ Snapback2,app-backup/snapback2
 Text-Template,dev-perl/text-template
 Text-Wrapper,dev-perl/text-wrapper
 Tie-EncryptedHash,dev-perl/tie-encryptedhash
-Time-Period,dev-perl/Period
 XML-XSH2,app-editors/XML-XSH2
 YAML,dev-perl/yaml
 ack,sys-apps/ack
