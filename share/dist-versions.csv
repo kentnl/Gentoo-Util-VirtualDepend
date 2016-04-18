@@ -32,7 +32,7 @@ Digest-MD2,2.04,id/G/GA/GAAS/Digest-MD2-2.04.tar.gz
 Digest-MD5,2.55,id/G/GA/GAAS/Digest-MD5-2.55.tar.gz
 Digest-SHA,5.95,id/M/MS/MSHELOR/Digest-SHA-5.95.tar.gz
 Dumpvalue,1.17,id/F/FL/FLORA/Dumpvalue-1.17.tar.gz
-Encode,2.82,id/D/DA/DANKOGAI/Encode-2.82.tar.gz
+Encode,2.84,id/D/DA/DANKOGAI/Encode-2.84.tar.gz
 Exporter,5.72,id/T/TO/TODDR/Exporter-5.72.tar.gz
 ExtUtils-CBuilder,0.280224,id/A/AM/AMBS/ExtUtils-CBuilder-0.280224.tar.gz
 ExtUtils-Constant,0.23,id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz
@@ -71,13 +71,13 @@ JSON-PP,2.27300,id/M/MA/MAKAMAKA/JSON-PP-2.27300.tar.gz
 Locale-Maketext,1.26,id/T/TO/TODDR/Locale-Maketext-1.26.tar.gz
 Locale-Maketext-Simple,0.21,id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz
 MIME-Base64,3.15,id/G/GA/GAAS/MIME-Base64-3.15.tar.gz
-Math-BigInt,1.999715,id/P/PJ/PJACKLAM/Math-BigInt-1.999715.tar.gz
+Math-BigInt,1.999717,id/P/PJ/PJACKLAM/Math-BigInt-1.999717.tar.gz
 Math-BigInt-FastCalc,0.40,id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.40.tar.gz
 Math-BigRat,0.260802,id/P/PJ/PJACKLAM/Math-BigRat-0.260802.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Math-Pari,2.010808,id/I/IL/ILYAZ/modules/Math-Pari-2.010808.zip
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
-Module-CoreList,5.20160121,id/B/BI/BINGOS/Module-CoreList-5.20160121.tar.gz
+Module-CoreList,5.20160320,id/B/BI/BINGOS/Module-CoreList-5.20160320.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
 Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz
 Module-Loaded,0.08,id/B/BI/BINGOS/Module-Loaded-0.08.tar.gz
@@ -101,7 +101,7 @@ Pod-Simple,3.32,id/M/MA/MARCGREEN/Pod-Simple-3.32.tar.gz
 Pod-Usage,1.68,id/M/MA/MAREKR/Pod-Usage-1.68.tar.gz
 Regexp-Common,2016020301,id/A/AB/ABIGAIL/Regexp-Common-2016020301.tar.gz
 Safe,2.35,id/R/RG/RGARCIA/Safe-2.35.tar.gz
-Scalar-List-Utils,1.43,id/P/PE/PEVANS/Scalar-List-Utils-1.43.tar.gz
+Scalar-List-Utils,1.45,id/P/PE/PEVANS/Scalar-List-Utils-1.45.tar.gz
 SelfLoader,1.20,id/S/SM/SMUELLER/SelfLoader-1.20.tar.gz
 Set-Scalar,1.29,id/D/DA/DAVIDO/Set-Scalar-1.29.tar.gz
 Snapback2,1.001,id/M/MI/MIKEH/Snapback2-1.001.tar.gz
@@ -109,7 +109,7 @@ Socket,2.021,id/P/PE/PEVANS/Socket-2.021.tar.gz
 Storable,2.51,id/A/AM/AMS/Storable-2.51.tar.gz
 String-CRC32,1.5,id/S/SO/SOENKE/String-CRC32-1.5.tar.gz
 Sys-Syslog,0.33,id/S/SA/SAPER/Sys-Syslog-0.33.tar.gz
-Term-ANSIColor,4.04,id/R/RR/RRA/Term-ANSIColor-4.04.tar.gz
+Term-ANSIColor,4.05,id/R/RR/RRA/Term-ANSIColor-4.05.tar.gz
 Term-ReadLine,1.14,id/F/FL/FLORA/Term-ReadLine-1.14.tar.gz
 Test,1.26,id/J/JE/JESSE/Test-1.26.tar.gz
 Test-Harness,3.36,id/L/LE/LEONT/Test-Harness-3.36.tar.gz
@@ -140,7 +140,7 @@ gettext,1.07,id/P/PV/PVANDRY/gettext-1.07.tar.gz
 if,0.0606,id/R/RJ/RJBS/if-0.0606.tar.gz
 libnet,3.08,id/S/SH/SHAY/libnet-3.08.tar.gz
 parent,0.234,id/C/CO/CORION/parent-0.234.tar.gz
-podlators,4.06,id/R/RR/RRA/podlators-4.06.tar.gz
+podlators,4.07,id/R/RR/RRA/podlators-4.07.tar.gz
 threads,2.02,id/J/JD/JDHEDDEN/threads-2.02.tar.gz
 threads-shared,1.48,id/J/JD/JDHEDDEN/threads-shared-1.48.tar.gz
-version,0.9915,id/J/JP/JPEACOCK/version-0.9915.tar.gz
+version,0.9916,id/J/JP/JPEACOCK/version-0.9916.tar.gz
