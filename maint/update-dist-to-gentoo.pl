@@ -175,7 +175,6 @@ NTLM,dev-perl/Authen-NTLM
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
 Padre,app-editors/padre
 PathTools,virtual/perl-File-Spec
-Perl-Tidy,dev-perl/perltidy
 Regexp-Common,dev-perl/regexp-common
 Set-Scalar,dev-perl/set-scalar
 Snapback2,app-backup/snapback2

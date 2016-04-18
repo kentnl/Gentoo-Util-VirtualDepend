@@ -5,6 +5,7 @@ Release history for Gentoo-Util-VirtualDepend
  - Remove Tk, MogileFS-Server and Ogg-Vorbis-Header special casing
  - Update mappings
  - Remove Math-Pari special casing.
+ - Remove PerlTidy special casing.
 
 0.003012 2016-03-10T07:51:02Z 8020cc9
  - Update mappings.

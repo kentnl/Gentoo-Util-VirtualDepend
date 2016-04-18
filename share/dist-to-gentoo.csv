@@ -93,7 +93,6 @@ Params-Check,virtual/perl-Params-Check
 Parse-CPAN-Meta,virtual/perl-Parse-CPAN-Meta
 PathTools,virtual/perl-File-Spec
 Perl-OSType,virtual/perl-Perl-OSType
-Perl-Tidy,dev-perl/perltidy
 Pod-Checker,virtual/perl-Pod-Checker
 Pod-Escapes,virtual/perl-Pod-Escapes
 Pod-Parser,virtual/perl-Pod-Parser
