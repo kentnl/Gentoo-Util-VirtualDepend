@@ -1766,9 +1766,6 @@ Math::BigInt::FastCalc,virtual/perl-Math-BigInt-FastCalc
 Math::BigInt::Trace,virtual/perl-bignum
 Math::BigRat,virtual/perl-Math-BigRat
 Math::Complex,virtual/perl-Math-Complex
-Math::Pari,dev-perl/math-pari
-Math::Pari::Arr,dev-perl/math-pari
-Math::PariBuild,dev-perl/math-pari
 Math::Trig,virtual/perl-Math-Complex
 Memoize,virtual/perl-Memoize
 Memoize::AnyDBM_File,virtual/perl-Memoize
