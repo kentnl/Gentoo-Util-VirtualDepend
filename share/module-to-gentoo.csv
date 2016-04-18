@@ -2224,14 +2224,6 @@ Regexp::Common::zip,dev-perl/regexp-common
 Safe,virtual/perl-Safe
 Scalar::Util,virtual/perl-Scalar-List-Utils
 SelfLoader,virtual/perl-SelfLoader
-Set::Scalar,dev-perl/set-scalar
-Set::Scalar::Base,dev-perl/set-scalar
-Set::Scalar::Null,dev-perl/set-scalar
-Set::Scalar::Real,dev-perl/set-scalar
-Set::Scalar::Universe,dev-perl/set-scalar
-Set::Scalar::Valued,dev-perl/set-scalar
-Set::Scalar::ValuedUniverse,dev-perl/set-scalar
-Set::Scalar::Virtual,dev-perl/set-scalar
 Socket,virtual/perl-Socket
 Storable,virtual/perl-Storable
 String::CRC32,dev-perl/string-crc32
