@@ -77,7 +77,6 @@ Math-BigInt,virtual/perl-Math-BigInt
 Math-BigInt-FastCalc,virtual/perl-Math-BigInt-FastCalc
 Math-BigRat,virtual/perl-Math-BigRat
 Math-Complex,virtual/perl-Math-Complex
-Math-Pari,dev-perl/math-pari
 Memoize,virtual/perl-Memoize
 Module-CoreList,virtual/perl-Module-CoreList
 Module-Load,virtual/perl-Module-Load
