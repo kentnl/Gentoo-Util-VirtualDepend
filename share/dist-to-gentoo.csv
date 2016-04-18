@@ -106,7 +106,6 @@ SelfLoader,virtual/perl-SelfLoader
 Snapback2,app-backup/snapback2
 Socket,virtual/perl-Socket
 Storable,virtual/perl-Storable
-String-CRC32,dev-perl/string-crc32
 Sys-Syslog,virtual/perl-Sys-Syslog
 Term-ANSIColor,virtual/perl-Term-ANSIColor
 Term-ReadLine,virtual/perl-Term-ReadLine

@@ -177,7 +177,6 @@ Padre,app-editors/padre
 PathTools,virtual/perl-File-Spec
 Regexp-Common,dev-perl/regexp-common
 Snapback2,app-backup/snapback2
-String-CRC32,dev-perl/string-crc32
 Text-Template,dev-perl/text-template
 Text-Wrapper,dev-perl/text-wrapper
 Tie-EncryptedHash,dev-perl/tie-encryptedhash
