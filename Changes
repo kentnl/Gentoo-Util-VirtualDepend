@@ -1,6 +1,6 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003013 2016-04-18T18:45:27Z e33c2c6
+0.003013 2016-04-18T18:47:46Z af611c6
  - Remove Wx and DateManip special casing
  - Remove Tk, MogileFS-Server and Ogg-Vorbis-Header special casing
  - Update mappings
@@ -8,6 +8,7 @@ Release history for Gentoo-Util-VirtualDepend
  - Remove PerlTidy special casing.
  - Remove Set-Scalar special casing.
  - Remove String-CRC32 special casing.
+ - Remove Time::Period special casing.
 
 0.003012 2016-03-10T07:51:02Z 8020cc9
  - Update mappings.

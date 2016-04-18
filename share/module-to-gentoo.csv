@@ -2308,7 +2308,6 @@ Tie::RefHash,virtual/perl-Tie-RefHash
 Tie::RefHash::Nestable,virtual/perl-Tie-RefHash
 Time::HiRes,virtual/perl-Time-HiRes
 Time::Local,virtual/perl-Time-Local
-Time::Period,dev-perl/Period
 Time::Piece,virtual/perl-Time-Piece
 Time::Seconds,virtual/perl-Time-Piece
 U64,virtual/perl-IO-Compress
