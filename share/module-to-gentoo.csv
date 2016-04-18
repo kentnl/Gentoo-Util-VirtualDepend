@@ -2226,7 +2226,6 @@ Scalar::Util,virtual/perl-Scalar-List-Utils
 SelfLoader,virtual/perl-SelfLoader
 Socket,virtual/perl-Socket
 Storable,virtual/perl-Storable
-String::CRC32,dev-perl/string-crc32
 Sub::Util,virtual/perl-Scalar-List-Utils
 Sys::Syslog,virtual/perl-Sys-Syslog
 Sys::Syslog::Win32,virtual/perl-Sys-Syslog
