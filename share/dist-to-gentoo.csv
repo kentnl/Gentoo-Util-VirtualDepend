@@ -25,7 +25,6 @@ DB_File,virtual/perl-DB_File
 Data-Buffer,dev-perl/data-buffer
 Data-Dumper,virtual/perl-Data-Dumper
 Devel-PPPort,virtual/perl-Devel-PPPort
-Devel-SelfStubber,virtual/perl-Devel-SelfStubber
 Digest,virtual/perl-Digest
 Digest-BubbleBabble,dev-perl/digest-bubblebabble
 Digest-MD2,dev-perl/digest-md2
@@ -42,7 +41,6 @@ ExtUtils-MakeMaker,virtual/perl-ExtUtils-MakeMaker
 ExtUtils-Manifest,virtual/perl-ExtUtils-Manifest
 ExtUtils-ParseXS,virtual/perl-ExtUtils-ParseXS
 ExtUtils-PkgConfig,dev-perl/extutils-pkgconfig
-File-Fetch,virtual/perl-File-Fetch
 File-Path,virtual/perl-File-Path
 File-Temp,virtual/perl-File-Temp
 Filter-Simple,virtual/perl-Filter-Simple
@@ -67,7 +65,6 @@ IO-Compress,virtual/perl-IO-Compress
 IO-Socket-IP,virtual/perl-IO-Socket-IP
 IO-Zlib,virtual/perl-IO-Zlib
 IPC-Cmd,virtual/perl-IPC-Cmd
-IPC-SysV,virtual/perl-IPC-SysV
 Image-ExifTool,media-libs/exiftool
 JSON-PP,virtual/perl-JSON-PP
 Locale-Maketext,virtual/perl-Locale-Maketext
@@ -83,7 +80,6 @@ Module-Load,virtual/perl-Module-Load
 Module-Load-Conditional,virtual/perl-Module-Load-Conditional
 Module-Loaded,virtual/perl-Module-Loaded
 Module-Metadata,virtual/perl-Module-Metadata
-NEXT,virtual/perl-NEXT
 NTLM,dev-perl/Authen-NTLM
 Net-Ping,virtual/perl-Net-Ping
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
@@ -93,16 +89,12 @@ Params-Check,virtual/perl-Params-Check
 Parse-CPAN-Meta,virtual/perl-Parse-CPAN-Meta
 PathTools,virtual/perl-File-Spec
 Perl-OSType,virtual/perl-Perl-OSType
-Pod-Checker,virtual/perl-Pod-Checker
 Pod-Escapes,virtual/perl-Pod-Escapes
 Pod-Parser,virtual/perl-Pod-Parser
-Pod-Perldoc,virtual/perl-Pod-Perldoc
 Pod-Simple,virtual/perl-Pod-Simple
-Pod-Usage,virtual/perl-Pod-Usage
 Regexp-Common,dev-perl/regexp-common
 Safe,virtual/perl-Safe
 Scalar-List-Utils,virtual/perl-Scalar-List-Utils
-SelfLoader,virtual/perl-SelfLoader
 Snapback2,app-backup/snapback2
 Socket,virtual/perl-Socket
 Storable,virtual/perl-Storable
@@ -132,7 +124,6 @@ YAML,dev-perl/yaml
 ack,sys-apps/ack
 autodie,virtual/perl-autodie
 bignum,virtual/perl-bignum
-constant,virtual/perl-constant
 gettext,dev-perl/Locale-gettext
 if,virtual/perl-if
 libnet,virtual/perl-libnet

@@ -100,17 +100,8 @@ my (@normal_virtuals) = qw(
   threads
   threads-shared
   version
-  Devel-SelfStubber
-  File-Fetch
-  IPC-SysV
-  NEXT
-  Pod-Checker
-  Pod-Perldoc
-  Pod-Usage
-  SelfLoader
   Unicode-Collate
   Unicode-Normalize
-  constant
 );
 
 for my $normal (@normal_virtuals) {
