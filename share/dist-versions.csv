@@ -1,6 +1,6 @@
 AcePerl,1.92,id/L/LD/LDS/AcePerl-1.92.tar.gz
 App-SVN-Bisect,1.1,id/I/IN/INFINOID/App-SVN-Bisect-1.1.tar.gz
-Archive-Tar,2.04,id/B/BI/BINGOS/Archive-Tar-2.04.tar.gz
+Archive-Tar,2.06,id/B/BI/BINGOS/Archive-Tar-2.06.tar.gz
 Attribute-Handlers,0.99,id/R/RJ/RJBS/Attribute-Handlers-0.99.tar.gz
 AutoLoader,5.74,id/S/SM/SMUELLER/AutoLoader-5.74.tar.gz
 Autodia,2.14,id/T/TE/TEEJAY/Autodia-2.14.tar.gz
@@ -36,7 +36,7 @@ Exporter,5.72,id/T/TO/TODDR/Exporter-5.72.tar.gz
 ExtUtils-CBuilder,0.280224,id/A/AM/AMBS/ExtUtils-CBuilder-0.280224.tar.gz
 ExtUtils-Constant,0.23,id/N/NW/NWCLARK/ExtUtils-Constant-0.23.tar.gz
 ExtUtils-Install,2.04,id/B/BI/BINGOS/ExtUtils-Install-2.04.tar.gz
-ExtUtils-MakeMaker,7.10,id/B/BI/BINGOS/ExtUtils-MakeMaker-7.10.tar.gz
+ExtUtils-MakeMaker,7.14,id/B/BI/BINGOS/ExtUtils-MakeMaker-7.14.tar.gz
 ExtUtils-Manifest,1.70,id/E/ET/ETHER/ExtUtils-Manifest-1.70.tar.gz
 ExtUtils-ParseXS,3.30,id/S/SM/SMUELLER/ExtUtils-ParseXS-3.30.tar.gz
 ExtUtils-PkgConfig,1.15,id/X/XA/XAOC/ExtUtils-PkgConfig-1.15.tar.gz
@@ -63,14 +63,14 @@ IO-Compress,2.069,id/P/PM/PMQS/IO-Compress-2.069.tar.gz
 IO-Socket-IP,0.37,id/P/PE/PEVANS/IO-Socket-IP-0.37.tar.gz
 IO-Zlib,1.10,id/T/TO/TOMHUGHES/IO-Zlib-1.10.tar.gz
 IPC-Cmd,0.94,id/B/BI/BINGOS/IPC-Cmd-0.94.tar.gz
-Image-ExifTool,10.10,id/E/EX/EXIFTOOL/Image-ExifTool-10.10.tar.gz
-JSON-PP,2.27300,id/M/MA/MAKAMAKA/JSON-PP-2.27300.tar.gz
+Image-ExifTool,10.15,id/E/EX/EXIFTOOL/Image-ExifTool-10.15.tar.gz
+JSON-PP,2.27400,id/M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
 Locale-Maketext,1.26,id/T/TO/TODDR/Locale-Maketext-1.26.tar.gz
 Locale-Maketext-Simple,0.21,id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz
 MIME-Base64,3.15,id/G/GA/GAAS/MIME-Base64-3.15.tar.gz
-Math-BigInt,1.999717,id/P/PJ/PJACKLAM/Math-BigInt-1.999717.tar.gz
-Math-BigInt-FastCalc,0.40,id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.40.tar.gz
-Math-BigRat,0.260802,id/P/PJ/PJACKLAM/Math-BigRat-0.260802.tar.gz
+Math-BigInt,1.999718,id/P/PJ/PJACKLAM/Math-BigInt-1.999718.tar.gz
+Math-BigInt-FastCalc,0.41,id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.41.tar.gz
+Math-BigRat,0.260803,id/P/PJ/PJACKLAM/Math-BigRat-0.260803.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
 Module-CoreList,5.20160320,id/B/BI/BINGOS/Module-CoreList-5.20160320.tar.gz
@@ -111,7 +111,7 @@ Thread-Queue,3.07,id/J/JD/JDHEDDEN/Thread-Queue-3.07.tar.gz
 Thread-Semaphore,2.12,id/J/JD/JDHEDDEN/Thread-Semaphore-2.12.tar.gz
 Tie-EncryptedHash,1.24,id/V/VI/VIPUL/Tie-EncryptedHash-1.24.tar.gz
 Tie-RefHash,1.39,id/F/FL/FLORA/Tie-RefHash-1.39.tar.gz
-Time-HiRes,1.9732,id/J/JH/JHI/Time-HiRes-1.9732.tar.gz
+Time-HiRes,1.9733,id/J/JH/JHI/Time-HiRes-1.9733.tar.gz
 Time-Local,1.2300,id/D/DR/DROLSKY/Time-Local-1.2300.tar.gz
 Time-Piece,1.31,id/E/ES/ESAYM/Time-Piece-1.31.tar.gz
 Unicode-Collate,1.14,id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz
