@@ -1,6 +1,6 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003014 2016-04-25T14:41:18Z df2d09d
+0.003014 2016-04-25T14:41:48Z a3a2019
  - Remove Virtual rules for dual-life things that we don't have virtuals for yet. This means they will fall back to the
    corelist resolution strategy when seen. They will be re-added at such time as they are actually needed.
 

@@ -1624,6 +1624,7 @@ Image::ExifTool::HtmlDump,media-libs/exiftool
 Image::ExifTool::ICC_Profile,media-libs/exiftool
 Image::ExifTool::ID3,media-libs/exiftool
 Image::ExifTool::IPTC,media-libs/exiftool
+Image::ExifTool::ISO,media-libs/exiftool
 Image::ExifTool::ITC,media-libs/exiftool
 Image::ExifTool::Import,media-libs/exiftool
 Image::ExifTool::InDesign,media-libs/exiftool
