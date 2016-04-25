@@ -1,5 +1,9 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003014 2016-04-25T14:45:19Z aca0ad3
+ - Remove Virtual rules for dual-life things that we don't have virtuals for yet. This means they will fall back to the
+   corelist resolution strategy when seen. They will be re-added at such time as they are actually needed.
+
 0.003013 2016-04-18T18:47:46Z af611c6
  - Remove Wx and DateManip special casing
  - Remove Tk, MogileFS-Server and Ogg-Vorbis-Header special casing
