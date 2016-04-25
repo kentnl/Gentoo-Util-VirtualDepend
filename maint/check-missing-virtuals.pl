@@ -16,7 +16,7 @@ use Gentoo::Util::VirtualDepend;
 my $vdep = Gentoo::Util::VirtualDepend->new();
 
 my ( $out, $err, $exit ) = capture {
-  system( 'eix', '--only-names', '-c', 'virtual/perl-*' );
+  system( 'eix', '--in-overlay', 'gentoo', '--only-names', '-c', 'virtual/perl-*' );
 };
 if ( $exit != 0 and $exit != 1 and $exit != 256 ) {
   die "Halt: $err $exit";
