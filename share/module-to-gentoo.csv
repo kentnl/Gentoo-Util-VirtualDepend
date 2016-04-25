@@ -1313,7 +1313,6 @@ Demo_Exporter,virtual/perl-Filter-Simple
 Demo_Importer,virtual/perl-Filter-Simple
 Demo_REM,virtual/perl-Filter-Simple
 Devel::PPPort,virtual/perl-Devel-PPPort
-Devel::SelfStubber,virtual/perl-Devel-SelfStubber
 Digest,virtual/perl-Digest
 Digest::BubbleBabble,dev-perl/digest-bubblebabble
 Digest::MD2,dev-perl/digest-md2
@@ -1323,8 +1322,6 @@ Digest::base,virtual/perl-Digest
 Digest::file,virtual/perl-Digest
 DotsForArrows,virtual/perl-Filter-Simple
 Dumpvalue,virtual/perl-Dumpvalue
-EVERY,virtual/perl-NEXT
-EVERY::LAST,virtual/perl-NEXT
 Encode,virtual/perl-Encode
 Encode::Alias,virtual/perl-Encode
 Encode::Byte,virtual/perl-Encode
@@ -1427,7 +1424,6 @@ ExtUtils::testlib,virtual/perl-ExtUtils-MakeMaker
 FakeHomol,sci-biology/GBrowse
 Fatal,virtual/perl-autodie
 FeatureStore,sci-biology/bioperl
-File::Fetch,virtual/perl-File-Fetch
 File::GlobMapper,virtual/perl-IO-Compress
 File::Path,virtual/perl-File-Path
 File::RandomAccess,media-libs/exiftool
@@ -1579,13 +1575,6 @@ IO::Uncompress::RawInflate,virtual/perl-IO-Compress
 IO::Uncompress::Unzip,virtual/perl-IO-Compress
 IO::Zlib,virtual/perl-IO-Zlib
 IPC::Cmd,virtual/perl-IPC-Cmd
-IPC::Msg,virtual/perl-IPC-SysV
-IPC::Msg::stat,virtual/perl-IPC-SysV
-IPC::Semaphore,virtual/perl-IPC-SysV
-IPC::Semaphore::stat,virtual/perl-IPC-SysV
-IPC::SharedMem,virtual/perl-IPC-SysV
-IPC::SharedMem::stat,virtual/perl-IPC-SysV
-IPC::SysV,virtual/perl-IPC-SysV
 Image::ExifTool,media-libs/exiftool
 Image::ExifTool::AES,media-libs/exiftool
 Image::ExifTool::AFCP,media-libs/exiftool
@@ -1789,14 +1778,6 @@ Music::DBI,dev-perl/gtk2-ex-formfactory
 Music::Genre,dev-perl/gtk2-ex-formfactory
 Music::Song,dev-perl/gtk2-ex-formfactory
 MyFeatureFileLoader,sci-biology/GBrowse
-NEXT,virtual/perl-NEXT
-NEXT::ACTUAL,virtual/perl-NEXT
-NEXT::ACTUAL::DISTINCT,virtual/perl-NEXT
-NEXT::ACTUAL::UNSEEN,virtual/perl-NEXT
-NEXT::DISTINCT,virtual/perl-NEXT
-NEXT::DISTINCT::ACTUAL,virtual/perl-NEXT
-NEXT::UNSEEN,virtual/perl-NEXT
-NEXT::UNSEEN::ACTUAL,virtual/perl-NEXT
 Net::Cmd,virtual/perl-libnet
 Net::Config,virtual/perl-libnet
 Net::Domain,virtual/perl-libnet
@@ -2125,7 +2106,6 @@ Parse::CPAN::Meta,virtual/perl-Parse-CPAN-Meta
 Perl::OSType,virtual/perl-Perl-OSType
 Pod::Cache,virtual/perl-Pod-Parser
 Pod::Cache::Item,virtual/perl-Pod-Parser
-Pod::Checker,virtual/perl-Pod-Checker
 Pod::Escapes,virtual/perl-Pod-Escapes
 Pod::Find,virtual/perl-Pod-Parser
 Pod::Hyperlink,virtual/perl-Pod-Parser
@@ -2139,19 +2119,6 @@ Pod::ParseLink,virtual/perl-podlators
 Pod::ParseTree,virtual/perl-Pod-Parser
 Pod::ParseUtils,virtual/perl-Pod-Parser
 Pod::Parser,virtual/perl-Pod-Parser
-Pod::Perldoc,virtual/perl-Pod-Perldoc
-Pod::Perldoc::BaseTo,virtual/perl-Pod-Perldoc
-Pod::Perldoc::GetOptsOO,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToANSI,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToChecker,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToMan,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToNroff,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToPod,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToRtf,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToTerm,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToText,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToTk,virtual/perl-Pod-Perldoc
-Pod::Perldoc::ToXml,virtual/perl-Pod-Perldoc
 Pod::PlainText,virtual/perl-Pod-Parser
 Pod::Select,virtual/perl-Pod-Parser
 Pod::Simple,virtual/perl-Pod-Simple
@@ -2186,7 +2153,6 @@ Pod::Text,virtual/perl-podlators
 Pod::Text::Color,virtual/perl-podlators
 Pod::Text::Overstrike,virtual/perl-podlators
 Pod::Text::Termcap,virtual/perl-podlators
-Pod::Usage,virtual/perl-Pod-Usage
 Regexp::Common,dev-perl/regexp-common
 Regexp::Common::CC,dev-perl/regexp-common
 Regexp::Common::Entry,dev-perl/regexp-common
@@ -2223,7 +2189,6 @@ Regexp::Common::whitespace,dev-perl/regexp-common
 Regexp::Common::zip,dev-perl/regexp-common
 Safe,virtual/perl-Safe
 Scalar::Util,virtual/perl-Scalar-List-Utils
-SelfLoader,virtual/perl-SelfLoader
 Socket,virtual/perl-Socket
 Storable,virtual/perl-Storable
 Sub::Util,virtual/perl-Scalar-List-Utils
@@ -2374,7 +2339,6 @@ autodie::skip,virtual/perl-autodie
 bigint,virtual/perl-bignum
 bignum,virtual/perl-bignum
 bigrat,virtual/perl-bignum
-constant,virtual/perl-constant
 encoding,virtual/perl-Encode
 if,virtual/perl-if
 ok,virtual/perl-Test-Simple
