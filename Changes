@@ -1,5 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003015 2016-04-30T21:41:26Z 08d3f2c
+ - Remove special casing for: Text::Template, Text::Wrapper, Tie::EncryptedHash, YAML
+
 0.003014 2016-04-25T14:45:19Z aca0ad3
  - Remove Virtual rules for dual-life things that we don't have virtuals for yet. This means they will fall back to the
    corelist resolution strategy when seen. They will be re-added at such time as they are actually needed.

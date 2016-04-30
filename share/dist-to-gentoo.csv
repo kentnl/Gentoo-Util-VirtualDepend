@@ -107,11 +107,8 @@ Test-Simple,virtual/perl-Test-Simple
 Text-Balanced,virtual/perl-Text-Balanced
 Text-ParseWords,virtual/perl-Text-ParseWords
 Text-Tabs+Wrap,virtual/perl-Text-Tabs+Wrap
-Text-Template,dev-perl/text-template
-Text-Wrapper,dev-perl/text-wrapper
 Thread-Queue,virtual/perl-Thread-Queue
 Thread-Semaphore,virtual/perl-Thread-Semaphore
-Tie-EncryptedHash,dev-perl/tie-encryptedhash
 Tie-RefHash,virtual/perl-Tie-RefHash
 Time-HiRes,virtual/perl-Time-HiRes
 Time-Local,virtual/perl-Time-Local
@@ -120,7 +117,6 @@ Unicode-Collate,virtual/perl-Unicode-Collate
 Unicode-Normalize,virtual/perl-Unicode-Normalize
 XML-XSH2,app-editors/XML-XSH2
 XSLoader,virtual/perl-XSLoader
-YAML,dev-perl/yaml
 ack,sys-apps/ack
 autodie,virtual/perl-autodie
 bignum,virtual/perl-bignum

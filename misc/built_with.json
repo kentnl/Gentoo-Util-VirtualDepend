@@ -26,7 +26,7 @@
       "Dist::Zilla::Plugin::MetaConfig" : "5.043",
       "Dist::Zilla::Plugin::MetaData::BuiltWith" : "1.004002",
       "Dist::Zilla::Plugin::MetaJSON" : "5.043",
-      "Dist::Zilla::Plugin::MetaProvides::Package" : "2.003001",
+      "Dist::Zilla::Plugin::MetaProvides::Package" : "2.004000",
       "Dist::Zilla::Plugin::MetaTests" : "5.043",
       "Dist::Zilla::Plugin::MetaYAML::Minimal" : "0.001000",
       "Dist::Zilla::Plugin::MinimumPerl" : "1.006",
