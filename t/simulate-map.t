@@ -171,10 +171,10 @@ for my $case ( sort { $a->[0] cmp $b->[0] || $a->[1] cmp $b->[1] || $a->[2] cmp 
 note explain \%maps;
 
 cmp_ok( scalar @{ $maps{perl} }, '==', 4,  "Exactly 4 things mapped to perl" );
-cmp_ok( scalar @{ $maps{CPAN} }, '==', 68, "Exactly 68 things mapped to some kind of CPAN distribution" );
+cmp_ok( scalar @{ $maps{CPAN} }, '==', 69, "Exactly 69 things mapped to some kind of CPAN distribution" );
 delete $maps{perl};
 delete $maps{CPAN};
-cmp_ok( scalar keys %maps, '==', 21, "Exactly 21 overrides invoked" );
+cmp_ok( scalar keys %maps, '==', 20, "Exactly 20 overrides invoked" );
 
 done_testing;
 

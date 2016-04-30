@@ -68,12 +68,12 @@ JSON-PP,2.27400,id/M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
 Locale-Maketext,1.26,id/T/TO/TODDR/Locale-Maketext-1.26.tar.gz
 Locale-Maketext-Simple,0.21,id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz
 MIME-Base64,3.15,id/G/GA/GAAS/MIME-Base64-3.15.tar.gz
-Math-BigInt,1.999718,id/P/PJ/PJACKLAM/Math-BigInt-1.999718.tar.gz
-Math-BigInt-FastCalc,0.41,id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.41.tar.gz
-Math-BigRat,0.260803,id/P/PJ/PJACKLAM/Math-BigRat-0.260803.tar.gz
+Math-BigInt,1.999722,id/P/PJ/PJACKLAM/Math-BigInt-1.999722.tar.gz
+Math-BigInt-FastCalc,0.42,id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.42.tar.gz
+Math-BigRat,0.260804,id/P/PJ/PJACKLAM/Math-BigRat-0.260804.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
-Module-CoreList,5.20160320,id/B/BI/BINGOS/Module-CoreList-5.20160320.tar.gz
+Module-CoreList,5.20160429,id/B/BI/BINGOS/Module-CoreList-5.20160429.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
 Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz
 Module-Loaded,0.08,id/B/BI/BINGOS/Module-Loaded-0.08.tar.gz
@@ -105,11 +105,8 @@ Test-Simple,1.001014,id/E/EX/EXODIST/Test-Simple-1.001014.tar.gz
 Text-Balanced,2.03,id/S/SH/SHAY/Text-Balanced-2.03.tar.gz
 Text-ParseWords,3.30,id/C/CH/CHORNY/Text-ParseWords-3.30.tar.gz
 Text-Tabs+Wrap,2013.0523,id/M/MU/MUIR/modules/Text-Tabs+Wrap-2013.0523.tar.gz
-Text-Template,1.46,id/M/MJ/MJD/Text-Template-1.46.tar.gz
-Text-Wrapper,1.05,id/C/CJ/CJM/Text-Wrapper-1.05.tar.gz
 Thread-Queue,3.07,id/J/JD/JDHEDDEN/Thread-Queue-3.07.tar.gz
 Thread-Semaphore,2.12,id/J/JD/JDHEDDEN/Thread-Semaphore-2.12.tar.gz
-Tie-EncryptedHash,1.24,id/V/VI/VIPUL/Tie-EncryptedHash-1.24.tar.gz
 Tie-RefHash,1.39,id/F/FL/FLORA/Tie-RefHash-1.39.tar.gz
 Time-HiRes,1.9733,id/J/JH/JHI/Time-HiRes-1.9733.tar.gz
 Time-Local,1.2300,id/D/DR/DROLSKY/Time-Local-1.2300.tar.gz
@@ -118,7 +115,6 @@ Unicode-Collate,1.14,id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz
 Unicode-Normalize,1.25,id/K/KH/KHW/Unicode-Normalize-1.25.tar.gz
 XML-XSH2,2.1.25,id/C/CH/CHOROBA/XML-XSH2-2.1.25.tar.gz
 XSLoader,0.16,id/S/SA/SAPER/XSLoader-0.16.tar.gz
-YAML,1.15,id/I/IN/INGY/YAML-1.15.tar.gz
 ack,2.14,id/P/PE/PETDANCE/ack-2.14.tar.gz
 autodie,2.29,id/P/PJ/PJF/autodie-2.29.tar.gz
 bignum,0.42,id/P/PJ/PJACKLAM/bignum-0.42.tar.gz
