@@ -1269,15 +1269,9 @@ CPAN::Version,virtual/perl-CPAN
 Cache::Mmap,dev-perl/cache-mmap
 Carp,virtual/perl-Carp
 Carp::Heavy,virtual/perl-Carp
-Class::Loader,dev-perl/class-loader
-Class::LoaderTest,dev-perl/class-loader
 Compress::Raw::Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress::Raw::Zlib,virtual/perl-Compress-Raw-Zlib
 Compress::Zlib,virtual/perl-IO-Compress
-Convert::ASCII::Armor,dev-perl/convert-ascii-armour
-Convert::ASCII::Armour,dev-perl/convert-ascii-armour
-Convert::PEM,dev-perl/convert-pem
-Convert::PEM::CBC,dev-perl/convert-pem
 Cwd,virtual/perl-File-Spec
 DBIx::SearchBuilder,dev-perl/dbix-searchbuilder
 DBIx::SearchBuilder::Handle,dev-perl/dbix-searchbuilder

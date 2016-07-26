@@ -1,6 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ - Remove special casing for: Class::Loader, Convert::ASCII::Armour, Convert::PEM
 
 0.003015 2016-04-30T21:41:26Z 7badff5
  - Remove special casing for: Text::Template, Text::Wrapper, Tie::EncryptedHash, YAML

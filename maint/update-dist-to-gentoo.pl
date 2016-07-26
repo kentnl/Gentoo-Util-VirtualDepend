@@ -140,9 +140,6 @@ BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
 Cache-Mmap,dev-perl/cache-mmap
-Class-Loader,dev-perl/class-loader
-Convert-ASCII-Armour,dev-perl/convert-ascii-armour
-Convert-PEM,dev-perl/convert-pem
 DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 Data-Buffer,dev-perl/data-buffer
 Digest-BubbleBabble,dev-perl/digest-bubblebabble
