@@ -15,11 +15,8 @@ CPAN-Meta-Requirements,virtual/perl-CPAN-Meta-Requirements
 CPAN-Meta-YAML,virtual/perl-CPAN-Meta-YAML
 Cache-Mmap,dev-perl/cache-mmap
 Carp,virtual/perl-Carp
-Class-Loader,dev-perl/class-loader
 Compress-Raw-Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress-Raw-Zlib,virtual/perl-Compress-Raw-Zlib
-Convert-ASCII-Armour,dev-perl/convert-ascii-armour
-Convert-PEM,dev-perl/convert-pem
 DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 DB_File,virtual/perl-DB_File
 Data-Buffer,dev-perl/data-buffer
