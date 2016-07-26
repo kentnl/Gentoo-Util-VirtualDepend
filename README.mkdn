@@ -232,11 +232,11 @@ Stipulates the default minimum `Perl` for [`module_is_perl`](#module_is_perl).
 
 # AUTHOR
 
-Kent Fredric &lt;kentnl@cpan.org>
+Kent Fredric <kentnl@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2016 by Kent Fredric &lt;kentfredric@gmail.com>.
+This software is copyright (c) 2016 by Kent Fredric <kentfredric@gmail.com>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
