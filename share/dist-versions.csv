@@ -15,11 +15,8 @@ CPAN-Meta-Requirements,2.140,id/D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.140.tar.g
 CPAN-Meta-YAML,0.018,id/D/DA/DAGOLDEN/CPAN-Meta-YAML-0.018.tar.gz
 Cache-Mmap,0.11,id/P/PM/PMH/Cache-Mmap-0.11.tar.gz
 Carp,1.38,id/R/RJ/RJBS/Carp-1.38.tar.gz
-Class-Loader,2.03,id/V/VI/VIPUL/Class-Loader-2.03.tar.gz
 Compress-Raw-Bzip2,2.069,id/P/PM/PMQS/Compress-Raw-Bzip2-2.069.tar.gz
 Compress-Raw-Zlib,2.069,id/P/PM/PMQS/Compress-Raw-Zlib-2.069.tar.gz
-Convert-ASCII-Armour,1.4,id/V/VI/VIPUL/Convert-ASCII-Armour-1.4.tar.gz
-Convert-PEM,0.08,id/B/BT/BTROTT/Convert-PEM-0.08.tar.gz
 DBIx-SearchBuilder,1.67,id/B/BP/BPS/DBIx-SearchBuilder-1.67.tar.gz
 DB_File,1.838,id/P/PM/PMQS/DB_File-1.838.tar.gz
 Data-Buffer,0.04,id/B/BT/BTROTT/Data-Buffer-0.04.tar.gz
