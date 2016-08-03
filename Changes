@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ - Remove special casing for: Regexp::Common
+
  [Dependencies::Stats]
  - Dependencies changed since 0.003016, see misc/*.deps* for details
  - develop: (suggests: ↑1)
