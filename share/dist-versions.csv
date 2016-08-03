@@ -1,6 +1,6 @@
 AcePerl,1.92,id/L/LD/LDS/AcePerl-1.92.tar.gz
 App-SVN-Bisect,1.1,id/I/IN/INFINOID/App-SVN-Bisect-1.1.tar.gz
-Archive-Tar,2.08,id/B/BI/BINGOS/Archive-Tar-2.08.tar.gz
+Archive-Tar,2.10,id/B/BI/BINGOS/Archive-Tar-2.10.tar.gz
 Attribute-Handlers,0.99,id/R/RJ/RJBS/Attribute-Handlers-0.99.tar.gz
 AutoLoader,5.74,id/S/SM/SMUELLER/AutoLoader-5.74.tar.gz
 Autodia,2.14,id/T/TE/TEEJAY/Autodia-2.14.tar.gz
@@ -26,7 +26,7 @@ Digest,1.17,id/G/GA/GAAS/Digest-1.17.tar.gz
 Digest-BubbleBabble,0.02,id/B/BT/BTROTT/Digest-BubbleBabble-0.02.tar.gz
 Digest-MD2,2.04,id/G/GA/GAAS/Digest-MD2-2.04.tar.gz
 Digest-MD5,2.55,id/G/GA/GAAS/Digest-MD5-2.55.tar.gz
-Digest-SHA,5.95,id/M/MS/MSHELOR/Digest-SHA-5.95.tar.gz
+Digest-SHA,5.96,id/M/MS/MSHELOR/Digest-SHA-5.96.tar.gz
 Dumpvalue,1.17,id/F/FL/FLORA/Dumpvalue-1.17.tar.gz
 Encode,2.84,id/D/DA/DANKOGAI/Encode-2.84.tar.gz
 Exporter,5.72,id/T/TO/TODDR/Exporter-5.72.tar.gz
@@ -43,7 +43,7 @@ Filter-Simple,0.91,id/S/SM/SMUELLER/Filter-Simple-0.91.tar.gz
 Frontier-RPC,0.07b4,id/K/KM/KMACLEOD/Frontier-RPC-0.07b4.tar.gz
 GBrowse,2.55,id/L/LD/LDS/GBrowse-2.55.tar.gz
 Getopt-Long,2.49.1,id/J/JV/JV/Getopt-Long-2.49.1.tar.gz
-Glib,1.321,id/X/XA/XAOC/Glib-1.321.tar.gz
+Glib,1.322,id/X/XA/XAOC/Glib-1.322.tar.gz
 Gnome2,1.046,id/X/XA/XAOC/Gnome2-1.046.tar.gz
 Gnome2-Canvas,1.002,id/T/TS/TSCH/Gnome2-Canvas-1.002.tar.gz
 Gnome2-VFS,1.082,id/X/XA/XAOC/Gnome2-VFS-1.082.tar.gz
@@ -57,9 +57,9 @@ Gtk2-TrayManager,0.05,id/B/BO/BORUP/Gtk2-TrayManager-0.05.tar.gz
 HTTP-Tiny,0.058,id/D/DA/DAGOLDEN/HTTP-Tiny-0.058.tar.gz
 IO,1.25,id/G/GB/GBARR/IO-1.25.tar.gz
 IO-Compress,2.069,id/P/PM/PMQS/IO-Compress-2.069.tar.gz
-IO-Socket-IP,0.37,id/P/PE/PEVANS/IO-Socket-IP-0.37.tar.gz
+IO-Socket-IP,0.38,id/P/PE/PEVANS/IO-Socket-IP-0.38.tar.gz
 IO-Zlib,1.10,id/T/TO/TOMHUGHES/IO-Zlib-1.10.tar.gz
-IPC-Cmd,0.94,id/B/BI/BINGOS/IPC-Cmd-0.94.tar.gz
+IPC-Cmd,0.96,id/B/BI/BINGOS/IPC-Cmd-0.96.tar.gz
 Image-ExifTool,10.20,id/E/EX/EXIFTOOL/Image-ExifTool-10.20.tar.gz
 JSON-PP,2.27400,id/M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
 Locale-Maketext,1.28,id/T/TO/TODDR/Locale-Maketext-1.28.tar.gz
@@ -72,7 +72,7 @@ Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
 Memoize,1.03,id/M/MJ/MJD/Memoize-1.03.tgz
 Module-CoreList,5.20160720,id/B/BI/BINGOS/Module-CoreList-5.20160720.tar.gz
 Module-Load,0.32,id/B/BI/BINGOS/Module-Load-0.32.tar.gz
-Module-Load-Conditional,0.64,id/B/BI/BINGOS/Module-Load-Conditional-0.64.tar.gz
+Module-Load-Conditional,0.68,id/B/BI/BINGOS/Module-Load-Conditional-0.68.tar.gz
 Module-Loaded,0.08,id/B/BI/BINGOS/Module-Loaded-0.08.tar.gz
 Module-Metadata,1.000033,id/E/ET/ETHER/Module-Metadata-1.000033.tar.gz
 NTLM,1.09,id/N/NB/NBEBOUT/NTLM-1.09.tar.gz
@@ -91,14 +91,14 @@ Regexp-Common,2016060801,id/A/AB/ABIGAIL/Regexp-Common-2016060801.tar.gz
 Safe,2.35,id/R/RG/RGARCIA/Safe-2.35.tar.gz
 Scalar-List-Utils,1.45,id/P/PE/PEVANS/Scalar-List-Utils-1.45.tar.gz
 Snapback2,1.001,id/M/MI/MIKEH/Snapback2-1.001.tar.gz
-Socket,2.021,id/P/PE/PEVANS/Socket-2.021.tar.gz
+Socket,2.023,id/P/PE/PEVANS/Socket-2.023.tar.gz
 Storable,2.51,id/A/AM/AMS/Storable-2.51.tar.gz
 Sys-Syslog,0.34,id/S/SA/SAPER/Sys-Syslog-0.34.tar.gz
 Term-ANSIColor,4.05,id/R/RR/RRA/Term-ANSIColor-4.05.tar.gz
 Term-ReadLine,1.14,id/F/FL/FLORA/Term-ReadLine-1.14.tar.gz
 Test,1.26,id/J/JE/JESSE/Test-1.26.tar.gz
 Test-Harness,3.36,id/L/LE/LEONT/Test-Harness-3.36.tar.gz
-Test-Simple,1.302047,id/E/EX/EXODIST/Test-Simple-1.302047.tar.gz
+Test-Simple,1.302049,id/E/EX/EXODIST/Test-Simple-1.302049.tar.gz
 Text-Balanced,2.03,id/S/SH/SHAY/Text-Balanced-2.03.tar.gz
 Text-ParseWords,3.30,id/C/CH/CHORNY/Text-ParseWords-3.30.tar.gz
 Text-Tabs+Wrap,2013.0523,id/M/MU/MUIR/modules/Text-Tabs+Wrap-2013.0523.tar.gz
@@ -117,7 +117,7 @@ autodie,2.29,id/P/PJ/PJF/autodie-2.29.tar.gz
 bignum,0.43,id/P/PJ/PJACKLAM/bignum-0.43.tar.gz
 gettext,1.07,id/P/PV/PVANDRY/gettext-1.07.tar.gz
 if,0.0606,id/R/RJ/RJBS/if-0.0606.tar.gz
-libnet,3.09,id/S/SH/SHAY/libnet-3.09.tar.gz
+libnet,3.10,id/S/SH/SHAY/libnet-3.10.tar.gz
 parent,0.234,id/C/CO/CORION/parent-0.234.tar.gz
 podlators,4.07,id/R/RR/RRA/podlators-4.07.tar.gz
 threads,2.09,id/J/JD/JDHEDDEN/threads-2.09.tar.gz
