@@ -120,7 +120,7 @@ while ( my $line = <$reader> ) {
   $mvmap{$uri} = {};
   for my $mod (@mods) {
     next unless $mod->module;
-    for my $module ( @{ $mod->module } ) {
+    for my $module ( 'ARRAY' eq ref $mod->module ? @{ $mod->module } : ( $mod->module ) ) {
       next unless $module->{authorized};
       next unless $module->{indexed};
       my $name = $module->{name};
