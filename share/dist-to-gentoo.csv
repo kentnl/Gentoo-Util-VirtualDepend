@@ -89,7 +89,6 @@ Perl-OSType,virtual/perl-Perl-OSType
 Pod-Escapes,virtual/perl-Pod-Escapes
 Pod-Parser,virtual/perl-Pod-Parser
 Pod-Simple,virtual/perl-Pod-Simple
-Regexp-Common,dev-perl/regexp-common
 Safe,virtual/perl-Safe
 Scalar-List-Utils,virtual/perl-Scalar-List-Utils
 Snapback2,app-backup/snapback2
