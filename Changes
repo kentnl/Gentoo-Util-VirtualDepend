@@ -1,6 +1,9 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ [Dependencies::Stats]
+ - Dependencies changed since 0.003016, see misc/*.deps* for details
+ - develop: (suggests: ↑1)
 
 0.003016 2016-07-26T09:47:48Z 87d9e6b
  - Remove special casing for: Class::Loader, Convert::ASCII::Armour, Convert::PEM
