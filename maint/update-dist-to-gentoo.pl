@@ -163,7 +163,6 @@ NTLM,dev-perl/Authen-NTLM
 OLE-Storage_Lite,dev-perl/OLE-StorageLite
 Padre,app-editors/padre
 PathTools,virtual/perl-File-Spec
-Regexp-Common,dev-perl/regexp-common
 Snapback2,app-backup/snapback2
 XML-XSH2,app-editors/XML-XSH2
 ack,sys-apps/ack
