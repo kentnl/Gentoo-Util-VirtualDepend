@@ -2099,7 +2099,7 @@ Padre::Wx::TreeCtrl,app-editors/padre
 Padre::Wx::Util,app-editors/padre
 Padre::Wx::VCS,app-editors/padre
 Params::Check,virtual/perl-Params-Check
-Parse::CPAN::Meta,virtual/perl-Parse-CPAN-Meta
+Parse::CPAN::Meta,virtual/perl-CPAN-Meta
 Perl::OSType,virtual/perl-Perl-OSType
 Pod::Cache,virtual/perl-Pod-Parser
 Pod::Cache::Item,virtual/perl-Pod-Parser
