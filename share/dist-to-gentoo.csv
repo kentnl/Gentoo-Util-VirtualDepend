@@ -13,7 +13,6 @@ CPAN,virtual/perl-CPAN
 CPAN-Meta,virtual/perl-CPAN-Meta
 CPAN-Meta-Requirements,virtual/perl-CPAN-Meta-Requirements
 CPAN-Meta-YAML,virtual/perl-CPAN-Meta-YAML
-Cache-Mmap,dev-perl/cache-mmap
 Carp,virtual/perl-Carp
 Compress-Raw-Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress-Raw-Zlib,virtual/perl-Compress-Raw-Zlib

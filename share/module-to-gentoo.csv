@@ -1266,7 +1266,6 @@ CPAN::Shell,virtual/perl-CPAN
 CPAN::Tarzip,virtual/perl-CPAN
 CPAN::URL,virtual/perl-CPAN
 CPAN::Version,virtual/perl-CPAN
-Cache::Mmap,dev-perl/cache-mmap
 Carp,virtual/perl-Carp
 Carp::Heavy,virtual/perl-Carp
 Compress::Raw::Bzip2,virtual/perl-Compress-Raw-Bzip2
