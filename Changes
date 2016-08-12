@@ -6,6 +6,12 @@ Release history for Gentoo-Util-VirtualDepend
  - Add Pod-Perldoc to virtuals list due to being impled in dev-lang/perl, even though the virtual does not itself
    exist.
 
+ [Utils / vdep_check]
+ - now uses Corelist directly for differencing instead of shelling out. This is much faster as
+   Gentoo::Util::VirtualDepend loads Corelist anyway for its override checks.
+ - now reports both changed and unchanged dists
+ - now reports inconsistently versioned dists and inconsistently changed dists
+
 0.003017 2016-08-03T18:26:16Z eaa81e5
  - Remove special casing for: Regexp::Common
 
