@@ -48,7 +48,7 @@ my $reader = $source->openr_raw();
 
 my $client = MetaCPAN::Client->new(
   version => 'v1',
-  ua => HTTP::Tiny::Mech->new(
+  ua      => HTTP::Tiny::Mech->new(
     mechua => WWW::Mechanize::Cached->new(
       cache     => _mk_cache('qdb'),
       timeout   => 20_000,
@@ -61,6 +61,8 @@ my %dvmap;
 my %mvmap;
 
 my $ocache = _mk_cache('update-objects');
+
+my %alternatives;
 
 while ( my $line = <$reader> ) {
   chomp $line;
@@ -131,6 +133,12 @@ while ( my $line = <$reader> ) {
       }
 
       $outmap{$name} = $gentoo;
+
+      # Prefer versions that match their module name where possible
+      next
+        if exists $mvmap{$uri}->{ $module->{name} }
+        and exists $alternatives{ $module->{name} }->{ $mod->name };
+      $alternatives{ $module->{name} }->{ $mod->name } = $module->{version};
       $mvmap{$uri}->{ $module->{name} } = $module->{version};
     }
   }
