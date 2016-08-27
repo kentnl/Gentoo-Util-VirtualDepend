@@ -139,7 +139,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-Cache-Mmap,dev-perl/cache-mmap
 DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 Data-Buffer,dev-perl/data-buffer
 Digest-BubbleBabble,dev-perl/digest-bubblebabble
