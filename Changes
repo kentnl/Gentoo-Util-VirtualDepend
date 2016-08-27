@@ -1,6 +1,6 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003018 2016-08-27T13:47:27Z 06b3c55
+0.003018 2016-08-27T13:47:30Z ef34902
 
 0.003017 2016-08-03T18:26:16Z eaa81e5
  - Remove special casing for: Regexp::Common
