@@ -1,5 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003019 2016-08-27T14:20:59Z c707933
+
 0.003018 2016-08-27T13:51:07Z 3fe5211
  - Remove Cache::Mmap special case.
  - When more than one module reports to index a given package, prefer the one that matches the module name.
