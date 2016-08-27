@@ -12,6 +12,9 @@ Release history for Gentoo-Util-VirtualDepend
  - now reports both changed and unchanged dists
  - now reports inconsistently versioned dists and inconsistently changed dists
 
+ [Utils / vdep_report]
+ - new utility, dumps an entire Perl's corelist grouped by Gentoo classification.
+
 0.003017 2016-08-03T18:26:16Z eaa81e5
  - Remove special casing for: Regexp::Common
 
