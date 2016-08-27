@@ -87,6 +87,7 @@ PathTools,virtual/perl-File-Spec
 Perl-OSType,virtual/perl-Perl-OSType
 Pod-Escapes,virtual/perl-Pod-Escapes
 Pod-Parser,virtual/perl-Pod-Parser
+Pod-Perldoc,virtual/perl-Pod-Perldoc
 Pod-Simple,virtual/perl-Pod-Simple
 Safe,virtual/perl-Safe
 Scalar-List-Utils,virtual/perl-Scalar-List-Utils

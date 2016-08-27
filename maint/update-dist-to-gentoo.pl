@@ -70,6 +70,7 @@ my (@normal_virtuals) = qw(
   Perl-OSType
   Pod-Escapes
   Pod-Parser
+  Pod-Perldoc
   Pod-Simple
   Safe
   Scalar-List-Utils
