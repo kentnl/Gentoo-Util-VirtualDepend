@@ -47,6 +47,7 @@ sub _mk_cache {
 my $reader = $source->openr_raw();
 
 my $client = MetaCPAN::Client->new(
+  version => 'v1',
   ua => HTTP::Tiny::Mech->new(
     mechua => WWW::Mechanize::Cached->new(
       cache     => _mk_cache('qdb'),
