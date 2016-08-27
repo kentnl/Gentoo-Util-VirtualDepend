@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+
+0.003018 2016-08-27T13:51:07Z 3fe5211
  - Remove Cache::Mmap special case.
  - When more than one module reports to index a given package, prefer the one that matches the module name.
  - Add Pod-Perldoc to virtuals list due to being impled in dev-lang/perl, even though the virtual does not itself
