@@ -13,7 +13,6 @@ CPAN,virtual/perl-CPAN
 CPAN-Meta,virtual/perl-CPAN-Meta
 CPAN-Meta-Requirements,virtual/perl-CPAN-Meta-Requirements
 CPAN-Meta-YAML,virtual/perl-CPAN-Meta-YAML
-Cache-Mmap,dev-perl/cache-mmap
 Carp,virtual/perl-Carp
 Compress-Raw-Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress-Raw-Zlib,virtual/perl-Compress-Raw-Zlib
@@ -88,6 +87,7 @@ PathTools,virtual/perl-File-Spec
 Perl-OSType,virtual/perl-Perl-OSType
 Pod-Escapes,virtual/perl-Pod-Escapes
 Pod-Parser,virtual/perl-Pod-Parser
+Pod-Perldoc,virtual/perl-Pod-Perldoc
 Pod-Simple,virtual/perl-Pod-Simple
 Safe,virtual/perl-Safe
 Scalar-List-Utils,virtual/perl-Scalar-List-Utils
