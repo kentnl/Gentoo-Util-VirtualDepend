@@ -1462,7 +1462,7 @@ id/G/GB/GBARR/IO-1.25.tar.gz,IO::Socket::INET,1.31
 id/G/GB/GBARR/IO-1.25.tar.gz,IO::Socket::UNIX,1.23
 id/I/IN/INFINOID/App-SVN-Bisect-1.1.tar.gz,App::SVN::Bisect,1.1
 id/J/JD/JDHEDDEN/Thread-Queue-3.11.tar.gz,Thread::Queue,3.11
-id/J/JD/JDHEDDEN/Thread-Semaphore-2.12.tar.gz,Thread::Semaphore,2.12
+id/J/JD/JDHEDDEN/Thread-Semaphore-2.13.tar.gz,Thread::Semaphore,2.13
 id/J/JD/JDHEDDEN/threads-2.09.tar.gz,threads,2.09
 id/J/JD/JDHEDDEN/threads-shared-1.52.tar.gz,threads::shared,1.52
 id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz,Locale::Maketext::Simple,0.21
@@ -2211,10 +2211,10 @@ id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz,Unicode::Collate::CJK::Pinyin,1.14
 id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz,Unicode::Collate::CJK::Stroke,1.14
 id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz,Unicode::Collate::CJK::Zhuyin,1.14
 id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz,Unicode::Collate::Locale,1.14
-id/S/SA/SAPER/Sys-Syslog-0.34.tar.gz,Sys::Syslog,0.34
-id/S/SA/SAPER/Sys-Syslog-0.34.tar.gz,Sys::Syslog::Win32,(undef)
-id/S/SA/SAPER/XSLoader-0.22.tar.gz,DynaLoader,(undef)
-id/S/SA/SAPER/XSLoader-0.22.tar.gz,XSLoader,0.22
+id/S/SA/SAPER/Sys-Syslog-0.35.tar.gz,Sys::Syslog,0.35
+id/S/SA/SAPER/Sys-Syslog-0.35.tar.gz,Sys::Syslog::Win32,(undef)
+id/S/SA/SAPER/XSLoader-0.24.tar.gz,DynaLoader,(undef)
+id/S/SA/SAPER/XSLoader-0.24.tar.gz,XSLoader,0.24
 id/S/SH/SHAY/Text-Balanced-2.03.tar.gz,Text::Balanced,2.03
 id/S/SH/SHAY/Text-Balanced-2.03.tar.gz,Text::Balanced::ErrorMsg,(undef)
 id/S/SH/SHAY/Text-Balanced-2.03.tar.gz,Text::Balanced::Extractor,(undef)

@@ -91,7 +91,7 @@ Scalar-List-Utils,1.45,id/P/PE/PEVANS/Scalar-List-Utils-1.45.tar.gz
 Snapback2,1.001,id/M/MI/MIKEH/Snapback2-1.001.tar.gz
 Socket,2.024,id/P/PE/PEVANS/Socket-2.024.tar.gz
 Storable,2.51,id/A/AM/AMS/Storable-2.51.tar.gz
-Sys-Syslog,0.34,id/S/SA/SAPER/Sys-Syslog-0.34.tar.gz
+Sys-Syslog,0.35,id/S/SA/SAPER/Sys-Syslog-0.35.tar.gz
 Term-ANSIColor,4.05,id/R/RR/RRA/Term-ANSIColor-4.05.tar.gz
 Term-ReadLine,1.14,id/F/FL/FLORA/Term-ReadLine-1.14.tar.gz
 Test,1.26,id/J/JE/JESSE/Test-1.26.tar.gz
@@ -101,7 +101,7 @@ Text-Balanced,2.03,id/S/SH/SHAY/Text-Balanced-2.03.tar.gz
 Text-ParseWords,3.30,id/C/CH/CHORNY/Text-ParseWords-3.30.tar.gz
 Text-Tabs+Wrap,2013.0523,id/M/MU/MUIR/modules/Text-Tabs+Wrap-2013.0523.tar.gz
 Thread-Queue,3.11,id/J/JD/JDHEDDEN/Thread-Queue-3.11.tar.gz
-Thread-Semaphore,2.12,id/J/JD/JDHEDDEN/Thread-Semaphore-2.12.tar.gz
+Thread-Semaphore,2.13,id/J/JD/JDHEDDEN/Thread-Semaphore-2.13.tar.gz
 Tie-RefHash,1.39,id/F/FL/FLORA/Tie-RefHash-1.39.tar.gz
 Time-HiRes,1.9739,id/J/JH/JHI/Time-HiRes-1.9739.tar.gz
 Time-Local,1.24,id/D/DR/DROLSKY/Time-Local-1.24.tar.gz
@@ -109,7 +109,7 @@ Time-Piece,1.31,id/E/ES/ESAYM/Time-Piece-1.31.tar.gz
 Unicode-Collate,1.14,id/S/SA/SADAHIRO/Unicode-Collate-1.14.tar.gz
 Unicode-Normalize,1.25,id/K/KH/KHW/Unicode-Normalize-1.25.tar.gz
 XML-XSH2,2.1.26,id/C/CH/CHOROBA/XML-XSH2-2.1.26.tar.gz
-XSLoader,0.22,id/S/SA/SAPER/XSLoader-0.22.tar.gz
+XSLoader,0.24,id/S/SA/SAPER/XSLoader-0.24.tar.gz
 ack,2.14,id/P/PE/PETDANCE/ack-2.14.tar.gz
 autodie,2.29,id/P/PJ/PJF/autodie-2.29.tar.gz
 bignum,0.43,id/P/PJ/PJACKLAM/bignum-0.43.tar.gz
