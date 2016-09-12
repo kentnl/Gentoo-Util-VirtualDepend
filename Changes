@@ -1,6 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
-0.003019 2016-09-12T10:02:50Z b502d96
+0.003019 2016-09-12T11:20:28Z ffd831c
+ - Remove special casing for Data::Buffer
 
 0.003018 2016-08-27T13:51:07Z 3fe5211
  - Remove Cache::Mmap special case.

@@ -1292,7 +1292,6 @@ DB_File,virtual/perl-DB_File
 DB_File::BTREEINFO,virtual/perl-DB_File
 DB_File::HASHINFO,virtual/perl-DB_File
 DB_File::RECNOINFO,virtual/perl-DB_File
-Data::Buffer,dev-perl/data-buffer
 Data::Dumper,virtual/perl-Data-Dumper
 Demo1,virtual/perl-Filter-Simple
 Demo2a,virtual/perl-Filter-Simple
