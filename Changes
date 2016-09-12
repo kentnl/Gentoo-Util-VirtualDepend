@@ -3,6 +3,7 @@ Release history for Gentoo-Util-VirtualDepend
 {{$NEXT}}
  - Remove special casing for Data::Buffer
  - Remove DBIx::SearchBuilder special case
+ - Remove Digest::BubbleBabble special case
 
 0.003018 2016-08-27T13:51:07Z 3fe5211
  - Remove Cache::Mmap special case.
