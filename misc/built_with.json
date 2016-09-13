@@ -4,7 +4,7 @@
       "Dist::Zilla" : "6.007",
       "Dist::Zilla::App::Command::bakeini" : "0.002005",
       "Dist::Zilla::Plugin::Author::KENTNL::CONTRIBUTING" : "0.001005",
-      "Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes" : "0.005001",
+      "Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes" : "0.005002",
       "Dist::Zilla::Plugin::Author::KENTNL::TravisCI" : "0.001002",
       "Dist::Zilla::Plugin::Authority" : "1.009",
       "Dist::Zilla::Plugin::AutoPrereqs" : "6.007",

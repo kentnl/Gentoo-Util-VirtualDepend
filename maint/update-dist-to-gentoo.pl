@@ -140,10 +140,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
-Data-Buffer,dev-perl/data-buffer
-Digest-BubbleBabble,dev-perl/digest-bubblebabble
-Digest-MD2,dev-perl/digest-md2
 ExtUtils-PkgConfig,dev-perl/extutils-pkgconfig
 Frontier-RPC,dev-perl/frontier-rpc
 GBrowse,sci-biology/GBrowse

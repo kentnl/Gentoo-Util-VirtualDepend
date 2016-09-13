@@ -16,14 +16,10 @@ CPAN-Meta-YAML,virtual/perl-CPAN-Meta-YAML
 Carp,virtual/perl-Carp
 Compress-Raw-Bzip2,virtual/perl-Compress-Raw-Bzip2
 Compress-Raw-Zlib,virtual/perl-Compress-Raw-Zlib
-DBIx-SearchBuilder,dev-perl/dbix-searchbuilder
 DB_File,virtual/perl-DB_File
-Data-Buffer,dev-perl/data-buffer
 Data-Dumper,virtual/perl-Data-Dumper
 Devel-PPPort,virtual/perl-Devel-PPPort
 Digest,virtual/perl-Digest
-Digest-BubbleBabble,dev-perl/digest-bubblebabble
-Digest-MD2,dev-perl/digest-md2
 Digest-MD5,virtual/perl-Digest-MD5
 Digest-SHA,virtual/perl-Digest-SHA
 Dumpvalue,virtual/perl-Dumpvalue

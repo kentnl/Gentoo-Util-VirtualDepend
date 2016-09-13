@@ -131,7 +131,7 @@
    "provides" : {
       "Gentoo::Util::VirtualDepend" : {
          "file" : "lib/Gentoo/Util/VirtualDepend.pm",
-         "version" : "0.003018"
+         "version" : "0.003019"
       }
    },
    "release_status" : "stable",
@@ -146,7 +146,7 @@
          "web" : "https://github.com/kentnl/Gentoo-Util-VirtualDepend"
       }
    },
-   "version" : "0.003018",
+   "version" : "0.003019",
    "x_BuiltWith" : {
       "external_file" : "misc/built_with.json"
    },
@@ -221,7 +221,7 @@
             "class" : "Dist::Zilla::Plugin::Git::Contributors",
             "config" : {
                "Dist::Zilla::Plugin::Git::Contributors" : {
-                  "git --version" : "2.9.3",
+                  "git --version" : "2.10.0",
                   "include_authors" : 0,
                   "include_releaser" : 0,
                   "order_by" : "name",
@@ -568,7 +568,7 @@
          {
             "class" : "Dist::Zilla::Plugin::Author::KENTNL::RecommendFixes",
             "name" : "@Author::KENTNL/Author::KENTNL::RecommendFixes",
-            "version" : "0.005001"
+            "version" : "0.005002"
          },
          {
             "class" : "Dist::Zilla::Plugin::Readme::Brief",
@@ -668,7 +668,7 @@
                   "branch" : null,
                   "changelog" : "Changes",
                   "signed" : 0,
-                  "tag" : "0.003018-source",
+                  "tag" : "0.003019-source",
                   "tag_format" : "%v-source",
                   "tag_message" : "v%v"
                },
@@ -759,7 +759,7 @@
                   "branch" : "releases",
                   "changelog" : "Changes",
                   "signed" : 0,
-                  "tag" : "0.003018",
+                  "tag" : "0.003019",
                   "tag_format" : "%v",
                   "tag_message" : "v%v"
                },
