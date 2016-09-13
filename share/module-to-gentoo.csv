@@ -1290,7 +1290,6 @@ Demo_Importer,virtual/perl-Filter-Simple
 Demo_REM,virtual/perl-Filter-Simple
 Devel::PPPort,virtual/perl-Devel-PPPort
 Digest,virtual/perl-Digest
-Digest::MD2,dev-perl/digest-md2
 Digest::MD5,virtual/perl-Digest-MD5
 Digest::SHA,virtual/perl-Digest-SHA
 Digest::base,virtual/perl-Digest
