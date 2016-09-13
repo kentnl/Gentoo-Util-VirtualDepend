@@ -1,5 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003020 2016-09-13T03:34:04Z 2450448
+
 0.003019 2016-09-12T17:55:27Z e94b404
  - Remove special casing for Data::Buffer
  - Remove DBIx::SearchBuilder special case
