@@ -1,5 +1,12 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003020 2016-12-10T18:49:40Z 5e1d1aa
+ - Remove special casing for ExtUtils::PkgConfig
+
+ [Dependencies::Stats]
+ - Dependencies changed since 0.003019, see misc/*.deps* for details
+ - develop: +1
+
 0.003019 2016-09-12T17:55:27Z e94b404
  - Remove special casing for Data::Buffer
  - Remove DBIx::SearchBuilder special case

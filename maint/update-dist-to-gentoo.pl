@@ -140,7 +140,6 @@ BioPerl,sci-biology/bioperl
 BioPerl-DB,sci-biology/bioperl-db
 BioPerl-Network,sci-biology/bioperl-network
 BioPerl-Run,sci-biology/bioperl-run
-ExtUtils-PkgConfig,dev-perl/extutils-pkgconfig
 Frontier-RPC,dev-perl/frontier-rpc
 GBrowse,sci-biology/GBrowse
 Glib,dev-perl/glib-perl

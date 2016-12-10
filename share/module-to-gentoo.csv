@@ -176,18 +176,6 @@ Bio::ClusterIO::dbsnp,sci-biology/bioperl
 Bio::ClusterIO::unigene,sci-biology/bioperl
 Bio::CodonUsage::IO,sci-biology/bioperl
 Bio::CodonUsage::Table,sci-biology/bioperl
-Bio::Coordinate::Chain,sci-biology/bioperl
-Bio::Coordinate::Collection,sci-biology/bioperl
-Bio::Coordinate::ExtrapolatingPair,sci-biology/bioperl
-Bio::Coordinate::GeneMapper,sci-biology/bioperl
-Bio::Coordinate::Graph,sci-biology/bioperl
-Bio::Coordinate::MapperI,sci-biology/bioperl
-Bio::Coordinate::Pair,sci-biology/bioperl
-Bio::Coordinate::Result,sci-biology/bioperl
-Bio::Coordinate::Result::Gap,sci-biology/bioperl
-Bio::Coordinate::Result::Match,sci-biology/bioperl
-Bio::Coordinate::ResultI,sci-biology/bioperl
-Bio::Coordinate::Utils,sci-biology/bioperl
 Bio::DB::Ace,sci-biology/bioperl
 Bio::DB::BioDB,sci-biology/bioperl-db
 Bio::DB::BioFetch,sci-biology/bioperl
@@ -381,7 +369,6 @@ Bio::DB::SeqFeature::Store::berkeleydb3,sci-biology/bioperl
 Bio::DB::SeqFeature::Store::berkeleydb::Iterator,sci-biology/bioperl
 Bio::DB::SeqFeature::Store::memory,sci-biology/bioperl
 Bio::DB::SeqFeature::Store::memory::Iterator,sci-biology/bioperl
-Bio::DB::SeqHound,sci-biology/bioperl
 Bio::DB::SeqI,sci-biology/bioperl
 Bio::DB::SeqVersion,sci-biology/bioperl
 Bio::DB::SeqVersion::gi,sci-biology/bioperl
@@ -410,6 +397,7 @@ Bio::DB::Taxonomy::flatfile,sci-biology/bioperl
 Bio::DB::Taxonomy::greengenes,sci-biology/bioperl
 Bio::DB::Taxonomy::list,sci-biology/bioperl
 Bio::DB::Taxonomy::silva,sci-biology/bioperl
+Bio::DB::Taxonomy::sqlite,sci-biology/bioperl
 Bio::DB::Universal,sci-biology/bioperl
 Bio::DB::UpdateableSeqI,sci-biology/bioperl
 Bio::DB::WebDBSeqI,sci-biology/bioperl
@@ -727,6 +715,7 @@ Bio::Root::Root,sci-biology/bioperl
 Bio::Root::RootI,sci-biology/bioperl
 Bio::Root::Storable,sci-biology/bioperl
 Bio::Root::Test,sci-biology/bioperl
+Bio::Root::TestObject,sci-biology/bioperl
 Bio::Root::Utilities,sci-biology/bioperl
 Bio::Root::Version,sci-biology/bioperl
 Bio::Search::BlastStatistics,sci-biology/bioperl
@@ -768,6 +757,7 @@ Bio::Search::Result::CrossMatchResult,sci-biology/bioperl
 Bio::Search::Result::GenericResult,sci-biology/bioperl
 Bio::Search::Result::HMMERResult,sci-biology/bioperl
 Bio::Search::Result::HmmpfamResult,sci-biology/bioperl
+Bio::Search::Result::INFERNALResult,sci-biology/bioperl
 Bio::Search::Result::PullResultI,sci-biology/bioperl
 Bio::Search::Result::ResultFactory,sci-biology/bioperl
 Bio::Search::Result::ResultI,sci-biology/bioperl
@@ -785,20 +775,16 @@ Bio::SearchIO::FastHitEventBuilder,sci-biology/bioperl
 Bio::SearchIO::IteratedSearchResultEventBuilder,sci-biology/bioperl
 Bio::SearchIO::SearchResultEventBuilder,sci-biology/bioperl
 Bio::SearchIO::SearchWriterI,sci-biology/bioperl
-Bio::SearchIO::Writer::BSMLResultWriter,sci-biology/bioperl
 Bio::SearchIO::Writer::GbrowseGFF,sci-biology/bioperl
 Bio::SearchIO::Writer::HSPTableWriter,sci-biology/bioperl
 Bio::SearchIO::Writer::HTMLResultWriter,sci-biology/bioperl
 Bio::SearchIO::Writer::HitTableWriter,sci-biology/bioperl
 Bio::SearchIO::Writer::ResultTableWriter,sci-biology/bioperl
 Bio::SearchIO::Writer::TextResultWriter,sci-biology/bioperl
-Bio::SearchIO::XML::BlastHandler,sci-biology/bioperl
-Bio::SearchIO::XML::PsiBlastHandler,sci-biology/bioperl
 Bio::SearchIO::axt,sci-biology/bioperl
 Bio::SearchIO::blast,sci-biology/bioperl
 Bio::SearchIO::blast_pull,sci-biology/bioperl
 Bio::SearchIO::blasttable,sci-biology/bioperl
-Bio::SearchIO::blastxml,sci-biology/bioperl
 Bio::SearchIO::cross_match,sci-biology/bioperl
 Bio::SearchIO::erpin,sci-biology/bioperl
 Bio::SearchIO::exonerate,sci-biology/bioperl
@@ -970,7 +956,6 @@ Bio::Tools::Analysis::Protein::Domcut,sci-biology/bioperl
 Bio::Tools::Analysis::Protein::ELM,sci-biology/bioperl
 Bio::Tools::Analysis::Protein::GOR4,sci-biology/bioperl
 Bio::Tools::Analysis::Protein::HNN,sci-biology/bioperl
-Bio::Tools::Analysis::Protein::Mitoprot,sci-biology/bioperl
 Bio::Tools::Analysis::Protein::NetPhos,sci-biology/bioperl
 Bio::Tools::Analysis::Protein::Scansite,sci-biology/bioperl
 Bio::Tools::Analysis::Protein::Sopma,sci-biology/bioperl
@@ -982,7 +967,6 @@ Bio::Tools::Coil,sci-biology/bioperl
 Bio::Tools::ECnumber,sci-biology/bioperl
 Bio::Tools::EMBOSS::Palindrome,sci-biology/bioperl
 Bio::Tools::EPCR,sci-biology/bioperl
-Bio::Tools::ERPIN,sci-biology/bioperl
 Bio::Tools::ESTScan,sci-biology/bioperl
 Bio::Tools::Eponine,sci-biology/bioperl
 Bio::Tools::Est2Genome,sci-biology/bioperl
@@ -1003,7 +987,6 @@ Bio::Tools::HMMER::Results,sci-biology/bioperl
 Bio::Tools::HMMER::Set,sci-biology/bioperl
 Bio::Tools::Hmmpfam,sci-biology/bioperl
 Bio::Tools::IUPAC,sci-biology/bioperl
-Bio::Tools::Infernal,sci-biology/bioperl
 Bio::Tools::Lucy,sci-biology/bioperl
 Bio::Tools::MZEF,sci-biology/bioperl
 Bio::Tools::Match,sci-biology/bioperl
@@ -1031,7 +1014,6 @@ Bio::Tools::PrositeScan,sci-biology/bioperl
 Bio::Tools::Protparam,sci-biology/bioperl
 Bio::Tools::Pseudowise,sci-biology/bioperl
 Bio::Tools::QRNA,sci-biology/bioperl
-Bio::Tools::RNAMotif,sci-biology/bioperl
 Bio::Tools::RandomDistFunctions,sci-biology/bioperl
 Bio::Tools::RepeatMasker,sci-biology/bioperl
 Bio::Tools::Run::Alignment::Amap,sci-biology/bioperl-run
@@ -1136,15 +1118,11 @@ Bio::Tools::Run::Samtools::Config,sci-biology/bioperl-run
 Bio::Tools::Run::Seg,sci-biology/bioperl-run
 Bio::Tools::Run::Signalp,sci-biology/bioperl-run
 Bio::Tools::Run::Simprot,sci-biology/bioperl-run
-Bio::Tools::Run::StandAloneBlast,sci-biology/bioperl
 Bio::Tools::Run::StandAloneBlastPlus,sci-biology/bioperl-run
-Bio::Tools::Run::StandAloneNCBIBlast,sci-biology/bioperl
-Bio::Tools::Run::StandAloneWUBlast,sci-biology/bioperl
 Bio::Tools::Run::TigrAssembler,sci-biology/bioperl-run
 Bio::Tools::Run::Tmhmm,sci-biology/bioperl-run
 Bio::Tools::Run::TribeMCL,sci-biology/bioperl-run
 Bio::Tools::Run::Vista,sci-biology/bioperl-run
-Bio::Tools::Run::WrapperBase,sci-biology/bioperl
 Bio::Tools::Run::tRNAscanSE,sci-biology/bioperl-run
 Bio::Tools::Seg,sci-biology/bioperl
 Bio::Tools::SeqPattern,sci-biology/bioperl
@@ -1389,7 +1367,6 @@ ExtUtils::ParseXS::Constants,virtual/perl-ExtUtils-ParseXS
 ExtUtils::ParseXS::CountLines,virtual/perl-ExtUtils-ParseXS
 ExtUtils::ParseXS::Eval,virtual/perl-ExtUtils-ParseXS
 ExtUtils::ParseXS::Utilities,virtual/perl-ExtUtils-ParseXS
-ExtUtils::PkgConfig,dev-perl/extutils-pkgconfig
 ExtUtils::Typemaps,virtual/perl-ExtUtils-ParseXS
 ExtUtils::Typemaps::Cmd,virtual/perl-ExtUtils-ParseXS
 ExtUtils::Typemaps::InputMap,virtual/perl-ExtUtils-ParseXS
@@ -1560,6 +1537,7 @@ Image::ExifTool::ASF,media-libs/exiftool
 Image::ExifTool::Apple,media-libs/exiftool
 Image::ExifTool::Audible,media-libs/exiftool
 Image::ExifTool::BMP,media-libs/exiftool
+Image::ExifTool::BPG,media-libs/exiftool
 Image::ExifTool::BZZ,media-libs/exiftool
 Image::ExifTool::BigTIFF,media-libs/exiftool
 Image::ExifTool::BuildTagLookup,media-libs/exiftool
@@ -1571,6 +1549,7 @@ Image::ExifTool::CaptureOne,media-libs/exiftool
 Image::ExifTool::Casio,media-libs/exiftool
 Image::ExifTool::Charset,media-libs/exiftool
 Image::ExifTool::DICOM,media-libs/exiftool
+Image::ExifTool::DJI,media-libs/exiftool
 Image::ExifTool::DNG,media-libs/exiftool
 Image::ExifTool::DPX,media-libs/exiftool
 Image::ExifTool::DV,media-libs/exiftool
@@ -1579,6 +1558,7 @@ Image::ExifTool::DjVu,media-libs/exiftool
 Image::ExifTool::EXE,media-libs/exiftool
 Image::ExifTool::Exif,media-libs/exiftool
 Image::ExifTool::FLAC,media-libs/exiftool
+Image::ExifTool::FLIF,media-libs/exiftool
 Image::ExifTool::FLIR,media-libs/exiftool
 Image::ExifTool::Fixup,media-libs/exiftool
 Image::ExifTool::Flash,media-libs/exiftool
@@ -1653,6 +1633,7 @@ Image::ExifTool::OOXML,media-libs/exiftool
 Image::ExifTool::Ogg,media-libs/exiftool
 Image::ExifTool::Olympus,media-libs/exiftool
 Image::ExifTool::OpenEXR,media-libs/exiftool
+Image::ExifTool::Opus,media-libs/exiftool
 Image::ExifTool::PDF,media-libs/exiftool
 Image::ExifTool::PGF,media-libs/exiftool
 Image::ExifTool::PICT,media-libs/exiftool
@@ -1729,6 +1710,7 @@ Math::BigInt,virtual/perl-Math-BigInt
 Math::BigInt::Calc,virtual/perl-Math-BigInt
 Math::BigInt::CalcEmu,virtual/perl-Math-BigInt
 Math::BigInt::FastCalc,virtual/perl-Math-BigInt-FastCalc
+Math::BigInt::Lib,virtual/perl-Math-BigInt
 Math::BigInt::Trace,virtual/perl-bignum
 Math::BigRat,virtual/perl-Math-BigRat
 Math::Complex,virtual/perl-Math-Complex
