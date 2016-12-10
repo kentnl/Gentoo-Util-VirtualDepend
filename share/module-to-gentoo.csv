@@ -1367,7 +1367,6 @@ ExtUtils::ParseXS::Constants,virtual/perl-ExtUtils-ParseXS
 ExtUtils::ParseXS::CountLines,virtual/perl-ExtUtils-ParseXS
 ExtUtils::ParseXS::Eval,virtual/perl-ExtUtils-ParseXS
 ExtUtils::ParseXS::Utilities,virtual/perl-ExtUtils-ParseXS
-ExtUtils::PkgConfig,dev-perl/extutils-pkgconfig
 ExtUtils::Typemaps,virtual/perl-ExtUtils-ParseXS
 ExtUtils::Typemaps::Cmd,virtual/perl-ExtUtils-ParseXS
 ExtUtils::Typemaps::InputMap,virtual/perl-ExtUtils-ParseXS
