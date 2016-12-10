@@ -4,7 +4,7 @@ use warnings;
 
 package Gentoo::Util::VirtualDepend;
 
-our $VERSION = '0.003020';
+our $VERSION = '0.003021';
 
 # ABSTRACT: Hard-coded replacements for perl-core/ dependencies and dependencies with odd names in Gentoo
 
@@ -207,7 +207,7 @@ Gentoo::Util::VirtualDepend - Hard-coded replacements for perl-core/ dependencie
 
 =head1 VERSION
 
-version 0.003020
+version 0.003021
 
 =head1 SYNOPSIS
 

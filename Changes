@@ -1,5 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003021 2016-12-10T18:55:34Z 7cf4046
+
 0.003020 2016-12-10T18:49:40Z 5e1d1aa
  - Remove special casing for ExtUtils::PkgConfig
 
