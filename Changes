@@ -1,6 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ - Remove special casing for ExtUtils::PkgConfig
+
  [Dependencies::Stats]
  - Dependencies changed since 0.003019, see misc/*.deps* for details
  - develop: +1

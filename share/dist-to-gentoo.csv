@@ -32,7 +32,6 @@ ExtUtils-Install,virtual/perl-ExtUtils-Install
 ExtUtils-MakeMaker,virtual/perl-ExtUtils-MakeMaker
 ExtUtils-Manifest,virtual/perl-ExtUtils-Manifest
 ExtUtils-ParseXS,virtual/perl-ExtUtils-ParseXS
-ExtUtils-PkgConfig,dev-perl/extutils-pkgconfig
 File-Path,virtual/perl-File-Path
 File-Temp,virtual/perl-File-Temp
 Filter-Simple,virtual/perl-Filter-Simple
