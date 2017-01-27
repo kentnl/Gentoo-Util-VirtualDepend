@@ -4,7 +4,7 @@ Gentoo::Util::VirtualDepend - Hard-coded replacements for perl-core/ dependencie
 
 # VERSION
 
-version 0.003021
+version 0.003022
 
 # SYNOPSIS
 
