@@ -1025,6 +1025,7 @@ Bio::Tools::Run::Alignment::Gmap,sci-biology/bioperl-run
 Bio::Tools::Run::Alignment::Kalign,sci-biology/bioperl-run
 Bio::Tools::Run::Alignment::Lagan,sci-biology/bioperl-run
 Bio::Tools::Run::Alignment::MAFFT,sci-biology/bioperl-run
+Bio::Tools::Run::Alignment::MSAProbs,sci-biology/bioperl-run
 Bio::Tools::Run::Alignment::Muscle,sci-biology/bioperl-run
 Bio::Tools::Run::Alignment::Pal2Nal,sci-biology/bioperl-run
 Bio::Tools::Run::Alignment::Probalign,sci-biology/bioperl-run
@@ -1074,9 +1075,11 @@ Bio::Tools::Run::Minimo,sci-biology/bioperl-run
 Bio::Tools::Run::Newbler,sci-biology/bioperl-run
 Bio::Tools::Run::ParametersI,sci-biology/bioperl
 Bio::Tools::Run::Phrap,sci-biology/bioperl-run
+Bio::Tools::Run::Phylo::FastTree,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Gerp,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Gumby,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Hyphy::Base,sci-biology/bioperl-run
+Bio::Tools::Run::Phylo::Hyphy::BatchFile,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Hyphy::FEL,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Hyphy::Modeltest,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Hyphy::REL,sci-biology/bioperl-run
@@ -1102,6 +1105,7 @@ Bio::Tools::Run::Phylo::Phylip::SeqBoot,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::PhyloBase,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Phyml,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::QuickTree,sci-biology/bioperl-run
+Bio::Tools::Run::Phylo::Raxml,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::SLR,sci-biology/bioperl-run
 Bio::Tools::Run::Phylo::Semphy,sci-biology/bioperl-run
 Bio::Tools::Run::Primate,sci-biology/bioperl-run
@@ -1118,11 +1122,15 @@ Bio::Tools::Run::Samtools::Config,sci-biology/bioperl-run
 Bio::Tools::Run::Seg,sci-biology/bioperl-run
 Bio::Tools::Run::Signalp,sci-biology/bioperl-run
 Bio::Tools::Run::Simprot,sci-biology/bioperl-run
+Bio::Tools::Run::StandAloneBlast,sci-biology/bioperl-run
 Bio::Tools::Run::StandAloneBlastPlus,sci-biology/bioperl-run
+Bio::Tools::Run::StandAloneNCBIBlast,sci-biology/bioperl-run
+Bio::Tools::Run::StandAloneWUBlast,sci-biology/bioperl-run
 Bio::Tools::Run::TigrAssembler,sci-biology/bioperl-run
 Bio::Tools::Run::Tmhmm,sci-biology/bioperl-run
 Bio::Tools::Run::TribeMCL,sci-biology/bioperl-run
 Bio::Tools::Run::Vista,sci-biology/bioperl-run
+Bio::Tools::Run::WrapperBase,sci-biology/bioperl-run
 Bio::Tools::Run::tRNAscanSE,sci-biology/bioperl-run
 Bio::Tools::Seg,sci-biology/bioperl
 Bio::Tools::SeqPattern,sci-biology/bioperl
@@ -2190,6 +2198,7 @@ Test2::API::Stack,virtual/perl-Test-Simple
 Test2::Event,virtual/perl-Test-Simple
 Test2::Event::Bail,virtual/perl-Test-Simple
 Test2::Event::Diag,virtual/perl-Test-Simple
+Test2::Event::Encoding,virtual/perl-Test-Simple
 Test2::Event::Exception,virtual/perl-Test-Simple
 Test2::Event::Generic,virtual/perl-Test-Simple
 Test2::Event::Info,virtual/perl-Test-Simple
@@ -2198,6 +2207,7 @@ Test2::Event::Ok,virtual/perl-Test-Simple
 Test2::Event::Plan,virtual/perl-Test-Simple
 Test2::Event::Skip,virtual/perl-Test-Simple
 Test2::Event::Subtest,virtual/perl-Test-Simple
+Test2::Event::TAP::Version,virtual/perl-Test-Simple
 Test2::Event::Waiting,virtual/perl-Test-Simple
 Test2::Formatter,virtual/perl-Test-Simple
 Test2::Formatter::TAP,virtual/perl-Test-Simple
@@ -2208,6 +2218,7 @@ Test2::Hub::Subtest,virtual/perl-Test-Simple
 Test2::IPC,virtual/perl-Test-Simple
 Test2::IPC::Driver,virtual/perl-Test-Simple
 Test2::IPC::Driver::Files,virtual/perl-Test-Simple
+Test2::Tools::Tiny,virtual/perl-Test-Simple
 Test2::Util,virtual/perl-Test-Simple
 Test2::Util::ExternalMeta,virtual/perl-Test-Simple
 Test2::Util::HashBase,virtual/perl-Test-Simple
