@@ -1216,6 +1216,7 @@ CPAN::Distroprefs::Result::Warning,virtual/perl-CPAN
 CPAN::Distrostatus,virtual/perl-CPAN
 CPAN::Eval,virtual/perl-CPAN
 CPAN::Exception::RecursiveDependency,virtual/perl-CPAN
+CPAN::Exception::RecursiveDependency::na,virtual/perl-CPAN
 CPAN::Exception::blocked_urllist,virtual/perl-CPAN
 CPAN::Exception::yaml_not_installed,virtual/perl-CPAN
 CPAN::Exception::yaml_process_error,virtual/perl-CPAN

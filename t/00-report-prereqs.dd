@@ -57,7 +57,7 @@ do { my $x = {
                                       'Dist::Zilla::Plugin::RunExtraTests' => '0',
                                       'Dist::Zilla::Plugin::ShareDir' => '0',
                                       'Dist::Zilla::Plugin::Test::CPAN::Changes' => '0',
-                                      'Dist::Zilla::Plugin::Test::Compile::PerFile' => '0',
+                                      'Dist::Zilla::Plugin::Test::Compile::PerFile' => '0.003902',
                                       'Dist::Zilla::Plugin::Test::EOL' => '0',
                                       'Dist::Zilla::Plugin::Test::Kwalitee' => '0',
                                       'Dist::Zilla::Plugin::Test::MinimumVersion' => '0',
@@ -79,8 +79,8 @@ do { my $x = {
                                       'Test::Pod::Coverage' => '1.08'
                                     },
                       'suggests' => {
-                                      'Dist::Zilla::App::Command::bakeini' => '0.002005',
-                                      'Dist::Zilla::PluginBundle::Author::KENTNL' => '2.025020'
+                                      'Dist::Zilla::App::Command::bakeini' => '0.002006',
+                                      'Dist::Zilla::PluginBundle::Author::KENTNL' => '2.025021'
                                     }
                     },
        'runtime' => {
@@ -109,7 +109,7 @@ do { my $x = {
                                    'ExtUtils::MakeMaker' => '0',
                                    'File::Spec' => '0',
                                    'Test::File::ShareDir::Dist' => '0',
-                                   'Test::More' => '0.89',
+                                   'Test::More' => '0',
                                    'perl' => '5.006'
                                  }
                  }
