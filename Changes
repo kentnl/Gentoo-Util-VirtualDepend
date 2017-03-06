@@ -1,5 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003023 2017-03-06T13:08:34Z 5d7711f
+
 0.003022 2017-03-06T13:07:00Z c56b6cd
  [Bugfix]
  - Update tests for -Ddefault_inc_excludes_dot
