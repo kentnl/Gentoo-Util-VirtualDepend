@@ -1,6 +1,7 @@
 Release history for Gentoo-Util-VirtualDepend
 
 {{$NEXT}}
+ - Remove special casing for Gtk2
 
 0.003022 2017-03-06T13:07:00Z c56b6cd
  [Bugfix]

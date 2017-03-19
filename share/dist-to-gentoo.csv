@@ -43,7 +43,6 @@ Gnome2,dev-perl/gnome2-perl
 Gnome2-Canvas,dev-perl/gnome2-canvas
 Gnome2-VFS,dev-perl/gnome2-vfs-perl
 Gnome2-Wnck,dev-perl/gnome2-wnck
-Gtk2,dev-perl/gtk2-perl
 Gtk2-Ex-FormFactory,dev-perl/gtk2-ex-formfactory
 Gtk2-GladeXML,dev-perl/gtk2-gladexml
 Gtk2-Spell,dev-perl/gtk2-spell
