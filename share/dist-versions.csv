@@ -42,7 +42,6 @@ Gnome2,1.046,id/X/XA/XAOC/Gnome2-1.046.tar.gz
 Gnome2-Canvas,1.002,id/T/TS/TSCH/Gnome2-Canvas-1.002.tar.gz
 Gnome2-VFS,1.082,id/X/XA/XAOC/Gnome2-VFS-1.082.tar.gz
 Gnome2-Wnck,0.16,id/T/TS/TSCH/Gnome2-Wnck-0.16.tar.gz
-Gtk2,1.24991,id/X/XA/XAOC/Gtk2-1.24991.tar.gz
 Gtk2-Ex-FormFactory,0.67,id/J/JR/JRED/Gtk2-Ex-FormFactory-0.67.tar.gz
 Gtk2-GladeXML,1.007,id/T/TS/TSCH/Gtk2-GladeXML-1.007.tar.gz
 Gtk2-Spell,1.04,id/T/TS/TSCH/Gtk2-Spell-1.04.tar.gz
@@ -51,7 +50,7 @@ Gtk2-TrayManager,0.05,id/B/BO/BORUP/Gtk2-TrayManager-0.05.tar.gz
 HTTP-Tiny,0.070,id/D/DA/DAGOLDEN/HTTP-Tiny-0.070.tar.gz
 IO,1.25,id/G/GB/GBARR/IO-1.25.tar.gz
 IO-Compress,2.074,id/P/PM/PMQS/IO-Compress-2.074.tar.gz
-IO-Socket-IP,0.38,id/P/PE/PEVANS/IO-Socket-IP-0.38.tar.gz
+IO-Socket-IP,0.39,id/P/PE/PEVANS/IO-Socket-IP-0.39.tar.gz
 IO-Zlib,1.10,id/T/TO/TOMHUGHES/IO-Zlib-1.10.tar.gz
 IPC-Cmd,0.96,id/B/BI/BINGOS/IPC-Cmd-0.96.tar.gz
 Image-ExifTool,10.40,id/E/EX/EXIFTOOL/Image-ExifTool-10.40.tar.gz
@@ -59,7 +58,7 @@ JSON-PP,2.27400,id/M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
 Locale-Maketext,1.28,id/T/TO/TODDR/Locale-Maketext-1.28.tar.gz
 Locale-Maketext-Simple,0.21,id/J/JE/JESSE/Locale-Maketext-Simple-0.21.tar.gz
 MIME-Base64,3.15,id/G/GA/GAAS/MIME-Base64-3.15.tar.gz
-Math-BigInt,1.999810,id/P/PJ/PJACKLAM/Math-BigInt-1.999810.tar.gz
+Math-BigInt,1.999811,id/P/PJ/PJACKLAM/Math-BigInt-1.999811.tar.gz
 Math-BigInt-FastCalc,0.5006,id/P/PJ/PJACKLAM/Math-BigInt-FastCalc-0.5006.tar.gz
 Math-BigRat,0.2612,id/P/PJ/PJACKLAM/Math-BigRat-0.2612.tar.gz
 Math-Complex,1.59,id/Z/ZE/ZEFRAM/Math-Complex-1.59.tar.gz
@@ -79,7 +78,7 @@ PathTools,3.62,id/R/RJ/RJBS/PathTools-3.62.tar.gz
 Perl-OSType,1.010,id/D/DA/DAGOLDEN/Perl-OSType-1.010.tar.gz
 Pod-Escapes,1.07,id/N/NE/NEILB/Pod-Escapes-1.07.tar.gz
 Pod-Parser,1.63,id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz
-Pod-Perldoc,3.27,id/M/MA/MALLEN/Pod-Perldoc-3.27.tar.gz
+Pod-Perldoc,3.28,id/M/MA/MALLEN/Pod-Perldoc-3.28.tar.gz
 Pod-Simple,3.35,id/K/KH/KHW/Pod-Simple-3.35.tar.gz
 Safe,2.35,id/R/RG/RGARCIA/Safe-2.35.tar.gz
 Scalar-List-Utils,1.47,id/P/PE/PEVANS/Scalar-List-Utils-1.47.tar.gz
@@ -90,7 +89,7 @@ Sys-Syslog,0.35,id/S/SA/SAPER/Sys-Syslog-0.35.tar.gz
 Term-ANSIColor,4.06,id/R/RR/RRA/Term-ANSIColor-4.06.tar.gz
 Term-ReadLine,1.14,id/F/FL/FLORA/Term-ReadLine-1.14.tar.gz
 Test,1.26,id/J/JE/JESSE/Test-1.26.tar.gz
-Test-Harness,3.36,id/L/LE/LEONT/Test-Harness-3.36.tar.gz
+Test-Harness,3.38,id/L/LE/LEONT/Test-Harness-3.38.tar.gz
 Test-Simple,1.302078,id/E/EX/EXODIST/Test-Simple-1.302078.tar.gz
 Text-Balanced,2.03,id/S/SH/SHAY/Text-Balanced-2.03.tar.gz
 Text-ParseWords,3.30,id/C/CH/CHORNY/Text-ParseWords-3.30.tar.gz
@@ -105,7 +104,7 @@ Unicode-Collate,1.19,id/S/SA/SADAHIRO/Unicode-Collate-1.19.tar.gz
 Unicode-Normalize,1.25,id/K/KH/KHW/Unicode-Normalize-1.25.tar.gz
 XML-XSH2,2.1.26,id/C/CH/CHOROBA/XML-XSH2-2.1.26.tar.gz
 XSLoader,0.24,id/S/SA/SAPER/XSLoader-0.24.tar.gz
-ack,2.14,id/P/PE/PETDANCE/ack-2.14.tar.gz
+ack,2.16,id/P/PE/PETDANCE/ack-2.16.tar.gz
 autodie,2.29,id/P/PJ/PJF/autodie-2.29.tar.gz
 bignum,0.47,id/P/PJ/PJACKLAM/bignum-0.47.tar.gz
 gettext,1.07,id/P/PV/PVANDRY/gettext-1.07.tar.gz

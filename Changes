@@ -1,5 +1,8 @@
 Release history for Gentoo-Util-VirtualDepend
 
+0.003023 2017-03-19T05:21:07Z 4385424
+ - Remove special casing for Gtk2
+
 0.003022 2017-03-06T13:07:00Z c56b6cd
  [Bugfix]
  - Update tests for -Ddefault_inc_excludes_dot
