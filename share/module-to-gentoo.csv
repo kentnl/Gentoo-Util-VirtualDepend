@@ -54,7 +54,10 @@ App::Ack::Filter::FirstLineMatch,sys-apps/ack
 App::Ack::Filter::Inverse,sys-apps/ack
 App::Ack::Filter::Is,sys-apps/ack
 App::Ack::Filter::IsGroup,sys-apps/ack
+App::Ack::Filter::IsPath,sys-apps/ack
+App::Ack::Filter::IsPathGroup,sys-apps/ack
 App::Ack::Filter::Match,sys-apps/ack
+App::Ack::Filter::MatchGroup,sys-apps/ack
 App::Ack::Resource,sys-apps/ack
 App::Ack::Resource::Basic,sys-apps/ack
 App::Ack::Resources,sys-apps/ack
