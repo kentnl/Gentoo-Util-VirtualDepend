@@ -9,13 +9,13 @@ copyright_holder = Kent Fredric <kentfredric@gmail.com>
 ; [Bootstrap::lib]
 
 [@Author::KENTNL]
-:version          = 2.021000
+:version          = 2.025020
 normal_form       = numify
 mantissa          = 6
 toolkit           = eumm
 toolkit_hardness  = soft
-bumpversions      = 1
-srcreadme         = mkdn
+bump_versions     = 1
+src_readme        = mkdn
 twitter_extra_hash_tags = #gentoo
 
 ; auto_prereqs_skip = File::Find
